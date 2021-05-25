@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "lint": "eslint --ext .ts,.tsx .",
+    "lint:fix": "eslint --fix --ext .ts,.tsx ."
   },
   "dependencies": {
     "react": "^17.0.0",
