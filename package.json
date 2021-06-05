@@ -7,9 +7,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-     "packages/*"
+    "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "eslint-config-prettier": "^8.3.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.1"
   }
 }
