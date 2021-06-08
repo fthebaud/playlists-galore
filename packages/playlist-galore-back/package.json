@@ -1,0 +1,16 @@
+{
+  "name": "playlists-galore-back",
+  "version": "1.0.0",
+  "author": "Fabien Thebaud <fthebaud@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@tinyhttp/app": "latest",
+    "@tinyhttp/logger": "latest"
+  },
+  "type": "module"
+}
