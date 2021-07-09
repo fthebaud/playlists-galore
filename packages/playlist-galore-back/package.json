@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "build": "tsc",
-    "prod": "npm run build && node ./dist/index.js",
     "start": "ts-node src/index.ts",
-    "start:watch": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node src/index.ts\""
+    "start:dev": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node src/index.ts\"",
+    "start:prod": "npm run build && node ./dist/index.js"
   },
   "dependencies": {
     "@tinyhttp/app": "latest",

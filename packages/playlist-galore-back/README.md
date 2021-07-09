@@ -1,15 +1,23 @@
-# Basic example
+# Back-End
 
-Basic tinyhttp example with simple routing and route pattern matching.
+Playlist's galore back-end, used to make request to the spotify API.
 
-## Setup
+## Lint
 
 ```sh
-tinyhttp new basic
+yarn lint
+```
+
+```sh
+yarn lint:fix
 ```
 
 ## Run
 
 ```sh
-node index.js
+yarn start:dev
+```
+
+```sh
+yarn start:prod
 ```
