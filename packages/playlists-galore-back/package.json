@@ -16,7 +16,8 @@
   "dependencies": {
     "@tinyhttp/app": "latest",
     "@tinyhttp/logger": "latest",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "sirv": "^1.0.17"
   },
   "devDependencies": {
     "@types/node": "^15.12.2",

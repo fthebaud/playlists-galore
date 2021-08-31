@@ -10,7 +10,12 @@ function App() {
       .then(({ data }) => setPlaylists(data));
   });
 
-  return <div className="App">{playslists}</div>;
+  return (
+    <div className="App">
+      <div>Coucou</div>
+      {playslists}
+    </div>
+  );
 }
 
 export default App;
