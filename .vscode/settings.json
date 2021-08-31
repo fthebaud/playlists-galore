@@ -1,0 +1,7 @@
+{
+  "eslint.workingDirectories": [
+    "packages/playlists-galore-front",
+    "packages/playlists-galore-back",
+    "packages/playlists-galore-toolbox"
+  ]
+}

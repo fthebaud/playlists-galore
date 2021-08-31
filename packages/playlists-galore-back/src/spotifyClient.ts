@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { clientId, clientSecret } from '../secret';
+import { clientId, clientSecret } from './secret';
 
 let accessToken = '';
 let accessTokenExpirationDate = 0;

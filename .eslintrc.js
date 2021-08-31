@@ -18,6 +18,7 @@ module.exports = {
       { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
     ],
     quotes: ['error', 'single', 'avoid-escape'], // prevent the use of backtick when it's not necessary
+    'no-console': ['error', { allow: ['warn', 'error'] }],
 
     /* **************
      * PLUGIN RULES
