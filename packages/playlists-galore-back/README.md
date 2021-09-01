@@ -2,6 +2,8 @@
 
 Playlist's galore back-end, used to make request to the spotify API.
 
+CLIENT_ID and CLIENT_SECRET should by provided as environment variable.
+
 ## Lint
 
 ```sh

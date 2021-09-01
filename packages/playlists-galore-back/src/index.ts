@@ -1,8 +1,12 @@
 import path from 'path';
 import sirv from 'sirv';
+import dotenv from 'dotenv';
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
 import { getPlaylists } from './spotifyClient';
+
+// .env file should be located at the root of the package
+dotenv.config();
 
 const app = new App();
 

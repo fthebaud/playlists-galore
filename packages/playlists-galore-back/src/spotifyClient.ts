@@ -1,5 +1,7 @@
 import axios from 'axios';
-import { clientId, clientSecret } from './secret';
+
+const clientId = process.env.CLIENT_ID || '';
+const clientSecret = process.env.CLIENT_SECRET || '';
 
 let accessToken = '';
 let accessTokenExpirationDate = 0;
