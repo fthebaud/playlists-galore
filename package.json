@@ -23,5 +23,11 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "lerna": "^4.0.0",
     "prettier": "^2.3.1"
+  },
+  "scripts": {
+    "heroku-postbuild": "lerna run build-front && lerna run start-back"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

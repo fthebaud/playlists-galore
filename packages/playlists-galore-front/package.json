@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "build-front": "yarn run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
