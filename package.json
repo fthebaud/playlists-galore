@@ -25,6 +25,7 @@
     "prettier": "^2.3.1"
   },
   "scripts": {
+    "start": "lerna run start-back",
     "heroku-postbuild": "lerna run build-front && lerna run start-back"
   },
   "engines": {
