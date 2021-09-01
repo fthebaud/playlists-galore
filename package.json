@@ -25,10 +25,11 @@
     "prettier": "^2.3.1"
   },
   "scripts": {
-    "start": "lerna run start-back",
-    "heroku-postbuild": "lerna run build-front && lerna run start-back"
+    "build": "lerna run build",
+    "start": "lerna run start:prod"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "yarn": "1.x"
   }
 }
