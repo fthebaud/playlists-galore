@@ -23,10 +23,3 @@ yarn start:dev
 ```sh
 yarn start:prod
 ```
-
-## Heroku commands
-
-heroku login
-git push heroku master
-heroku local
-heroku logs --tail

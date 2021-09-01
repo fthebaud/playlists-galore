@@ -11,7 +11,7 @@
     "build": "tsc",
     "start": "ts-node -r dotenv/config src/index.ts",
     "start:watch": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node -r dotenv/config src/index.ts\"",
-    "start:prod": "npm run build && node -r dotenv/config ./dist/index.js"
+    "start:prod": "node -r dotenv/config ./dist/index.js"
   },
   "dependencies": {
     "@tinyhttp/app": "latest",
