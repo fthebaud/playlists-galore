@@ -29,7 +29,7 @@ function App() {
     axios
       .get(`${window.location.origin}/api/playlists`)
       .then(({ data }) => setPlaylists(data.items));
-  });
+  }, []);
   const classes = useStyles();
   return (
     <div className={classes.app}>
