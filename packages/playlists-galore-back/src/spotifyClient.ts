@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const clientId = process.env.CLIENT_ID || '';
-const clientSecret = process.env.CLIENT_SECRET || '';
+const CLIENT_ID = process.env.CLIENT_ID || '';
+const CLIENT_SECRET = process.env.CLIENT_SECRET || '';
 
 let accessToken = '';
 let accessTokenExpirationDate = 0;
@@ -9,7 +9,7 @@ let accessTokenExpirationDate = 0;
 function getAccessToken() {
   const params = new URLSearchParams();
   params.append('grant_type', 'client_credentials');
-  const base64data = Buffer.from(`${clientId}:${clientSecret}`).toString(
+  const base64data = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString(
     'base64'
   );
   const config = {

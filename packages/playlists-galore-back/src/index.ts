@@ -10,6 +10,8 @@ dotenv.config();
 
 const app = new App();
 
+const PORT = Number.parseInt(process.env.PORT || '8000');
+
 app
   .use(logger())
   .get('/api/playlists', (req, res) => {
@@ -20,4 +22,4 @@ app
   // Serve static files from the front package
   .use('/', sirv(path.join(__dirname, '../../playlists-galore-front/dist')))
   // eslint-disable-next-line no-console
-  .listen(8000, () => console.log('Listening on http://localhost:8000'));
+  .listen(PORT, () => console.log(`Listening on port ${PORT}`));

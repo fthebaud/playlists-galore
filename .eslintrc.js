@@ -13,6 +13,7 @@ module.exports = {
   ],
   rules: {
     'no-use-before-define': 'off',
+    radix: 'off',
     'no-unused-vars': [
       'error',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
