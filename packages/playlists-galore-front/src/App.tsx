@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
     height: '100%',
   },
   grid: {
-    margin: '1rem',
+    padding: '1rem',
     display: 'grid',
     gridTemplateColumns: 'repeat( auto-fit, minmax(300px, 1fr) )',
     gridGap: '1.5rem',
