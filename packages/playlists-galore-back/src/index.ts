@@ -16,7 +16,7 @@ app
   .use(logger())
   .get('/api/playlists', (req, res) => {
     getPlaylists().then((data) => {
-      res.send(`data: ${JSON.stringify(data)}`);
+      res.send(data);
     });
   })
   // Serve static files from the front package
