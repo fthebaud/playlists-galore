@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { createUseStyles } from 'react-jss';
+import { Playlist } from 'playlists-galore-toolbox';
 
 const useStyles = createUseStyles({
   app: {
@@ -23,7 +24,7 @@ const useStyles = createUseStyles({
 });
 
 function App() {
-  const [playlists, setPlaylists] = useState([]);
+  const [playlists, setPlaylists] = useState<Playlist[]>([]);
   useEffect(() => {
     axios
       .get(`${window.location.origin}/api/playlists`)
