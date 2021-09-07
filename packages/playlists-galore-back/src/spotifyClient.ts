@@ -7,8 +7,9 @@ let accessToken = '';
 let accessTokenExpirationDate = 0;
 
 function getAccessToken() {
-  const params = new URLSearchParams();
-  params.append('grant_type', 'client_credentials');
+  const body = new URLSearchParams();
+  body.append('grant_type', 'client_credentials');
+
   const base64data = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString(
     'base64'
   );
@@ -19,7 +20,7 @@ function getAccessToken() {
     },
   };
   return axios
-    .post('https://accounts.spotify.com/api/token', params, config)
+    .post('https://accounts.spotify.com/api/token', body, config)
     .then(({ data }) => {
       accessToken = data.access_token;
       accessTokenExpirationDate = Date.now() + data.expires_in * 1000;
@@ -29,11 +30,15 @@ function getAccessToken() {
     });
 }
 
-function fetchPlaylists() {
+function fetchPlaylists(offset = 0, limit = 20) {
   const config = {
     headers: {
       'Content-Type': 'application/json',
       Authorization: `Bearer ${accessToken}`,
+    },
+    params: {
+      offset,
+      limit,
     },
   };
   return axios
@@ -44,10 +49,10 @@ function fetchPlaylists() {
     });
 }
 
-export function getPlaylists() {
+export function getPlaylists(offset: number, limit: number) {
   if (Date.now() - 30000 > accessTokenExpirationDate) {
     // renew token if it's going to expire in less than 30 seconds
     return getAccessToken().then(() => fetchPlaylists());
   }
-  return fetchPlaylists();
+  return fetchPlaylists(offset, limit);
 }

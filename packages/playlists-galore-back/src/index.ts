@@ -15,7 +15,11 @@ const PORT = Number.parseInt(process.env.PORT || '8000');
 app
   .use(logger())
   .get('/api/playlists', (req, res) => {
-    getPlaylists().then((data) => {
+    const { offset, limit } = req.query;
+    getPlaylists(
+      Number.parseInt(offset as string),
+      Number.parseInt(limit as string)
+    ).then((data) => {
       res.send(data);
     });
   })

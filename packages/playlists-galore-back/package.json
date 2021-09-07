@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix .",
     "build": "tsc",
     "start": "ts-node -r dotenv/config src/index.ts",
-    "start:watch": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node -r dotenv/config src/index.ts\"",
+    "start:dev": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node -r dotenv/config src/index.ts\"",
     "start:prod": "node -r dotenv/config ./dist/index.js"
   },
   "dependencies": {
