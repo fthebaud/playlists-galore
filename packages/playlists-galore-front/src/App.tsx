@@ -1,41 +1,42 @@
 import React, { useCallback, useEffect, useState, useRef } from 'react';
 import axios from 'axios';
-import { createUseStyles } from 'react-jss';
+import styled from 'styled-components';
 import { Playlist } from 'playlists-galore-toolbox';
 
 const LIMIT = 20;
 
-const useStyles = createUseStyles({
-  app: {
-    textAlign: 'center',
-    backgroundColor: 'grey',
-    height: '100%',
-    overflow: 'auto',
-  },
-  grid: {
-    padding: '1rem',
-    display: 'grid',
-    gridTemplateColumns: 'repeat( auto-fit, minmax(300px, 1fr) )',
-    gridGap: '1.5rem',
-  },
-  card: {
-    border: '1px solid black',
-    backgroundColor: 'lightgrey',
-    height: '200px',
-    borderRadius: 6,
-  },
-  header: {
-    position: 'relative',
-    padding: '1rem',
-  },
-  loadmore: {
-    position: 'absolute',
-    right: '1rem',
-  },
-});
+const Container = styled.div`
+  text-align: center;
+  background-color: grey;
+  height: 100%;
+  overflow: auto;
+`;
+
+const Grid = styled.div`
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1.5rem;
+`;
+
+const Card = styled.div`
+  border: 1px solid black;
+  background-color: lightgrey;
+  height: 200px;
+  border-radius: 6;
+`;
+
+const Header = styled.header`
+  position: relative;
+  padding: 1rem;
+`;
+
+const Loadmore = styled.button`
+  position: absolute;
+  right: 1rem;
+`;
 
 function App() {
-  const classes = useStyles();
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
   const [loadingComplete, setLoadingComplete] = useState<boolean>(false);
   const offsetRef = useRef(0);
@@ -63,26 +64,23 @@ function App() {
   }, [playlists]);
 
   return (
-    <div className={classes.app}>
-      <header className={classes.header}>
+    <Container>
+      <Header>
         <span>PLAYLISTS GALORE</span>
-        <button
-          className={classes.loadmore}
+        <Loadmore
           onClick={handleClick}
           type="button"
           disabled={loadingComplete}
         >
           Load More
-        </button>
-      </header>
-      <div className={classes.grid}>
+        </Loadmore>
+      </Header>
+      <Grid>
         {playlists.map((p) => (
-          <div key={p.id} className={classes.card}>
-            {JSON.stringify(p.name)}
-          </div>
+          <Card key={p.id}>{JSON.stringify(p.name)}</Card>
         ))}
-      </div>
-    </div>
+      </Grid>
+    </Container>
   );
 }
 
