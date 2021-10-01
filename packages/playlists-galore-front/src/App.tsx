@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 import { Playlist } from 'playlists-galore-toolbox';
+import InfiniteGrid from './InfiniteGrid';
 
 const LIMIT = 20;
 
@@ -12,33 +13,34 @@ const Container = styled.div`
   overflow: auto;
 `;
 
-const Grid = styled.div`
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1.5rem;
-`;
+// const Grid = styled.div`
+//   padding: 1rem;
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+//   grid-gap: 1.5rem;
+// `;
 
-const Card = styled.div`
-  border: 1px solid black;
-  background-color: lightgrey;
-  height: 200px;
-  border-radius: 6;
-`;
+// const Card = styled.div`
+//   border: 1px solid black;
+//   background-color: lightgrey;
+//   height: 200px;
+//   border-radius: 6;
+// `;
 
 const Header = styled.header`
   position: relative;
   padding: 1rem;
 `;
 
-const Loadmore = styled.button`
-  position: absolute;
-  right: 1rem;
-`;
+// const Loadmore = styled.button`
+//   position: absolute;
+//   right: 1rem;
+// `;
 
 function App() {
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
-  const [loadingComplete, setLoadingComplete] = useState<boolean>(false);
+  const [hasNextPage, setHasNextPage] = useState<boolean>(true);
+  const [isNextPageLoading, setIsNextPageLoading] = useState<boolean>(false);
   const offsetRef = useRef(0);
 
   useEffect(() => {
@@ -50,16 +52,18 @@ function App() {
       });
   }, []);
 
-  const handleClick = useCallback(() => {
+  const loadNextPage = useCallback(() => {
+    setIsNextPageLoading(true);
     axios
       .get(
         `${window.location.origin}/api/playlists?offset=${offsetRef.current}&limit=${LIMIT}`
       )
       .then(({ data }) => {
+        setIsNextPageLoading(false);
         setPlaylists([...playlists, ...data.items]);
         offsetRef.current += LIMIT;
         // check if there's more to load
-        setLoadingComplete(offsetRef.current >= data.total);
+        setHasNextPage(offsetRef.current < data.total);
       });
   }, [playlists]);
 
@@ -67,19 +71,25 @@ function App() {
     <Container>
       <Header>
         <span>PLAYLISTS GALORE</span>
-        <Loadmore
+        {/* <Loadmore
           onClick={handleClick}
           type="button"
-          disabled={loadingComplete}
+          disabled={!hasNextPage}
         >
           Load More
-        </Loadmore>
+        </Loadmore> */}
       </Header>
-      <Grid>
+      {/* <Grid>
         {playlists.map((p) => (
           <Card key={p.id}>{JSON.stringify(p.name)}</Card>
         ))}
-      </Grid>
+      </Grid> */}
+      <InfiniteGrid
+        hasNextPage={hasNextPage}
+        isNextPageLoading={isNextPageLoading}
+        items={playlists}
+        loadNextPage={loadNextPage}
+      />
     </Container>
   );
 }
