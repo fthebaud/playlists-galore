@@ -9,10 +9,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@types/react-virtualized": "^9.21.13",
     "axios": "^0.21.1",
     "playlists-galore-toolbox": "1.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-virtualized": "^9.22.3",
     "styled-components": "^5.3.1"
   },
   "devDependencies": {

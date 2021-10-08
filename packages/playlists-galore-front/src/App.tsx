@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
 import { Playlist } from 'playlists-galore-toolbox';
+import { Grid, AutoSizer, WindowScroller } from 'react-virtualized';
 
 const LIMIT = 20;
 
@@ -10,13 +11,6 @@ const Container = styled.div`
   background-color: grey;
   height: 100%;
   overflow: auto;
-`;
-
-const Grid = styled.div`
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1.5rem;
 `;
 
 const Card = styled.div`
@@ -63,6 +57,13 @@ function App() {
       });
   }, [playlists]);
 
+  /** *
+   *
+   *  https://codesandbox.io/s/react-virtualized-infinite-scrolling-with-grid-1dmsf?file=/src/Demo.js:3782-3803&utm_source=pocket_mylist
+   *  https://github.com/bvaughn/react-virtualized/blob/master/docs/README.md
+   *
+   */
+
   return (
     <Container>
       <Header>
@@ -75,11 +76,30 @@ function App() {
           Load More
         </Loadmore>
       </Header>
-      <Grid>
-        {playlists.map((p) => (
-          <Card key={p.id}>{JSON.stringify(p.name)}</Card>
-        ))}
-      </Grid>
+      <WindowScroller>
+        {({ height, scrollTop }) => (
+          <AutoSizer disableHeight>
+            {({ width }) => (
+              <Grid
+                cellRenderer={({ key, rowIndex, columnIndex }) => (
+                  <Card key={key}>
+                    {/* {JSON.stringify(playlists[rowIndex + columnIndex].name)} */}
+                    {`${rowIndex} ${columnIndex}`}
+                  </Card>
+                )}
+                height={height}
+                width={width}
+                scrollTop={scrollTop}
+                columnCount={3}
+                columnWidth={100}
+                rowCount={10}
+                rowHeight={200}
+              />
+            )}
+          </AutoSizer>
+        )}
+      </WindowScroller>
+      ,
     </Container>
   );
 }

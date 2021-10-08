@@ -31,5 +31,8 @@
   "engines": {
     "node": "14.x",
     "yarn": "1.x"
+  },
+  "resolutions": {
+    "react-virtualized": "git+https://git@github.com/remorses/react-virtualized-fixed-import.git#9.22.3"
   }
 }
