@@ -9,6 +9,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fthebaud/reducer-logger": "^1.0.3",
     "axios": "^0.21.1",
     "playlists-galore-toolbox": "1.0.0",
     "react": "^17.0.0",

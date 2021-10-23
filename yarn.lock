@@ -382,6 +382,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fthebaud/reducer-logger@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@fthebaud/reducer-logger/-/reducer-logger-1.0.3.tgz#d686bebbd81d1674f03f23958759e814d05c1091"
+  integrity sha512-mD+QPl5tmda5yIpi9tANt79WA2qFr36q7e4G9u2+jkFPKc2DMLKrtr8FgkbBUcIw1Gkk0Q8+p6gbMRvZaLhbUQ==
+  dependencies:
+    deep-diff "^1.0.2"
+
 "@lerna/add@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-4.0.0.tgz#c36f57d132502a57b9e7058d1548b7a565ef183f"
@@ -2507,6 +2514,11 @@ dedent@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
+deep-diff@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-1.0.2.tgz#afd3d1f749115be965e89c63edc7abb1506b9c26"
+  integrity sha512-aWS3UIVH+NPGCD1kki+DCU9Dua032iSsO43LqQpcs4R3+dVv7tX0qBGjiVHJHjplsoUM2XRO/KB92glqc68awg==
 
 deep-extend@^0.6.0:
   version "0.6.0"

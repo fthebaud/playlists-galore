@@ -14,10 +14,6 @@ module.exports = {
   rules: {
     'no-use-before-define': 'off',
     radix: 'off',
-    'no-unused-vars': [
-      'error',
-      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
-    ],
     quotes: ['error', 'single', 'avoid-escape'], // prevent the use of backtick when it's not necessary
     'no-console': ['error', { allow: ['warn', 'error'] }],
 
