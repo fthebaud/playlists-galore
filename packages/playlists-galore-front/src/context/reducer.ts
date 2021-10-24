@@ -3,23 +3,52 @@ import { wrapReducer } from '@fthebaud/reducer-logger';
 import { Action } from './action';
 
 export type AppState = {
+  isLoading: boolean;
+  error: string | null;
+  currentPage: number;
   playlists: Playlist[];
+  total: number;
 };
 
 export const initialState: AppState = {
+  isLoading: false,
+  error: null,
+  currentPage: 0,
   playlists: [],
+  total: 0,
 };
 
 const reducerFunction = (state: AppState, action: Action) => {
   switch (action.type) {
-    case 'SET_PLAYLIST':
+    case 'FECTH_START': {
       return {
         ...state,
-        playlists: action.playlists,
+        isLoading: true,
+        error: null,
       };
+    }
+
+    case 'FECTH_SUCCESS': {
+      const { currentPage, playlists, total } = action;
+      return {
+        ...state,
+        isLoading: false,
+        currentPage,
+        playlists,
+        total,
+      };
+    }
+
+    case 'FECTH_ERROR': {
+      return {
+        ...state,
+        isLoading: false,
+        error: action.error,
+      };
+    }
 
     default:
-      throw new Error(`Unhandled action type: ${action.type}`);
+      throw new Error(`Unhandled action type: ${action}`);
   }
 };
 

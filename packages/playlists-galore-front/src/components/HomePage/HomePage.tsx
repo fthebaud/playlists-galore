@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { useDispatch } from '../../context';
-import { getPage } from '../../client';
 import Header from '../Header';
 import PlaylistsGrid from '../PlaylistsGrid';
 import Footer from '../Footer';
+import { fetchPlaylists } from '../../utils/fetch';
 
 const Container = styled.div`
   text-align: center;
@@ -17,12 +17,7 @@ function HomePage() {
 
   // Load firts page
   useEffect(() => {
-    getPage(0).then((playlists) =>
-      dispatch({
-        type: 'SET_PLAYLIST',
-        playlists,
-      })
-    );
+    fetchPlaylists(0, dispatch);
   }, [dispatch]);
 
   return (
