@@ -1,15 +1,36 @@
 # playlists-galore
 
-## Deploiement sur Heroku
+Built in Typescript using React and Tinyhttp.
+Bundled with Vite.
+Deployed on heroku.
 
-Tester en local:
+## Development
 
-`heroku local`
+```
+// Install dependencies
+cd playlists-galore
+yarn install
 
-Déployer sur heroku (les scripts build puis start seront lancés):
+// Build tool-box
+cd playlists-galore/packages/playlists-galore-toolbox
+yarn build
 
-`git push heroku master`
+// Start back-end
+cd playlists-galore/packages/playlists-galore-back
+yarn dev
 
-Vérifier les logs:
+// Start front-end
+cd playlists-galore/packagesplaylists-galore-front
+yarn dev
+```
 
-`heroku logs--tail`
+Test deployment locally: `heroku local`
+
+## Deployment (Heroku)
+
+```
+// This will trigger "build" and "start" scripts
+git push heroku master
+```
+
+Check deployment logs: `heroku logs--tail`

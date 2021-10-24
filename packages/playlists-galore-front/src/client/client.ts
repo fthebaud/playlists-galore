@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Playlist } from 'playlists-galore-toolbox';
-import { PAGE_SIZE } from '../config';
+import { PAGE_SIZE } from '@/config';
 
 export async function getPage(
   pageNumber: number

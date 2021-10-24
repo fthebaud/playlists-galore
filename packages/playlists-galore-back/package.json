@@ -9,8 +9,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "build": "tsc",
+    "dev": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node -r dotenv/config src/index.ts\"",
     "start": "ts-node -r dotenv/config src/index.ts",
-    "start:dev": "nodemon --inspect --watch \"src/**\" --ext \"ts\" --exec \"ts-node -r dotenv/config src/index.ts\"",
     "start:prod": "node -r dotenv/config ./dist/index.js"
   },
   "dependencies": {
