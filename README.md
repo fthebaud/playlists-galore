@@ -1,8 +1,8 @@
 # playlists-galore
 
-Built in Typescript using React and Tinyhttp.
-Bundled with Vite.
-Deployed on heroku.
+The app is visible [here](https://playlists-galore.herokuapp.com).
+
+Built in Typescript with React and Tinyhttp, bundled with Vite, deployed on heroku.
 
 ## Development
 
