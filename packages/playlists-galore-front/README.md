@@ -1,6 +1,22 @@
-// TODO
+# Front end
 
-# troubleshooting
+Playlist's galore front-end, implemented in React.
 
-Error: spawn D:\Workspace\playlists-galore\node_modules\esbuild\esbuild.exe ENOENT
-https://github.com/vitejs/vite/issues/1361
+## Commands
+
+```sh
+# Lint check
+yarn lint
+
+# Lint fix
+yarn lint:fix
+
+# Start dev server
+yarn dev
+
+# Build for production
+yarn build
+
+# locally preview production build
+yarn serve
+```

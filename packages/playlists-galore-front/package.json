@@ -4,6 +4,8 @@
   "author": "fthebaud@gmail.com",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"

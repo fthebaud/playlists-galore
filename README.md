@@ -6,20 +6,20 @@ Deployed on heroku.
 
 ## Development
 
-```
-// Install dependencies
+```sh
+# Install dependencies
 cd playlists-galore
 yarn install
 
-// Build tool-box
+# Build tool-box
 cd playlists-galore/packages/playlists-galore-toolbox
 yarn build
 
-// Start back-end
+# Start back-end
 cd playlists-galore/packages/playlists-galore-back
 yarn dev
 
-// Start front-end
+# Start front-end
 cd playlists-galore/packagesplaylists-galore-front
 yarn dev
 ```
@@ -28,11 +28,11 @@ Test deployment locally: `heroku local`
 
 ## Deployment (Heroku)
 
-```
-// login to heroku
+```sh
+# login to heroku
 heroku login
 
-// This will trigger "build" and "start" scripts
+# This will trigger "build" and "start" scripts
 git push heroku master
 ```
 
