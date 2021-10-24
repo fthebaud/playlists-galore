@@ -1,5 +1,11 @@
 import axios from 'axios';
 
+/** *************************************************************************
+ *  SPOTIFY API REFERENCE
+ *  https://developer.spotify.com/documentation/web-api/reference/#/
+ *
+ ************************************************************************** */
+
 const CLIENT_ID = process.env.CLIENT_ID || '';
 const CLIENT_SECRET = process.env.CLIENT_SECRET || '';
 

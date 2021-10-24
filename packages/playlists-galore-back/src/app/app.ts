@@ -18,7 +18,16 @@ export function main() {
         Number.parseInt(offset as string),
         Number.parseInt(limit as string)
       ).then((data) => {
-        res.send(data);
+        const { items, total } = data;
+        res.send({
+          items: items.map(({ id, name, images, tracks }: any) => ({
+            id,
+            name,
+            images,
+            totalTracks: tracks.total,
+          })),
+          total,
+        });
       });
     })
     // Serve static files from the front package
