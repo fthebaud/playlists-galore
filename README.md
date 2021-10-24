@@ -29,6 +29,9 @@ Test deployment locally: `heroku local`
 ## Deployment (Heroku)
 
 ```
+// login to heroku
+heroku login
+
 // This will trigger "build" and "start" scripts
 git push heroku master
 ```
