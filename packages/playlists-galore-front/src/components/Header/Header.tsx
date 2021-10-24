@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useAppState } from '../../context';
+import { useAppState } from '@/context';
 
 const StyledHeader = styled.header`
   padding: 1rem;

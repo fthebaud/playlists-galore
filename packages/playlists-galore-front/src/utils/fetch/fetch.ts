@@ -1,5 +1,5 @@
-import { getPage } from '../../client';
-import { Dispatch } from '../../context/action';
+import { getPage } from '@/client';
+import { Dispatch } from '@/context/action';
 
 export const fetchPlaylists = async (page: number, dispatch: Dispatch) => {
   dispatch({ type: 'FECTH_START' });

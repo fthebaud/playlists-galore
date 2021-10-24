@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo } from 'react';
-import { useAppContext } from '../../context';
-import { PAGE_SIZE } from '../../config';
-import { fetchPlaylists } from '../../utils/fetch';
+import { useAppContext } from '@/context';
+import { PAGE_SIZE } from '@/config';
+import { fetchPlaylists } from '@/utils/fetch';
 
 function Footer() {
   const [{ total, currentPage }, dispatch] = useAppContext();

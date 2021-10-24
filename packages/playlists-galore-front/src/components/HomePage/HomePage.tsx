@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import { useDispatch } from '../../context';
-import Header from '../Header';
-import PlaylistsGrid from '../PlaylistsGrid';
-import Footer from '../Footer';
-import { fetchPlaylists } from '../../utils/fetch';
+import { useDispatch } from '@/context';
+import { fetchPlaylists } from '@/utils/fetch';
+import Header from '@/components/Header';
+import PlaylistsGrid from '@/components/PlaylistsGrid';
+import Footer from '@/components/Footer';
 
 const Container = styled.div`
   text-align: center;
