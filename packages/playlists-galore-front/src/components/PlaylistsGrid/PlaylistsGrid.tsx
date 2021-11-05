@@ -14,10 +14,10 @@ const Grid = styled.div`
 `;
 
 function PlaylistsGrid() {
-  const { playlists } = useAppState();
+  const { playlists, isLoading } = useAppState();
   return (
     <Grid>
-      {playlists.length === 0 ? (
+      {playlists.length === 0 || isLoading ? (
         <Loading />
       ) : (
         playlists.map((p) => <Card key={p.id} playlist={p} />)

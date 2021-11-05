@@ -12,7 +12,7 @@ const StyledLoading = styled.div`
 function Loading() {
   return (
     <StyledLoading>
-      <span>LOADING!</span>
+      <span>LOADING GOOD MUSIC</span>
       <LoadingAnimation />
     </StyledLoading>
   );
