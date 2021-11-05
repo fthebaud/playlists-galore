@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { useAppState } from '@/context';
 import { SPOTIFY_APP_URL, SPOTIFY_WEB_PLAYER_URL } from '@/config';
+import Loading from './Loading';
 
 const Grid = styled.div`
+  flex: 1;
+  overflow: auto;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -22,24 +25,28 @@ function PlaylistsGrid() {
   const { playlists } = useAppState();
   return (
     <Grid>
-      {playlists.map((p) => (
-        <Card key={p.id}>
-          <div style={{ fontWeight: 'bold' }}>{JSON.stringify(p.name)}</div>
-          <div>{`${p.totalTracks} tracks`}</div>
-          <br />
-          <br />
-          <a
-            href={`${SPOTIFY_WEB_PLAYER_URL}/${p.id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            open in web player
-          </a>
-          <br />
-          <br />
-          <a href={`${SPOTIFY_APP_URL}/${p.id}`}>open in app</a>
-        </Card>
-      ))}
+      {playlists.length === 0 ? (
+        <Loading />
+      ) : (
+        playlists.map((p) => (
+          <Card key={p.id}>
+            <div style={{ fontWeight: 'bold' }}>{JSON.stringify(p.name)}</div>
+            <div>{`${p.totalTracks} tracks`}</div>
+            <br />
+            <br />
+            <a
+              href={`${SPOTIFY_WEB_PLAYER_URL}/${p.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open in web player
+            </a>
+            <br />
+            <br />
+            <a href={`${SPOTIFY_APP_URL}/${p.id}`}>open in app</a>
+          </Card>
+        ))
+      )}
     </Grid>
   );
 }

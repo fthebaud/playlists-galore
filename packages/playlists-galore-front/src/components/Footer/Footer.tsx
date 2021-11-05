@@ -1,7 +1,14 @@
 import React, { useCallback, useMemo } from 'react';
+import styled from 'styled-components';
 import { useAppContext } from '@/context';
 import { PAGE_SIZE } from '@/config';
 import { fetchPlaylists } from '@/utils/fetch';
+
+const StyledFooter = styled.div`
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+`;
 
 function Footer() {
   const [{ total, currentPage }, dispatch] = useAppContext();
@@ -48,7 +55,7 @@ function Footer() {
   }, [lastPage, dispatch]);
 
   return (
-    <div>
+    <StyledFooter>
       <button type="button" onClick={goToFirst} disabled={currentPage === 0}>
         First
       </button>
@@ -77,7 +84,7 @@ function Footer() {
       >
         Last
       </button>
-    </div>
+    </StyledFooter>
   );
 }
 

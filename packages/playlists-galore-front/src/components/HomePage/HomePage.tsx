@@ -7,10 +7,10 @@ import PlaylistsGrid from '@/components/PlaylistsGrid';
 import Footer from '@/components/Footer';
 
 const Container = styled.div`
-  text-align: center;
-  background-color: grey;
   height: 100%;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
 `;
 function HomePage() {
   const dispatch = useDispatch();
