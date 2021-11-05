@@ -29,6 +29,9 @@ function Card({ playlist }: Props) {
       <div>{`${playlist.totalTracks} tracks`}</div>
       <br />
       <br />
+      <a href={`${SPOTIFY_APP_URL}/${playlist.id}`}>open in app</a>
+      <br />
+      <br />
       <a
         href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
         target="_blank"
@@ -36,9 +39,6 @@ function Card({ playlist }: Props) {
       >
         open in web player
       </a>
-      <br />
-      <br />
-      <a href={`${SPOTIFY_APP_URL}/${playlist.id}`}>open in app</a>
     </Container>
   );
 }

@@ -33,7 +33,7 @@ function Footer() {
 
   const handleBlur = useCallback(
     (e) => {
-      fetchPlaylists(e.target.value, dispatch);
+      fetchPlaylists(Number.parseInt(e.target.value), dispatch);
     },
     [dispatch]
   );
