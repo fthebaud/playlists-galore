@@ -5,8 +5,6 @@ import Loading from './Loading';
 import Card from './Card';
 
 const Grid = styled.div`
-  flex: 1;
-  overflow: auto;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

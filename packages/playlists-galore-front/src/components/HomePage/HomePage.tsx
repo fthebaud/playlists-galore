@@ -7,7 +7,7 @@ import PlaylistsGrid from '@/components/PlaylistsGrid';
 import Footer from '@/components/Footer';
 import { COLORS, FONT } from '@/theme';
 
-const Container = styled.div`
+const FlexContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,12 @@ const Container = styled.div`
   color: ${COLORS.FONT1};
   font-family: ${FONT.FAMILY};
 `;
+
+const GridContainer = styled.div`
+  flex: 1;
+  overflow: auto;
+`;
+
 function HomePage() {
   const dispatch = useDispatch();
 
@@ -24,11 +30,13 @@ function HomePage() {
   }, [dispatch]);
 
   return (
-    <Container>
+    <FlexContainer>
       <Header />
-      <PlaylistsGrid />
+      <GridContainer>
+        <PlaylistsGrid />
+      </GridContainer>
       <Footer />
-    </Container>
+    </FlexContainer>
   );
 }
 
