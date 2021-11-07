@@ -32,13 +32,19 @@ export function isCategory(str: string): str is Category {
     str === 'artist' ||
     str === 'ongoing' ||
     str === 'misc.' ||
-    str === 'toutetnim'
+    str === 'toutetnimp'
   );
 }
 
-export type Tag = 'rock' | 'jazz' | 'acoustic';
+export type Tag = 'rock' | 'jazz' | 'acoustic' | 'chill' | 'melancholy';
 
 // User Defined type guard for Tag
 export function isTag(str: string): str is Tag {
-  return str === 'rock' || str === 'jazz' || str === 'acoustic';
+  return (
+    str === 'rock' ||
+    str === 'jazz' ||
+    str === 'acoustic' ||
+    str === 'chill' ||
+    str === 'melancholy'
+  );
 }

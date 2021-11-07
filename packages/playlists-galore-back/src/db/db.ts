@@ -22,7 +22,7 @@ async function getPlaylists(offset = 0, limit = 20) {
   cache.timestamp = Date.now();
 
   return {
-    items: cache.playlists.slice(offset, limit),
+    items: cache.playlists.slice(offset, offset + limit),
     total: cache.playlists.length,
     timestamp: cache.timestamp,
     status: cache.status,
