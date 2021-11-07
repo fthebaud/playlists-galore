@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { useDispatch } from '@/context';
-import { fetchPlaylists } from '@/utils/fetch';
+import { fetchPage } from '@/utils/page';
 import Header from '@/components/Header';
 import PlaylistsGrid from '@/components/PlaylistsGrid';
 import Footer from '@/components/Footer';
@@ -26,7 +26,7 @@ function HomePage() {
 
   // Load firts page
   useEffect(() => {
-    fetchPlaylists(0, dispatch);
+    fetchPage(0, dispatch);
   }, [dispatch]);
 
   return (

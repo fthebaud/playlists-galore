@@ -3,7 +3,7 @@ import sirv from 'sirv';
 
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
-import { getPlaylists } from '../spotifyClient';
+import { db } from '../db';
 
 const app = new App();
 
@@ -14,19 +14,15 @@ export function main() {
     .use(logger())
     .get('/api/playlists', (req, res) => {
       const { offset, limit } = req.query;
-      getPlaylists(
+      db.getPlaylists(
         Number.parseInt(offset as string),
         Number.parseInt(limit as string)
-      ).then((data) => {
-        const { items, total } = data;
+      ).then(({ items, total, status, timestamp }) => {
         res.send({
-          items: items.map(({ id, name, images, tracks }: any) => ({
-            id,
-            name,
-            images,
-            totalTracks: tracks.total,
-          })),
+          items,
           total,
+          cacheStatus: status,
+          cacheTimestamp: timestamp,
         });
       });
     })

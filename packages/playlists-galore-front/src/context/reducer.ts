@@ -20,7 +20,7 @@ export const initialState: AppState = {
 
 const reducerFunction = (state: AppState, action: Action) => {
   switch (action.type) {
-    case 'FECTH_START': {
+    case 'FETCH_START': {
       return {
         ...state,
         isLoading: true,
@@ -28,7 +28,7 @@ const reducerFunction = (state: AppState, action: Action) => {
       };
     }
 
-    case 'FECTH_SUCCESS': {
+    case 'FETCH_SUCCESS': {
       const { currentPage, playlists, total } = action;
       return {
         ...state,
@@ -39,7 +39,7 @@ const reducerFunction = (state: AppState, action: Action) => {
       };
     }
 
-    case 'FECTH_ERROR': {
+    case 'FETCH_ERROR': {
       return {
         ...state,
         isLoading: false,

@@ -4,15 +4,15 @@ export type Dispatch = (action: Action) => void;
 
 export type Action =
   | {
-      type: 'FECTH_START';
+      type: 'FETCH_START';
     }
   | {
-      type: 'FECTH_SUCCESS';
+      type: 'FETCH_SUCCESS';
       currentPage: number;
       playlists: Playlist[];
       total: number;
     }
   | {
-      type: 'FECTH_ERROR';
+      type: 'FETCH_ERROR';
       error: string;
     };

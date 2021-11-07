@@ -2,7 +2,7 @@ import React, { useCallback, useMemo } from 'react';
 import styled from 'styled-components';
 import { useAppContext } from '@/context';
 import { PAGE_SIZE } from '@/config';
-import { fetchPlaylists } from '@/utils/fetch';
+import { fetchPage } from '@/utils/page';
 
 const StyledFooter = styled.div`
   padding: 1rem;
@@ -33,25 +33,25 @@ function Footer() {
 
   const handleBlur = useCallback(
     (e) => {
-      fetchPlaylists(Number.parseInt(e.target.value), dispatch);
+      fetchPage(Number.parseInt(e.target.value), dispatch);
     },
     [dispatch]
   );
 
   const goToFirst = useCallback(() => {
-    fetchPlaylists(0, dispatch);
+    fetchPage(0, dispatch);
   }, [dispatch]);
 
   const goToPrevious = useCallback(() => {
-    fetchPlaylists(currentPage - 1, dispatch);
+    fetchPage(currentPage - 1, dispatch);
   }, [currentPage, dispatch]);
 
   const goToNext = useCallback(() => {
-    fetchPlaylists(currentPage + 1, dispatch);
+    fetchPage(currentPage + 1, dispatch);
   }, [currentPage, dispatch]);
 
   const goToLast = useCallback(() => {
-    fetchPlaylists(lastPage, dispatch);
+    fetchPage(lastPage, dispatch);
   }, [lastPage, dispatch]);
 
   return (
