@@ -4,6 +4,7 @@ import sirv from 'sirv';
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
 import { db } from '../db';
+import { getSearch } from '../utils/search';
 
 const app = new App();
 
@@ -13,17 +14,14 @@ export function main() {
   app
     .use(logger())
     .get('/api/playlists', (req, res) => {
-      const { offset, limit } = req.query;
-      db.getPlaylists(
-        Number.parseInt(offset as string),
-        Number.parseInt(limit as string)
-      ).then(({ items, total, status, timestamp }) => {
-        res.send({
-          items,
-          total,
-          cacheStatus: status,
-          cacheTimestamp: timestamp,
-        });
+      const { search, offset, limit } = req.query;
+      const searchOptions = getSearch(search);
+      db.getPlaylists({
+        offset: Number.parseInt(offset as string),
+        limit: Number.parseInt(limit as string),
+        searchOptions,
+      }).then((data) => {
+        res.send(data);
       });
     })
     // Serve static files from the front package

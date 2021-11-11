@@ -48,3 +48,15 @@ export function isTag(str: string): str is Tag {
     str === 'melancholy'
   );
 }
+
+export type SearchProperty = 'category';
+
+export type SearchOptions = {
+  property: SearchProperty;
+  values: string[];
+};
+
+// User Defined type guard for search property
+export function isSearchProperty(str: string): str is SearchProperty {
+  return str === 'category';
+}

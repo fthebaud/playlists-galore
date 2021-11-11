@@ -1,6 +1,8 @@
+import { SearchOptions } from 'playlists-galore-toolbox';
 import { fetchPlaylists } from '../spotifyClient';
 import { Cache, SpotifyPlaylist } from '../types';
 import { getCategory, getTags } from '../utils/description';
+import { searchPlaylists } from '../utils/search';
 
 const cache: Cache = {
   playlists: [],
@@ -10,22 +12,48 @@ const cache: Cache = {
 
 const LIMIT = 50;
 
-async function getPlaylists(offset = 0, limit = 20) {
-  // TODO
-  // if cache invalid: reload everything
+const CACHE_MAX_AGE = 3600000; // 3600000ms = 1h
 
-  // RESET
-  cache.playlists = [];
-  cache.timestamp = null;
-  // Load all pages, starting from first page
-  await loadPage(0);
-  cache.timestamp = Date.now();
+function isCacheInvalid() {
+  if (cache.timestamp) {
+    const maxAge = cache.timestamp + CACHE_MAX_AGE;
+    return Date.now() > maxAge;
+  }
+  return true;
+}
 
+async function loadCacheIfInvalid() {
+  if (isCacheInvalid()) {
+    // Reset cache
+    cache.playlists = [];
+    cache.timestamp = null;
+    // Load all pages, starting from first page
+    await loadPage(0);
+    cache.timestamp = Date.now();
+    return true;
+  }
+  return false;
+}
+
+async function getPlaylists({
+  offset = 0,
+  limit = 20,
+  searchOptions,
+}: {
+  offset: number;
+  limit: number;
+  searchOptions?: SearchOptions;
+}) {
+  await loadCacheIfInvalid();
+  let { playlists } = cache;
+  if (searchOptions) {
+    playlists = searchPlaylists(cache.playlists, searchOptions);
+  }
   return {
-    items: cache.playlists.slice(offset, offset + limit),
-    total: cache.playlists.length,
-    timestamp: cache.timestamp,
-    status: cache.status,
+    items: playlists.slice(offset, offset + limit),
+    total: playlists.length,
+    cacheTimestamp: cache.timestamp,
+    cacheStatus: cache.status,
   };
 }
 
