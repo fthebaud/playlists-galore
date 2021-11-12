@@ -10,7 +10,7 @@ export const fetchPage = async (
 ) => {
   dispatch({ type: 'FETCH_START' });
   try {
-    const [playlists, total] = await fetchPlaylists(
+    const [playlists, total, cacheTotal] = await fetchPlaylists(
       page * PAGE_SIZE,
       PAGE_SIZE,
       TAB_CONFIG[currentTab]
@@ -20,6 +20,7 @@ export const fetchPage = async (
       currentPage: page,
       playlists,
       total,
+      cacheTotal,
     });
   } catch (error) {
     dispatch({

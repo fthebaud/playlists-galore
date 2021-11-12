@@ -1,3 +1,4 @@
+import { PGResponse } from 'playlists-galore-toolbox';
 import { fetchPlaylists } from '../spotifyClient';
 import { Cache, SpotifyPlaylist } from '../types';
 import { getCategory, getTags } from '../utils/description';
@@ -42,7 +43,7 @@ async function getPlaylists({
   offset: number;
   limit: number;
   categoriesFilter?: string[];
-}) {
+}): Promise<PGResponse> {
   await loadCacheIfInvalid();
   let { playlists } = cache;
   if (categoriesFilter) {
@@ -51,6 +52,7 @@ async function getPlaylists({
   return {
     items: playlists.slice(offset, offset + limit),
     total: playlists.length,
+    cacheTotal: cache.playlists.length,
     cacheTimestamp: cache.timestamp,
     cacheStatus: cache.status,
   };

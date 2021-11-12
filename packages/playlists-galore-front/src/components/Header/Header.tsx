@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useAppState } from '@/context';
 import { FONT } from '@/theme';
 import Tabs from './Tabs';
 
@@ -19,11 +18,10 @@ const SubTitle = styled.div`
 `;
 
 function Header() {
-  const { total } = useAppState();
   return (
     <StyledHeader>
       <Title>PLAYLISTS GALORE</Title>
-      {total !== 0 && <SubTitle>{total} playlists so far!</SubTitle>}
+      <SubTitle>A great collection of Spotify Playlists!</SubTitle>
       <Tabs />
     </StyledHeader>
   );

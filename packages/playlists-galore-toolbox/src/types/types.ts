@@ -13,6 +13,14 @@ export type Playlist = {
   tags: Tag[];
 };
 
+export type PGResponse = {
+  items: Playlist[];
+  total: number;
+  cacheTotal: number;
+  cacheTimestamp: number | null;
+  cacheStatus: string | null;
+};
+
 export type Category =
   | 'monthly'
   | 'weekly'

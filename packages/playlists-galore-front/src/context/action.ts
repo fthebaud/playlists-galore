@@ -12,6 +12,7 @@ export type Action =
       currentPage: number;
       playlists: Playlist[];
       total: number;
+      cacheTotal: number;
     }
   | {
       type: 'FETCH_ERROR';

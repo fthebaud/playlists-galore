@@ -26,7 +26,7 @@ const Tab = styled.div`
 `;
 
 function Tabs() {
-  const [{ currentTab }, dispatch] = useAppContext();
+  const [{ currentTab, total, cacheTotal }, dispatch] = useAppContext();
 
   const setTabSTANDARD = useCallback(() => {
     dispatch({
@@ -42,13 +42,16 @@ function Tabs() {
     });
   }, [dispatch]);
 
+  // FIXME: find better way to get number of playlist per tab
   return (
     <Container>
       <Tab onClick={setTabSTANDARD} active={currentTab === 'STANDARD'}>
-        Monthly/Weekly Selections
+        Monthly/Weekly Selections (
+        {currentTab === 'STANDARD' ? total : cacheTotal - total})
       </Tab>
       <Tab onClick={setTabSpecial} active={currentTab === 'SPECIAL'}>
-        Compilations, Best Of, etc.
+        Compilations, Best Of, etc. (
+        {currentTab === 'SPECIAL' ? total : cacheTotal - total})
       </Tab>
     </Container>
   );

@@ -10,6 +10,7 @@ export type AppState = {
   currentPage: number;
   playlists: Playlist[];
   total: number;
+  cacheTotal: number;
   currentTab: Tab;
 };
 
@@ -19,6 +20,7 @@ export const initialState: AppState = {
   currentPage: 0,
   playlists: [],
   total: 0,
+  cacheTotal: 0,
   currentTab: 'STANDARD',
 };
 
@@ -33,13 +35,14 @@ const reducerFunction = (state: AppState, action: Action) => {
     }
 
     case 'FETCH_SUCCESS': {
-      const { currentPage, playlists, total } = action;
+      const { currentPage, playlists, total, cacheTotal } = action;
       return {
         ...state,
         isLoading: false,
         currentPage,
         playlists,
         total,
+        cacheTotal,
       };
     }
 
