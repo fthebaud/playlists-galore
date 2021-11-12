@@ -12,7 +12,6 @@ export type Action =
       currentPage: number;
       playlists: Playlist[];
       total: number;
-      cacheTotal: number;
     }
   | {
       type: 'FETCH_ERROR';
@@ -21,4 +20,9 @@ export type Action =
   | {
       type: 'SET_TAB';
       tab: Tab;
+    }
+  | {
+      type: 'SET_TAB_COUNT';
+      standardTabCount: number;
+      specialTabCount: number;
     };

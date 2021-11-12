@@ -10,8 +10,9 @@ export type AppState = {
   currentPage: number;
   playlists: Playlist[];
   total: number;
-  cacheTotal: number;
   currentTab: Tab;
+  specialTabCount: number;
+  standardTabCount: number;
 };
 
 export const initialState: AppState = {
@@ -20,8 +21,9 @@ export const initialState: AppState = {
   currentPage: 0,
   playlists: [],
   total: 0,
-  cacheTotal: 0,
   currentTab: 'STANDARD',
+  specialTabCount: 0,
+  standardTabCount: 0,
 };
 
 const reducerFunction = (state: AppState, action: Action) => {
@@ -35,14 +37,13 @@ const reducerFunction = (state: AppState, action: Action) => {
     }
 
     case 'FETCH_SUCCESS': {
-      const { currentPage, playlists, total, cacheTotal } = action;
+      const { currentPage, playlists, total } = action;
       return {
         ...state,
         isLoading: false,
         currentPage,
         playlists,
         total,
-        cacheTotal,
       };
     }
 
@@ -59,6 +60,15 @@ const reducerFunction = (state: AppState, action: Action) => {
       return {
         ...state,
         currentTab: tab,
+      };
+    }
+
+    case 'SET_TAB_COUNT': {
+      const { specialTabCount, standardTabCount } = action;
+      return {
+        ...state,
+        specialTabCount,
+        standardTabCount,
       };
     }
 

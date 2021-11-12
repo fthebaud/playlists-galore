@@ -20,7 +20,11 @@ export const fetchPage = async (
       currentPage: page,
       playlists,
       total,
-      cacheTotal,
+    });
+    dispatch({
+      type: 'SET_TAB_COUNT',
+      standardTabCount: currentTab === 'STANDARD' ? total : cacheTotal - total,
+      specialTabCount: currentTab === 'SPECIAL' ? total : cacheTotal - total,
     });
   } catch (error) {
     dispatch({

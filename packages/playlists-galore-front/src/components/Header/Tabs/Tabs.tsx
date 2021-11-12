@@ -26,7 +26,8 @@ const Tab = styled.div`
 `;
 
 function Tabs() {
-  const [{ currentTab, total, cacheTotal }, dispatch] = useAppContext();
+  const [{ currentTab, standardTabCount, specialTabCount }, dispatch] =
+    useAppContext();
 
   const setTabSTANDARD = useCallback(() => {
     dispatch({
@@ -46,12 +47,10 @@ function Tabs() {
   return (
     <Container>
       <Tab onClick={setTabSTANDARD} active={currentTab === 'STANDARD'}>
-        Monthly/Weekly Selections (
-        {currentTab === 'STANDARD' ? total : cacheTotal - total})
+        Monthly/Weekly Selections ({standardTabCount})
       </Tab>
       <Tab onClick={setTabSpecial} active={currentTab === 'SPECIAL'}>
-        Compilations, Best Of, etc. (
-        {currentTab === 'SPECIAL' ? total : cacheTotal - total})
+        Compilations, Best Of, etc. ({specialTabCount})
       </Tab>
     </Container>
   );
