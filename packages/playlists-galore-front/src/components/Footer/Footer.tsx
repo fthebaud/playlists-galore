@@ -2,7 +2,7 @@ import React, { useCallback, useMemo } from 'react';
 import styled from 'styled-components';
 import { useAppContext } from '@/context';
 import { PAGE_SIZE } from '@/config';
-import { fetchPage } from '@/utils/page';
+import { fetchPage } from '@/utils/fetch';
 
 const StyledFooter = styled.div`
   padding: 1rem;
@@ -11,7 +11,7 @@ const StyledFooter = styled.div`
 `;
 
 function Footer() {
-  const [{ total, currentPage }, dispatch] = useAppContext();
+  const [{ total, currentPage, currentTab }, dispatch] = useAppContext();
 
   const lastPage = useMemo(() => {
     if (total) {
@@ -33,26 +33,26 @@ function Footer() {
 
   const handleBlur = useCallback(
     (e) => {
-      fetchPage(Number.parseInt(e.target.value), dispatch);
+      fetchPage(Number.parseInt(e.target.value), currentTab, dispatch);
     },
-    [dispatch]
+    [dispatch, currentTab]
   );
 
   const goToFirst = useCallback(() => {
-    fetchPage(0, dispatch);
-  }, [dispatch]);
+    fetchPage(0, currentTab, dispatch);
+  }, [dispatch, currentTab]);
 
   const goToPrevious = useCallback(() => {
-    fetchPage(currentPage - 1, dispatch);
-  }, [currentPage, dispatch]);
+    fetchPage(currentPage - 1, currentTab, dispatch);
+  }, [currentPage, currentTab, dispatch]);
 
   const goToNext = useCallback(() => {
-    fetchPage(currentPage + 1, dispatch);
-  }, [currentPage, dispatch]);
+    fetchPage(currentPage + 1, currentTab, dispatch);
+  }, [currentPage, currentTab, dispatch]);
 
   const goToLast = useCallback(() => {
-    fetchPage(lastPage, dispatch);
-  }, [lastPage, dispatch]);
+    fetchPage(lastPage, currentTab, dispatch);
+  }, [lastPage, currentTab, dispatch]);
 
   return (
     <StyledFooter>

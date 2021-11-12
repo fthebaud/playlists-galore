@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import { useDispatch } from '@/context';
-import { fetchPage } from '@/utils/page';
+import { useAppState, useDispatch } from '@/context';
+import { fetchPage } from '@/utils/fetch';
 import Header from '@/components/Header';
 import PlaylistsGrid from '@/components/PlaylistsGrid';
 import Footer from '@/components/Footer';
@@ -23,11 +23,12 @@ const GridContainer = styled.div`
 
 function HomePage() {
   const dispatch = useDispatch();
+  const { currentTab } = useAppState();
 
   // Load firts page
   useEffect(() => {
-    fetchPage(0, dispatch);
-  }, [dispatch]);
+    fetchPage(0, currentTab, dispatch);
+  }, [dispatch, currentTab]);
 
   return (
     <FlexContainer>

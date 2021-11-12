@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { useAppState } from '@/context';
 import { FONT } from '@/theme';
+import Tabs from './Tabs';
 
 const StyledHeader = styled.header`
   padding: 1rem;
@@ -23,6 +24,7 @@ function Header() {
     <StyledHeader>
       <Title>PLAYLISTS GALORE</Title>
       {total !== 0 && <SubTitle>{total} playlists so far!</SubTitle>}
+      <Tabs />
     </StyledHeader>
   );
 }
