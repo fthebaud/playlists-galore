@@ -1,8 +1,7 @@
-import { SearchOptions } from 'playlists-galore-toolbox';
 import { fetchPlaylists } from '../spotifyClient';
 import { Cache, SpotifyPlaylist } from '../types';
 import { getCategory, getTags } from '../utils/description';
-import { searchPlaylists } from '../utils/search';
+import { filterPlaylistsByCategories } from '../utils/filter';
 
 const cache: Cache = {
   playlists: [],
@@ -38,16 +37,16 @@ async function loadCacheIfInvalid() {
 async function getPlaylists({
   offset = 0,
   limit = 20,
-  searchOptions,
+  categoriesFilter,
 }: {
   offset: number;
   limit: number;
-  searchOptions?: SearchOptions;
+  categoriesFilter?: string[];
 }) {
   await loadCacheIfInvalid();
   let { playlists } = cache;
-  if (searchOptions) {
-    playlists = searchPlaylists(cache.playlists, searchOptions);
+  if (categoriesFilter) {
+    playlists = filterPlaylistsByCategories(cache.playlists, categoriesFilter);
   }
   return {
     items: playlists.slice(offset, offset + limit),

@@ -6,8 +6,7 @@ export async function fetchPlaylists(
   limit: number
 ): Promise<[Playlist[], number]> {
   const { data } = await axios.get(
-    // TODO searchToString function
-    `${window.location.origin}/api/playlists?offset=${offset}&limit=${limit}&search={category: [weekly, monthly]}`
+    `${window.location.origin}/api/playlists?offset=${offset}&limit=${limit}&categories=weekly, monthly`
   );
   return [data.items, data.total];
 }

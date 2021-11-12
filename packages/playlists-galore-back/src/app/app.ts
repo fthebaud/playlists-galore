@@ -4,7 +4,7 @@ import sirv from 'sirv';
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
 import { db } from '../db';
-import { getSearch } from '../utils/search';
+import { parseCategoriesFilter } from '../utils/filter';
 
 const app = new App();
 
@@ -14,12 +14,12 @@ export function main() {
   app
     .use(logger())
     .get('/api/playlists', (req, res) => {
-      const { search, offset, limit } = req.query;
-      const searchOptions = getSearch(search);
+      const { categories, offset, limit } = req.query;
+      const categoriesFilter = parseCategoriesFilter(categories);
       db.getPlaylists({
         offset: Number.parseInt(offset as string),
         limit: Number.parseInt(limit as string),
-        searchOptions,
+        categoriesFilter,
       }).then((data) => {
         res.send(data);
       });
