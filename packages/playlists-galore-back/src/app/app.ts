@@ -3,7 +3,8 @@ import sirv from 'sirv';
 
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
-import { getPlaylists } from '../spotifyClient';
+import { db } from '../db';
+import { parseCategoriesFilter } from '../utils/filter';
 
 const app = new App();
 
@@ -13,21 +14,14 @@ export function main() {
   app
     .use(logger())
     .get('/api/playlists', (req, res) => {
-      const { offset, limit } = req.query;
-      getPlaylists(
-        Number.parseInt(offset as string),
-        Number.parseInt(limit as string)
-      ).then((data) => {
-        const { items, total } = data;
-        res.send({
-          items: items.map(({ id, name, images, tracks }: any) => ({
-            id,
-            name,
-            images,
-            totalTracks: tracks.total,
-          })),
-          total,
-        });
+      const { categories, offset, limit } = req.query;
+      const categoriesFilter = parseCategoriesFilter(categories);
+      db.getPlaylists({
+        offset: Number.parseInt(offset as string),
+        limit: Number.parseInt(limit as string),
+        categoriesFilter,
+      }).then((data) => {
+        res.send(data);
       });
     })
     // Serve static files from the front package

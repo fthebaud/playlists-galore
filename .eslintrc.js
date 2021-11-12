@@ -15,6 +15,7 @@ module.exports = {
     'no-use-before-define': 'off',
     radix: 'off',
     'no-plusplus': 'off',
+    'no-restricted-syntax': 'off',
     quotes: ['error', 'single', 'avoid-escape'], // prevent the use of backtick when it's not necessary
     'no-console': ['error', { allow: ['warn', 'error'] }],
 

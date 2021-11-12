@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { SpotifyResponse } from '../types';
 
 /** *************************************************************************
  *  SPOTIFY API REFERENCE
@@ -36,7 +37,7 @@ function getAccessToken() {
     });
 }
 
-function fetchPlaylists(offset = 0, limit = 20) {
+function fetchPlaylistsWithToken(offset = 0, limit = 20) {
   const config = {
     headers: {
       'Content-Type': 'application/json',
@@ -48,17 +49,20 @@ function fetchPlaylists(offset = 0, limit = 20) {
     },
   };
   return axios
-    .get('https://api.spotify.com/v1/users/1146005630/playlists', config)
+    .get<SpotifyResponse>(
+      'https://api.spotify.com/v1/users/1146005630/playlists',
+      config
+    )
     .then(({ data }) => data)
     .catch((error) => {
       console.error(error);
     });
 }
 
-export function getPlaylists(offset: number, limit: number) {
+export function fetchPlaylists(offset: number, limit: number) {
   if (Date.now() - 30000 > accessTokenExpirationDate) {
     // renew token if it's going to expire in less than 30 seconds
-    return getAccessToken().then(() => fetchPlaylists());
+    return getAccessToken().then(() => fetchPlaylistsWithToken(offset, limit));
   }
-  return fetchPlaylists(offset, limit);
+  return fetchPlaylistsWithToken(offset, limit);
 }
