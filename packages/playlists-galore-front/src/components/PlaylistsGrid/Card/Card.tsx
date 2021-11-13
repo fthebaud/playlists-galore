@@ -18,27 +18,50 @@ const Container = styled.div`
   }
 `;
 
+const Content = styled.div`
+  display: flex;
+  padding: ${spacing(4)};
+`;
+
+const ImageContainer = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Links = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+`;
+
 type Props = {
   playlist: Playlist;
 };
 
 function Card({ playlist }: Props) {
+  const { url, width, height } = playlist.images[2];
   return (
     <Container>
       <div style={{ fontWeight: 'bold' }}>{JSON.stringify(playlist.name)}</div>
       <div>{`${playlist.totalTracks} tracks`}</div>
-      <br />
-      <br />
-      <a href={`${SPOTIFY_APP_URL}/${playlist.id}`}>open in app</a>
-      <br />
-      <br />
-      <a
-        href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        open in web player
-      </a>
+      <Content>
+        <ImageContainer>
+          <img src={url} height={height} width={width} alt="cover art" />
+        </ImageContainer>
+        <Links>
+          <a href={`${SPOTIFY_APP_URL}/${playlist.id}`}>open in app</a>
+          <a
+            href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open in web player
+          </a>
+        </Links>
+      </Content>
     </Container>
   );
 }
