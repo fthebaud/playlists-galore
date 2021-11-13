@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useAppState } from '@/context';
+import { spacing } from '@/theme';
 import Loading from './Loading';
 import Card from './Card';
 
 const Grid = styled.div`
-  padding: 1rem;
+  padding: ${spacing(2)};
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 1.5rem;
+  grid-gap: ${spacing(3)}; ;
 `;
 
 function PlaylistsGrid() {

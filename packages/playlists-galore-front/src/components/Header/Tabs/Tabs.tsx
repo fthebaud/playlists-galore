@@ -1,12 +1,12 @@
 import React, { useCallback } from 'react';
 import styled from 'styled-components';
-import { SPACING, BORDER_RADIUS, FONT } from '@/theme';
+import { spacing, BORDER_RADIUS, FONT } from '@/theme';
 import { useAppContext } from '@/context';
 
 const Container = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: ${SPACING}px;
+  margin-top: ${spacing(1)};
 `;
 
 type TabProp = {
@@ -14,14 +14,14 @@ type TabProp = {
 };
 
 const Tab = styled.div`
-  padding: ${SPACING}px;
-  border-radius: ${BORDER_RADIUS.LG}px;
+  padding: ${spacing(1)};
+  border-radius: ${BORDER_RADIUS.BASE};
   outline: ${(props: TabProp) => (props.active ? '1px solid white' : 'none')};
   cursor: pointer;
   width: 250px;
   font-size: ${FONT.SIZE.SM};
   &:not(:last-of-type) {
-    margin-right: ${SPACING}px;
+    margin-right: ${spacing(1)};
   }
 `;
 

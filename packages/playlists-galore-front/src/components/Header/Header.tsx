@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FONT } from '@/theme';
+import { spacing, FONT } from '@/theme';
 import Tabs from './Tabs';
 
 const StyledHeader = styled.header`
-  padding: 1rem;
+  padding: ${spacing(2)};
   text-align: center;
 `;
 

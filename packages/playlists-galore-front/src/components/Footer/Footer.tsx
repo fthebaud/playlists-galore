@@ -3,11 +3,18 @@ import styled from 'styled-components';
 import { useAppContext } from '@/context';
 import { PAGE_SIZE } from '@/config';
 import { fetchPage } from '@/utils/fetch';
+import { spacing } from '@/theme';
 
 const StyledFooter = styled.div`
-  padding: 1rem;
+  padding: ${spacing(2)};
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+`;
+
+const Navigation = styled.div`
+  & > :not(:last-child) {
+    margin-right: ${spacing(2)};
+  }
 `;
 
 function Footer() {
@@ -56,34 +63,40 @@ function Footer() {
 
   return (
     <StyledFooter>
-      <button type="button" onClick={goToFirst} disabled={currentPage === 0}>
-        First
-      </button>
-      <button type="button" onClick={goToPrevious} disabled={currentPage === 0}>
-        Previous
-      </button>
-      <select value={currentPage} onChange={handleBlur}>
-        {options.map(({ value, label }) => (
-          <option value={value} key={value}>
-            {' '}
-            {label}{' '}
-          </option>
-        ))}
-      </select>
-      <button
-        type="button"
-        onClick={goToNext}
-        disabled={currentPage === lastPage}
-      >
-        Next
-      </button>
-      <button
-        type="button"
-        onClick={goToLast}
-        disabled={currentPage === lastPage}
-      >
-        Last
-      </button>
+      <Navigation>
+        <button type="button" onClick={goToFirst} disabled={currentPage === 0}>
+          First
+        </button>
+        <button
+          type="button"
+          onClick={goToPrevious}
+          disabled={currentPage === 0}
+        >
+          Previous
+        </button>
+        <select value={currentPage} onChange={handleBlur}>
+          {options.map(({ value, label }) => (
+            <option value={value} key={value}>
+              {' '}
+              {label}{' '}
+            </option>
+          ))}
+        </select>
+        <button
+          type="button"
+          onClick={goToNext}
+          disabled={currentPage === lastPage}
+        >
+          Next
+        </button>
+        <button
+          type="button"
+          onClick={goToLast}
+          disabled={currentPage === lastPage}
+        >
+          Last
+        </button>
+      </Navigation>
     </StyledFooter>
   );
 }

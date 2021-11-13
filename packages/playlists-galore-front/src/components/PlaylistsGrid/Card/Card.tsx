@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import { SPOTIFY_APP_URL, SPOTIFY_WEB_PLAYER_URL } from '@/config';
 import { Playlist } from 'playlists-galore-toolbox';
-import { COLORS } from '@/theme';
+import { BORDER_RADIUS, COLORS, spacing } from '@/theme';
 
 const Container = styled.div`
   border: 1px solid black;
   background-color: ${COLORS.BG2};
   height: 200px;
-  border-radius: 6px;
-  padding: 1rem;
+  border-radius: ${BORDER_RADIUS.LG};
+  padding: ${spacing(2)};
   text-align: center;
   & a:link,
   a:hover,

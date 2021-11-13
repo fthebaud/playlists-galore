@@ -1,10 +1,14 @@
 // MUI uses a recommended 8px scaling factor by default. https://material.io/design/layout/understanding-layout.html#layout-anatomy
-export const SPACING = 8;
+const SPACING = 8;
+
+export function spacing(multiplier: number) {
+  return `${SPACING * multiplier}px`;
+}
 
 export const BORDER_RADIUS = {
-  BASE: 4,
-  LG: 8,
-  XL: 16,
+  BASE: '4px',
+  LG: '8px',
+  XL: '16px',
 };
 
 export const FONT = {
