@@ -7,7 +7,7 @@ import { BORDER_RADIUS, COLORS, spacing } from '@/theme';
 const Container = styled.div`
   border: 1px solid black;
   background-color: ${COLORS.BG2};
-  height: 200px;
+  height: 250px;
   border-radius: ${BORDER_RADIUS.LG};
   padding: ${spacing(2)};
   text-align: center;
@@ -42,7 +42,7 @@ type Props = {
 };
 
 function Card({ playlist }: Props) {
-  const { url, width, height } = playlist.images[2];
+  const { url, height, width } = playlist.images[2]; // 640*640, 300*300, 60*60
   return (
     <Container>
       <div style={{ fontWeight: 'bold' }}>{JSON.stringify(playlist.name)}</div>

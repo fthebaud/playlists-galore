@@ -19,6 +19,8 @@ const FlexContainer = styled.div`
 const GridContainer = styled.div`
   flex: 1;
   overflow: auto;
+  display: flex;
+  justify-content: center;
 `;
 
 function HomePage() {
