@@ -11,10 +11,12 @@ const StyledHeader = styled.header`
 const Title = styled.div`
   font-size: ${FONT.SIZE.LG};
   font-weight: ${FONT.WEIGHT.BOLD};
+  margin-bottom: ${spacing(1)};
 `;
 
 const SubTitle = styled.div`
   font-size: ${FONT.SIZE.SM};
+  margin-bottom: ${spacing(2)};
 `;
 
 function Header() {

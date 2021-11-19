@@ -22,14 +22,14 @@ function Footer() {
 
   const lastPage = useMemo(() => {
     if (total) {
-      return Math.floor(total / PAGE_SIZE);
+      return Math.ceil(total / PAGE_SIZE);
     }
     return 0;
   }, [total]);
 
   const options = useMemo(() => {
     const opts = [];
-    for (let i = 0; i <= lastPage; i++) {
+    for (let i = 0; i < lastPage; i++) {
       opts.push({
         value: i,
         label: `Page ${i + 1}`,

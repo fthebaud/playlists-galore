@@ -2,39 +2,67 @@ import React from 'react';
 import styled from 'styled-components';
 import { SPOTIFY_APP_URL, SPOTIFY_WEB_PLAYER_URL } from '@/config';
 import { Playlist } from 'playlists-galore-toolbox';
-import { BORDER_RADIUS, COLORS, spacing } from '@/theme';
+import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
 
 const Container = styled.div`
   border: 1px solid black;
   background-color: ${COLORS.BG2};
-  height: 250px;
   border-radius: ${BORDER_RADIUS.LG};
   padding: ${spacing(2)};
+  display: flex;
+  flex-direction: column;
+`;
+
+const Title = styled.div`
+  height: 40px;
+  font-size: ${FONT.SIZE.BASE};
+  font-weight: ${FONT.WEIGHT.SEMIBOLD};
   text-align: center;
-  & a:link,
-  a:hover,
-  a:visited {
-    color: ${COLORS.FONT2};
-  }
+  margin-bottom: ${spacing(1)};
 `;
 
 const Content = styled.div`
+  flex: 1;
   display: flex;
-  padding: ${spacing(4)};
 `;
 
 const ImageContainer = styled.div`
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  & img {
+    object-fit: contain;
+    width: 100%;
+  }
 `;
 
-const Links = styled.div`
+const TracksTotal = styled.div`
+  font-size: ${FONT.SIZE.SM};
+  text-align: center;
+`;
+
+const RightContainer = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+`;
+
+const LinksContainer = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: ${spacing(2)};
+  & > a:first-of-type {
+    margin-bottom: ${spacing(3)};
+  }
+`;
+
+const Link = styled.a`
+  font-size: ${FONT.SIZE.SM};
+  border: 1px solid white;
+  border-radius: ${BORDER_RADIUS.BASE};
+  color: ${COLORS.FONT2};
+  text-decoration: none;
+  padding: ${spacing(1)};
+  text-align: center;
 `;
 
 type Props = {
@@ -42,25 +70,28 @@ type Props = {
 };
 
 function Card({ playlist }: Props) {
-  const { url, height, width } = playlist.images[2]; // 640*640, 300*300, 60*60
+  const { url } = playlist.images[1]; // 640*640, 300*300, 60*60
   return (
     <Container>
-      <div style={{ fontWeight: 'bold' }}>{JSON.stringify(playlist.name)}</div>
-      <div>{`${playlist.totalTracks} tracks`}</div>
+      <Title>{playlist.name.replaceAll('"', '')}</Title>
+
       <Content>
         <ImageContainer>
-          <img src={url} height={height} width={width} alt="cover art" />
+          <img src={url} alt="cover art" />
         </ImageContainer>
-        <Links>
-          <a href={`${SPOTIFY_APP_URL}/${playlist.id}`}>open in app</a>
-          <a
-            href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            open in web player
-          </a>
-        </Links>
+        <RightContainer>
+          <TracksTotal>{`${playlist.totalTracks} tracks`}</TracksTotal>
+          <LinksContainer>
+            <Link href={`${SPOTIFY_APP_URL}/${playlist.id}`}>Application</Link>
+            <Link
+              href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Web Player
+            </Link>
+          </LinksContainer>
+        </RightContainer>
       </Content>
     </Container>
   );
