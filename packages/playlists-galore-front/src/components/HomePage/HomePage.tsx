@@ -17,6 +17,7 @@ const FlexContainer = styled.div`
 `;
 
 const GridContainer = styled.div`
+  background-color: ${COLORS.BG2};
   flex: 1;
   overflow: auto;
   display: flex;

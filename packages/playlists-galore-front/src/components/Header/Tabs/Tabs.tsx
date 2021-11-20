@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import styled from 'styled-components';
-import { spacing, BORDER_RADIUS, FONT } from '@/theme';
+import { spacing, BORDER_RADIUS, FONT, COLORS } from '@/theme';
 import { useAppContext } from '@/context';
 
 const Container = styled.div`
@@ -15,10 +15,11 @@ type TabProp = {
 
 const Tab = styled.div`
   padding: ${spacing(1)};
-  border-radius: ${BORDER_RADIUS.BASE};
-  outline: ${(props: TabProp) => (props.active ? '1px solid white' : 'none')};
+  border-top-left-radius: ${BORDER_RADIUS.BASE};
+  border-top-right-radius: ${BORDER_RADIUS.BASE};
+  background-color: ${(props: TabProp) => (props.active ? COLORS.BG2 : 'none')};
   cursor: pointer;
-  width: 250px;
+  width: 220px;
   font-size: ${FONT.SIZE.SM};
   &:not(:last-of-type) {
     margin-right: ${spacing(1)};
@@ -47,10 +48,10 @@ function Tabs() {
   return (
     <Container>
       <Tab onClick={setTabSTANDARD} active={currentTab === 'STANDARD'}>
-        Monthly/Weekly Selections ({standardTabCount})
+        Monthly/Weekly ({standardTabCount})
       </Tab>
       <Tab onClick={setTabSpecial} active={currentTab === 'SPECIAL'}>
-        Compilations, Best Of, etc. ({specialTabCount})
+        Compilations ({specialTabCount})
       </Tab>
     </Container>
   );

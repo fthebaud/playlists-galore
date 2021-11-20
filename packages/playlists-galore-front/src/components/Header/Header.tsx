@@ -4,7 +4,7 @@ import { spacing, FONT } from '@/theme';
 import Tabs from './Tabs';
 
 const StyledHeader = styled.header`
-  padding: ${spacing(2)};
+  padding: ${`${spacing(2)} ${spacing(2)} 0 ${spacing(2)}`};
   text-align: center;
 `;
 
@@ -17,6 +17,7 @@ const Title = styled.div`
 const SubTitle = styled.div`
   font-size: ${FONT.SIZE.SM};
   margin-bottom: ${spacing(2)};
+  font-style: italic;
 `;
 
 function Header() {

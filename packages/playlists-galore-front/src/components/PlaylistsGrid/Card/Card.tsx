@@ -5,8 +5,7 @@ import { Playlist } from 'playlists-galore-toolbox';
 import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
 
 const Container = styled.div`
-  border: 1px solid black;
-  background-color: ${COLORS.BG2};
+  background-color: ${COLORS.BG1};
   border-radius: ${BORDER_RADIUS.LG};
   padding: ${spacing(2)};
   display: flex;
@@ -57,7 +56,7 @@ const LinksContainer = styled.div`
 
 const Link = styled.a`
   font-size: ${FONT.SIZE.SM};
-  border: 1px solid white;
+  border: ${`1px solid ${COLORS.FONT2}`};
   border-radius: ${BORDER_RADIUS.BASE};
   color: ${COLORS.FONT2};
   text-decoration: none;
