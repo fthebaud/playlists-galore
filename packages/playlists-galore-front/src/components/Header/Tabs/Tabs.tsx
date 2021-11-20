@@ -15,9 +15,10 @@ type TabProp = {
 
 const Tab = styled.div`
   padding: ${spacing(1)};
-  border-top-left-radius: ${BORDER_RADIUS.LG};
-  border-top-right-radius: ${BORDER_RADIUS.LG};
+  border-radius: ${BORDER_RADIUS.LG};
   background-color: ${(props: TabProp) => (props.active ? COLORS.BG2 : 'none')};
+  border: ${(props: TabProp) =>
+    props.active ? `1px solid ${COLORS.FONT2}` : 'none'};
   cursor: pointer;
   width: 220px;
   font-size: ${FONT.SIZE.SM};
@@ -44,7 +45,6 @@ function Tabs() {
     });
   }, [dispatch]);
 
-  // FIXME: find better way to get number of playlist per tab
   return (
     <Container>
       <Tab onClick={setTabSTANDARD} active={currentTab === 'STANDARD'}>

@@ -48,7 +48,8 @@ const LinksContainer = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: ${spacing(2)};
+  justify-content: center;
+  padding: ${`${spacing(2)} ${spacing(4)}`};
   & > a:first-of-type {
     margin-bottom: ${spacing(3)};
   }
@@ -56,12 +57,15 @@ const LinksContainer = styled.div`
 
 const Link = styled.a`
   font-size: ${FONT.SIZE.SM};
-  border: ${`1px solid ${COLORS.FONT2}`};
   border-radius: ${BORDER_RADIUS.BASE};
-  color: ${COLORS.FONT2};
+  background-color: ${COLORS.FONT2};
+  color: ${COLORS.BG1};
   text-decoration: none;
   padding: ${spacing(1)};
   text-align: center;
+  :hover {
+    background-color: ${COLORS.FONT1};
+  }
 `;
 
 type Props = {
@@ -81,13 +85,13 @@ function Card({ playlist }: Props) {
         <RightContainer>
           <TracksTotal>{`${playlist.totalTracks} tracks`}</TracksTotal>
           <LinksContainer>
-            <Link href={`${SPOTIFY_APP_URL}/${playlist.id}`}>Application</Link>
+            <Link href={`${SPOTIFY_APP_URL}/${playlist.id}`}>App</Link>
             <Link
               href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Web Player
+              Web
             </Link>
           </LinksContainer>
         </RightContainer>
