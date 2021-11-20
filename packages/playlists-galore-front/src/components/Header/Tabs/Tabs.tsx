@@ -15,8 +15,8 @@ type TabProp = {
 
 const Tab = styled.div`
   padding: ${spacing(1)};
-  border-top-left-radius: ${BORDER_RADIUS.BASE};
-  border-top-right-radius: ${BORDER_RADIUS.BASE};
+  border-top-left-radius: ${BORDER_RADIUS.LG};
+  border-top-right-radius: ${BORDER_RADIUS.LG};
   background-color: ${(props: TabProp) => (props.active ? COLORS.BG2 : 'none')};
   cursor: pointer;
   width: 220px;
