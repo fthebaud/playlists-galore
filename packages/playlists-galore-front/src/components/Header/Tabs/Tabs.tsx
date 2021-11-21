@@ -21,6 +21,7 @@ const Tab = styled.div`
     props.active ? `1px solid ${COLORS.FONT2}` : 'none'};
   cursor: pointer;
   width: 220px;
+  min-width: 180px;
   font-size: ${FONT.SIZE.SM};
   &:not(:last-of-type) {
     margin-right: ${spacing(1)};

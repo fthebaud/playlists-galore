@@ -8,8 +8,7 @@ import Card from './Card';
 const Grid = styled.div`
   max-width: 1600px;
   width: 100%;
-  padding-top: ${spacing(3)};
-  padding-bottom: ${spacing(2)};
+  padding: ${`${spacing(2)} 0`};
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 340px);
