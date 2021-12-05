@@ -1,0 +1,39 @@
+{
+  "short_name": "Playlists Galore",
+  "name": "Playlists Galore",
+  "icons": [
+    {
+      "src": "/images/icon-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "150x150"
+    },
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#1e383c",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#47646f",
+  "description": "A great collection of Spotify playlists",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.jpg",
+      "type": "image/jpg",
+      "sizes": "1430x999"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "411x731"
+    }
+  ]
+}
