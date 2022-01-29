@@ -73,7 +73,9 @@ type Props = {
 };
 
 function Card({ playlist }: Props) {
-  const { url } = playlist.images[1]; // 640*640, 300*300, 60*60
+  // 640*640, 300*300, 60*60
+  // When artists get remove from spotify, spotify will send only one picture, or no picture at all...
+  const url = playlist.images[1].url || playlist.images[0].url || '';
   return (
     <Container>
       <Title>{playlist.name.replaceAll('"', '')}</Title>
