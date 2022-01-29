@@ -5,8 +5,6 @@ export const PAGE_SIZE = 24; // should be a multiple of 2 and 3 and 4 since layo
 
 export const SPOTIFY_WEB_PLAYER_URL = 'https://open.spotify.com/playlist';
 
-export const SPOTIFY_APP_URL = 'spotify:playlist';
-
 type TabConfig = {
   [key in Tab]: Category[];
 };

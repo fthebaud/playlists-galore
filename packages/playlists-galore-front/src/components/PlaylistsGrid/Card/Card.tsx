@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SPOTIFY_APP_URL, SPOTIFY_WEB_PLAYER_URL } from '@/config';
+import { SPOTIFY_WEB_PLAYER_URL } from '@/config';
 import { Playlist } from 'playlists-galore-toolbox';
 import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
+import SpotifyIcon from './SpotifyIcon';
+import YoutubeMusicIcon from './YoutubeMusicIcon';
+import AppleMusicIcon from './AppleMusicIcon';
 
 const Container = styled.div`
   background-color: ${COLORS.BG1};
@@ -42,30 +45,24 @@ const RightContainer = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-left: ${spacing(2)}; ;
 `;
 
 const LinksContainer = styled.div`
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: ${`${spacing(2)} ${spacing(4)}`};
-  & > a:first-of-type {
-    margin-bottom: ${spacing(3)};
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
 const Link = styled.a`
-  font-size: ${FONT.SIZE.SM};
-  border-radius: ${BORDER_RADIUS.BASE};
-  background-color: ${COLORS.FONT2};
-  color: ${COLORS.BG1};
-  text-decoration: none;
-  padding: ${spacing(1)};
-  text-align: center;
-  :hover {
-    background-color: ${COLORS.FONT1};
-  }
+  width: 50px;
+  height: 50px;
 `;
 
 type Props = {
@@ -87,14 +84,35 @@ function Card({ playlist }: Props) {
         <RightContainer>
           <TracksTotal>{`${playlist.totalTracks} tracks`}</TracksTotal>
           <LinksContainer>
-            <Link href={`${SPOTIFY_APP_URL}/${playlist.id}`}>App</Link>
-            <Link
-              href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Web
-            </Link>
+            <div>
+              <Link
+                href="https://music.youtube.com/playlist?list=PLvgI9LIWQRSJ3AINKhqK9o2zLG0Axtn2s"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <YoutubeMusicIcon />
+              </Link>
+            </div>
+            <div>
+              <Link
+                // FIXME find all icons from the same source, with the same size
+                style={{ width: 45, height: 45 }}
+                href="https://music.apple.com/fr/playlist/weekend-playlist-13-07-2013/pl.u-AkAmazNixerPd8e"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AppleMusicIcon />
+              </Link>
+            </div>
+            <div>
+              <Link
+                href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SpotifyIcon />
+              </Link>
+            </div>
           </LinksContainer>
         </RightContainer>
       </Content>
