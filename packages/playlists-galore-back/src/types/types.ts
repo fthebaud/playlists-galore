@@ -51,6 +51,5 @@ export type SpotifyPlaylist = {
 
 export type Cache = {
   playlists: Playlist[];
-  timestamp: null | number;
-  status: null | string;
+  timestamp: number;
 };

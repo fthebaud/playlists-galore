@@ -5,20 +5,24 @@ export type Image = {
 };
 
 export type Playlist = {
-  id: string;
   name: string;
-  images: Image[];
   totalTracks: number;
   category: Category | null;
   tags: Tag[];
+  images: Image[];
+  url: {
+    spotify: string;
+    youtube: string;
+    apple: string;
+    deezer: string;
+  };
 };
 
 export type PGResponse = {
   items: Playlist[];
-  total: number;
-  cacheTotal: number;
-  cacheTimestamp: number | null;
-  cacheStatus: string | null;
+  total: number; // total for this request (pages)
+  cacheTotal: number; // grand total
+  cacheTimestamp: number;
 };
 
 export type Category =
@@ -56,3 +60,5 @@ export function isTag(str: string): str is Tag {
     str === 'melancholy'
   );
 }
+
+export type Platform = 'spotify' | 'youtube' | 'apple' | 'deezer';

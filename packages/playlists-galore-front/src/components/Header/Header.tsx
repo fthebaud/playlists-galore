@@ -24,8 +24,7 @@ function Header() {
   return (
     <StyledHeader>
       <Title>PLAYLISTS GALORE</Title>
-      {/* <SubTitle>A great collection of Playlists!</SubTitle> */}
-      <SubTitle>WIP - adding support for apple music and youtube</SubTitle>
+      <SubTitle>A great collection of playlists!</SubTitle>
       <Tabs />
     </StyledHeader>
   );

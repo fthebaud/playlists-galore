@@ -9,7 +9,8 @@ const DeezerIcon = () => (
     viewBox="0 0 512 512"
   >
     <path
-      fill="#231f20"
+      // fill="#231f20"
+      fill="#000000"
       d="
       M 0, 256
       a 256, 256 0 1,0 512,0

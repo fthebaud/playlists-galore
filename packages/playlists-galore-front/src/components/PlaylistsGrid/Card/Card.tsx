@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SPOTIFY_WEB_PLAYER_URL } from '@/config';
 import { Playlist } from 'playlists-galore-toolbox';
 import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
 import SpotifyIcon from './SpotifyIcon';
@@ -40,6 +39,7 @@ const ImageContainer = styled.div`
 const TracksTotal = styled.div`
   font-size: ${FONT.SIZE.SM};
   text-align: center;
+  margin-bottom: ${spacing(1)};
 `;
 
 const RightContainer = styled.div`
@@ -62,8 +62,8 @@ const LinksContainer = styled.div`
 `;
 
 const Link = styled.a`
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 `;
 
 type Props = {
@@ -85,40 +85,40 @@ function Card({ playlist }: Props) {
         <RightContainer>
           <TracksTotal>{`${playlist.totalTracks} tracks`}</TracksTotal>
           <LinksContainer>
-            <div>
+            <div title="Youtube Music">
               <Link
-                href="https://music.youtube.com/playlist?list=PLvgI9LIWQRSJ3AINKhqK9o2zLG0Axtn2s"
+                href={playlist.url.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <YoutubeMusicIcon />
               </Link>
             </div>
-            <div>
+            <div title="Spotify">
               <Link
-                href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+                href={playlist.url.spotify}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SpotifyIcon />
               </Link>
             </div>
-            <div>
+            <div title="Deezer">
               <Link
-                href="https://music.apple.com/fr/playlist/weekend-playlist-13-07-2013/pl.u-AkAmazNixerPd8e"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AppleMusicIcon />
-              </Link>
-            </div>
-            <div>
-              <Link
-                href="https://deezer.page.link/G1qw2Jf6cQpdZ1qB7"
+                href={playlist.url.deezer}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <DeezerIcon />
+              </Link>
+            </div>
+            <div title="Apple Music">
+              <Link
+                href={playlist.url.apple}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AppleMusicIcon />
               </Link>
             </div>
           </LinksContainer>
