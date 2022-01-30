@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 const YoutubeMusicIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
-    <circle cx={24} cy={24} r={20} fill="#f44336" />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <circle cx={24} cy={24} r={24} fill="#f44336" />
     <path fill="#fff" d="m21 29 8-5-8-5z" />
     <path
       fill="none"

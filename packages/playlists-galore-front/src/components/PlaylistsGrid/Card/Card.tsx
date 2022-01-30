@@ -6,6 +6,7 @@ import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
 import SpotifyIcon from './SpotifyIcon';
 import YoutubeMusicIcon from './YoutubeMusicIcon';
 import AppleMusicIcon from './AppleMusicIcon';
+import DeezerIcon from './DeezerIcon';
 
 const Container = styled.div`
   background-color: ${COLORS.BG1};
@@ -95,8 +96,15 @@ function Card({ playlist }: Props) {
             </div>
             <div>
               <Link
-                // FIXME find all icons from the same source, with the same size
-                style={{ width: 45, height: 45 }}
+                href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SpotifyIcon />
+              </Link>
+            </div>
+            <div>
+              <Link
                 href="https://music.apple.com/fr/playlist/weekend-playlist-13-07-2013/pl.u-AkAmazNixerPd8e"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,11 +114,11 @@ function Card({ playlist }: Props) {
             </div>
             <div>
               <Link
-                href={`${SPOTIFY_WEB_PLAYER_URL}/${playlist.id}`}
+                href="https://deezer.page.link/G1qw2Jf6cQpdZ1qB7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <SpotifyIcon />
+                <DeezerIcon />
               </Link>
             </div>
           </LinksContainer>

@@ -18,7 +18,7 @@ const Tab = styled.div`
   border-radius: ${BORDER_RADIUS.LG};
   background-color: ${(props: TabProp) => (props.active ? COLORS.BG2 : 'none')};
   border: ${(props: TabProp) =>
-    props.active ? `1px solid ${COLORS.FONT2}` : 'none'};
+    props.active ? `1px solid ${COLORS.FONT1}` : 'none'};
   cursor: pointer;
   width: 220px;
   min-width: 180px;
