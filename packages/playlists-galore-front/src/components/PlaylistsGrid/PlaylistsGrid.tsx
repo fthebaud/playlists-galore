@@ -23,7 +23,7 @@ function PlaylistsGrid() {
   return (
     <Grid>
       {playlists.map((p) => (
-        <Card key={p.id} playlist={p} />
+        <Card key={p.name} playlist={p} />
       ))}
     </Grid>
   );
