@@ -21,6 +21,7 @@ const Title = styled.div`
   font-weight: ${FONT.WEIGHT.SEMIBOLD};
   text-align: center;
   margin-bottom: ${spacing(1)};
+  user-select: none;
 `;
 
 const Content = styled.div`

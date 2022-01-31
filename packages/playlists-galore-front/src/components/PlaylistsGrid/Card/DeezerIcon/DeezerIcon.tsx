@@ -10,7 +10,7 @@ const DeezerIcon = () => (
   >
     <path
       // fill="#231f20"
-      fill="#000000"
+      fill="#080808"
       d="
       M 0, 256
       a 256, 256 0 1,0 512,0
