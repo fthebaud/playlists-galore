@@ -4,8 +4,9 @@ import { Playlist } from 'playlists-galore-toolbox';
 import { BORDER_RADIUS, COLORS, FONT, spacing } from '@/theme';
 import SpotifyIcon from './SpotifyIcon';
 import YoutubeMusicIcon from './YoutubeMusicIcon';
-import AppleMusicIcon from './AppleMusicIcon';
 import DeezerIcon from './DeezerIcon';
+import TidalIcon from './TidalIcon';
+import AppleMusicIcon from './AppleMusicIcon';
 
 const Container = styled.div`
   background-color: ${COLORS.BG1};
@@ -111,6 +112,15 @@ function Card({ playlist }: Props) {
                 rel="noopener noreferrer"
               >
                 <DeezerIcon />
+              </Link>
+            </div>
+            <div title="Tidal">
+              <Link
+                href={playlist.url.tidal}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TidalIcon />
               </Link>
             </div>
             <div title="Apple Music">

@@ -8,15 +8,7 @@ const DeezerIcon = () => (
     strokeWidth={20}
     viewBox="0 0 512 512"
   >
-    <path
-      // fill="#231f20"
-      fill="#080808"
-      d="
-      M 0, 256
-      a 256, 256 0 1,0 512,0
-      a 256, 256 0 1,0 -512,0
-    "
-    />
+    <circle cx="256" cy="256" r="256" fill="#080808" />
     <path stroke="#f1796e" d="M78 241h64m-64 26h64" />
     <path stroke="#ec2529" d="M78 293h64m-64 26h64m-64 26h64" />
     <path stroke="#f6dd05" d="M148 293h64m-64 26h64m-64 26h64" />

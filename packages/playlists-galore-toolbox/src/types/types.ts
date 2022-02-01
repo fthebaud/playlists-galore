@@ -13,8 +13,9 @@ export type Playlist = {
   url: {
     spotify: string;
     youtube: string;
-    apple: string;
     deezer: string;
+    tidal: string;
+    apple: string;
   };
 };
 
@@ -61,4 +62,4 @@ export function isTag(str: string): str is Tag {
   );
 }
 
-export type Platform = 'spotify' | 'youtube' | 'apple' | 'deezer';
+export type Platform = 'spotify' | 'youtube' | 'deezer' | 'tidal' | 'apple';
