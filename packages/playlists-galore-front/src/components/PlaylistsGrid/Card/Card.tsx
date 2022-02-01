@@ -116,7 +116,8 @@ function Card({ playlist }: Props) {
             </div>
             <div title="Tidal">
               <Link
-                href={playlist.url.tidal}
+                // href={playlist.url.tidal}
+                href="https://tidal.com/browse/playlist/d75ede2e-5fbf-4b0e-b03c-e6d084cdb5be"
                 target="_blank"
                 rel="noopener noreferrer"
               >

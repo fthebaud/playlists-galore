@@ -32,7 +32,8 @@ export default [
     totalTracks: 14,
     url: {
       spotify: 'https://open.spotify.com/playlist/4VYGyWJAyegSy0MFioDbDi',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJiafh4LicuyKCoYQmFUJxT',
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-21-09-2013/pl.u-b3b8D74IK7Z4lJ7',
       deezer: 'https://deezer.page.link/dczhixkyzU3qyjgx7',
@@ -62,7 +63,8 @@ export default [
     totalTracks: 14,
     url: {
       spotify: 'https://open.spotify.com/playlist/4uvrVP15xQAQnkftTeZcKs',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLeU8eDoMq4CNfHAt9_Hh-d',
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-14-09-2013/pl.u-ZmblV8JhV2jg6r2',
       deezer: 'https://deezer.page.link/t4gHUMDVDs3Q7QjF9',
