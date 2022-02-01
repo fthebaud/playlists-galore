@@ -6,7 +6,7 @@ import SpotifyIcon from './SpotifyIcon';
 import YoutubeMusicIcon from './YoutubeMusicIcon';
 import DeezerIcon from './DeezerIcon';
 import TidalIcon from './TidalIcon';
-import AppleMusicIcon from './AppleMusicIcon';
+// import AppleMusicIcon from './AppleMusicIcon';
 
 const Container = styled.div`
   background-color: ${COLORS.BG1};
@@ -87,15 +87,6 @@ function Card({ playlist }: Props) {
         <RightContainer>
           <TracksTotal>{`${playlist.totalTracks} tracks`}</TracksTotal>
           <LinksContainer>
-            <div title="Youtube Music">
-              <Link
-                href={playlist.url.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <YoutubeMusicIcon />
-              </Link>
-            </div>
             <div title="Spotify">
               <Link
                 href={playlist.url.spotify}
@@ -103,6 +94,15 @@ function Card({ playlist }: Props) {
                 rel="noopener noreferrer"
               >
                 <SpotifyIcon />
+              </Link>
+            </div>
+            <div title="Youtube Music">
+              <Link
+                href={playlist.url.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <YoutubeMusicIcon />
               </Link>
             </div>
             <div title="Deezer">
@@ -116,15 +116,14 @@ function Card({ playlist }: Props) {
             </div>
             <div title="Tidal">
               <Link
-                // href={playlist.url.tidal}
-                href="https://tidal.com/browse/playlist/d75ede2e-5fbf-4b0e-b03c-e6d084cdb5be"
+                href={playlist.url.tidal}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <TidalIcon />
               </Link>
             </div>
-            <div title="Apple Music">
+            {/* <div title="Apple Music">
               <Link
                 href={playlist.url.apple}
                 target="_blank"
@@ -132,7 +131,7 @@ function Card({ playlist }: Props) {
               >
                 <AppleMusicIcon />
               </Link>
-            </div>
+            </div> */}
           </LinksContainer>
         </RightContainer>
       </Content>

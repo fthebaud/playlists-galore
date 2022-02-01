@@ -1,13 +1,261 @@
 import { Category, Tag } from 'playlists-galore-toolbox';
 
 // url: {
-//   spotify: 'https://open.spotify.com/playlist/60K6jqK3ujnUiZatHnIW9h',
+//   spotify: 'https://open.spotify.com/playlist/',
 //   youtube: 'https://music.youtube.com/playlist?list=',
-//   apple: '',
 //   deezer: '',
+//   tidal: '',
 // },
 
 export default [
+  {
+    name: 'Weekend playlist [09-11-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731f8918bebb997512b3f48d24ab67616d0000b27347cddb12395d8d976d9ef40eab67616d0000b273678bfbaf23b8dfa454017b0bab67616d0000b273efdda9ceb6900bd17a99a226',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731f8918bebb997512b3f48d24ab67616d0000b27347cddb12395d8d976d9ef40eab67616d0000b273678bfbaf23b8dfa454017b0bab67616d0000b273efdda9ceb6900bd17a99a226',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731f8918bebb997512b3f48d24ab67616d0000b27347cddb12395d8d976d9ef40eab67616d0000b273678bfbaf23b8dfa454017b0bab67616d0000b273efdda9ceb6900bd17a99a226',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0dLHC8yVUCudGa9hByObmo',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLSlK6UueCW4TnVBEXBMfvc',
+      deezer: 'https://deezer.page.link/6BHrVAv5s9osnQZR7',
+      tidal:
+        'https://tidal.com/browse/playlist/b62d1576-2534-4a76-9994-d741b1dfd512',
+    },
+  },
+  {
+    name: 'Weekend playlist [26-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27312d3484fdf6b38a3f025e01eab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2737f7c6f6bb25d1cc115d478cdab67616d0000b273f2b6bebda774909d71e0f796',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27312d3484fdf6b38a3f025e01eab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2737f7c6f6bb25d1cc115d478cdab67616d0000b273f2b6bebda774909d71e0f796',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27312d3484fdf6b38a3f025e01eab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2737f7c6f6bb25d1cc115d478cdab67616d0000b273f2b6bebda774909d71e0f796',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6rrUGw8E8LJYt7ZN9bLJbi',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJ-pmdJI7a0mUy7iqmt7i8g',
+      deezer: 'https://deezer.page.link/2Vqv225wY2oTVfsQ6',
+      tidal:
+        'https://tidal.com/browse/playlist/60ddd6f5-d22e-4bca-9482-01c4c95b3f25',
+    },
+  },
+  {
+    name: 'Heavy boots [21-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2734351e37fa498bdf9492252ceab67616d0000b2736b09479946616a3d77fed533ab67616d0000b273ae63a7a04998276f73d72f1aab67616d0000b273f175274ca503e74b34851784',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2734351e37fa498bdf9492252ceab67616d0000b2736b09479946616a3d77fed533ab67616d0000b273ae63a7a04998276f73d72f1aab67616d0000b273f175274ca503e74b34851784',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2734351e37fa498bdf9492252ceab67616d0000b2736b09479946616a3d77fed533ab67616d0000b273ae63a7a04998276f73d72f1aab67616d0000b273f175274ca503e74b34851784',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: ['melancholy'] as Tag[],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3lZRxEmFaLqO8N6mnlEUPT',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJUfzIatXzgOi_K0SNofLk5',
+      deezer: 'https://deezer.page.link/nMFatxG48taV6hUB9',
+      tidal:
+        'https://tidal.com/browse/playlist/f61e4ee5-799c-4c29-b8fd-75fcb445f1f9',
+    },
+  },
+  {
+    name: 'Acoustic times  [19-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273a5547eb1c8ca57e1e952b679ab67616d0000b273af3f8125ed12e2854fae8d1dab67616d0000b273d1bda10582c382a04e3e6140',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273a5547eb1c8ca57e1e952b679ab67616d0000b273af3f8125ed12e2854fae8d1dab67616d0000b273d1bda10582c382a04e3e6140',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273a5547eb1c8ca57e1e952b679ab67616d0000b273af3f8125ed12e2854fae8d1dab67616d0000b273d1bda10582c382a04e3e6140',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: ['acoustic'] as Tag[],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/17VrWwoPgH9vd0qzQJbznP',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSK0zYHnQg3cfYY2JHMCcwMm',
+      deezer: 'https://deezer.page.link/aQdcZCNY9GnH94PT6',
+      tidal:
+        'https://tidal.com/browse/playlist/3e66d1b7-d357-430b-9e49-19765c16a705',
+    },
+  },
+  {
+    name: 'Weekend playlist [12-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730b52377b2466d5f5552800aeab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b2739eb39412ac03eb70cd2a8ddcab67616d0000b273dcebf3ab0328152a38fbf187',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730b52377b2466d5f5552800aeab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b2739eb39412ac03eb70cd2a8ddcab67616d0000b273dcebf3ab0328152a38fbf187',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730b52377b2466d5f5552800aeab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b2739eb39412ac03eb70cd2a8ddcab67616d0000b273dcebf3ab0328152a38fbf187',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0ELBMxGpQ7lvrvMzmpVOiE',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSIirCu4NlcUfWORcL-mTWuv',
+      deezer: 'https://deezer.page.link/S2h3nVsQ2FT1EbAc6',
+      tidal:
+        'https://tidal.com/browse/playlist/6d991721-40e2-46bb-b070-8d08fc1f4977',
+    },
+  },
+  {
+    name: 'Rock etc. [10-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27318b36d985b0ae01163ca9cf6ab67616d0000b273409373691d3c2025c7d5f846ab67616d0000b27357ebfccbef07ebff2a495843ab67616d0000b273e43d6a0f1d7b32962c5ed162',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27318b36d985b0ae01163ca9cf6ab67616d0000b273409373691d3c2025c7d5f846ab67616d0000b27357ebfccbef07ebff2a495843ab67616d0000b273e43d6a0f1d7b32962c5ed162',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27318b36d985b0ae01163ca9cf6ab67616d0000b273409373691d3c2025c7d5f846ab67616d0000b27357ebfccbef07ebff2a495843ab67616d0000b273e43d6a0f1d7b32962c5ed162',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: ['rock'] as Tag[],
+    totalTracks: 14,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2f3XDqoaEnWXKB4FOJ1J7S',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSK900mr5YptlalniLV_85EG',
+      deezer: 'https://deezer.page.link/btMUSoJm63qKnjpx6',
+      tidal:
+        'https://tidal.com/browse/playlist/e070ba12-fa2f-4a08-a1b6-11b7ca840928',
+    },
+  },
+  {
+    name: 'Weekend playlist [05-10-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2736389f6637424ebc08ec8584dab67616d0000b2737052917d526e356d1d71b79dab67616d0000b273cafe9404f872e4c0e91a8cc8ab67616d0000b273f26381cb5d0eb1068f9d44ae',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2736389f6637424ebc08ec8584dab67616d0000b2737052917d526e356d1d71b79dab67616d0000b273cafe9404f872e4c0e91a8cc8ab67616d0000b273f26381cb5d0eb1068f9d44ae',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2736389f6637424ebc08ec8584dab67616d0000b2737052917d526e356d1d71b79dab67616d0000b273cafe9404f872e4c0e91a8cc8ab67616d0000b273f26381cb5d0eb1068f9d44ae',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1oo6FRAWGshjNs4zxW1WKc',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSK30081B_GqCwMtw2OFg70B',
+      deezer: 'https://deezer.page.link/4ZoXnWNHEzyuWGvJ9',
+      tidal:
+        'https://tidal.com/browse/playlist/d5a135a3-3858-4020-9b19-7e90fb4f48f5',
+    },
+  },
+  {
+    name: 'Weekend playlist [28-09-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731d97ca7376f835055f828139ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b27387a7cb4cff1869085a220cf6ab67616d0000b273e7fc5b50ff71f92809db9d79',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731d97ca7376f835055f828139ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b27387a7cb4cff1869085a220cf6ab67616d0000b273e7fc5b50ff71f92809db9d79',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731d97ca7376f835055f828139ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b27387a7cb4cff1869085a220cf6ab67616d0000b273e7fc5b50ff71f92809db9d79',
+        width: 60,
+      },
+    ],
+    category: 'weekly' as Category,
+    tags: [],
+    totalTracks: 14,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1im8Ngwldo6E1rA9lZwfS2',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSIk-vCpLJLbzqMVDkQMFZbc',
+      deezer: 'https://deezer.page.link/ve9h49pehSqbef37A',
+      tidal:
+        'https://tidal.com/browse/playlist/a61e810d-409b-434f-a09b-6d1e012446d0',
+    },
+  },
   {
     name: 'Weekend playlist [21-09-2013]',
     images: [
@@ -37,6 +285,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-21-09-2013/pl.u-b3b8D74IK7Z4lJ7',
       deezer: 'https://deezer.page.link/dczhixkyzU3qyjgx7',
+      tidal:
+        'https://tidal.com/browse/playlist/9d5d90e0-006b-4964-b911-b9229b21898f',
     },
   },
   {
@@ -68,6 +318,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-14-09-2013/pl.u-ZmblV8JhV2jg6r2',
       deezer: 'https://deezer.page.link/t4gHUMDVDs3Q7QjF9',
+      tidal:
+        'https://tidal.com/browse/playlist/83c5cac1-bfbc-46cd-8461-8c85a37f3704',
     },
   },
   {
@@ -99,6 +351,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-07-09-2013/pl.u-b3b8V49cK7Z4lJ7',
       deezer: 'https://deezer.page.link/Tw3aTLwuiFRkJM4a7',
+      tidal:
+        'https://tidal.com/browse/playlist/809e7f05-cd1b-4113-b9c1-4cfface95b09',
     },
   },
   {
@@ -130,6 +384,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-03-08-2013/pl.u-6mo4aVyc8LbJvzL',
       deezer: 'https://deezer.page.link/Neu4dgwdLbd5mCQe8',
+      tidal:
+        'https://tidal.com/browse/playlist/d9255002-ab71-4455-bbdb-428fa3f1f9e0',
     },
   },
   {
@@ -161,6 +417,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-27-07-2013/pl.u-BNA6Yabuebgrdkb',
       deezer: 'https://deezer.page.link/w983Un4R64Q2SyCG6',
+      tidal:
+        'https://tidal.com/browse/playlist/b9f835a7-369a-4751-ac12-24711f50efca',
     },
   },
   {
@@ -192,6 +450,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-20-07-2013/pl.u-AkAm8EytxerPd8e',
       deezer: 'https://deezer.page.link/67r8C362k4KYW4C6A',
+      tidal:
+        'https://tidal.com/browse/playlist/9bf94244-c366-4756-be82-84b29cc2e522',
     },
   },
   {
@@ -223,6 +483,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-13-07-2013/pl.u-AkAmazNixerPd8e?l=en',
       deezer: 'https://deezer.page.link/kPDdcy3s8LSfzNVz9',
+      tidal:
+        'https://tidal.com/browse/playlist/b56465c1-b232-4335-95f3-02def8cea9f1',
     },
   },
   {
@@ -244,6 +506,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/neil-young-07-2013/pl.u-leyl0kPUMG4JKaG',
       deezer: 'https://deezer.page.link/1qgkok5eKXgi1wTq9',
+      tidal:
+        'https://tidal.com/browse/playlist/a51a9657-893c-474b-8315-700fc6561f4b',
     },
   },
   {
@@ -275,6 +539,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-06-07-2013/pl.u-b3b8DaghK7Z4lJ7',
       deezer: 'https://deezer.page.link/CNc84hwr4Qp3hLXi8',
+      tidal:
+        'https://tidal.com/browse/playlist/0394b013-597a-4f09-9a03-aa19d3175454',
     },
   },
   {
@@ -306,6 +572,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-30-06-2013/pl.u-vxy6kL3TW3LMqK3',
       deezer: 'https://deezer.page.link/apnunjVcQANEeQNf6',
+      tidal:
+        'https://tidal.com/browse/playlist/29b479a8-5ecb-4d72-ab2d-7ef911edb501',
     },
   },
   {
@@ -337,6 +605,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-23-06-2013/pl.u-RRbVvBNsmM2KlqM',
       deezer: 'https://deezer.page.link/9Zdk5EhcmgujThSLA',
+      tidal:
+        'https://tidal.com/browse/playlist/e9f0da29-1082-4d62-bb11-f2f091d3eaad',
     },
   },
 
@@ -369,6 +639,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/rock-etc-19-06-2013/pl.u-b3b8VP8TK7Z4lJ7',
       deezer: 'https://deezer.page.link/Dda6zuz6U6Qgroap6',
+      tidal:
+        'https://tidal.com/browse/playlist/5b06fcd7-862b-4310-a690-ee9ff8f3d808',
     },
   },
   {
@@ -400,6 +672,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-16-06-2013/pl.u-LdbqBamC2PpyB7P',
       deezer: 'https://deezer.page.link/fPmWqamYfszS32Qu7',
+      tidal:
+        'https://tidal.com/browse/playlist/008e5aea-d7a1-4fb5-b023-dc4520da7513',
     },
   },
   {
@@ -431,6 +705,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/rock-etc-12-06-2013/pl.u-BNA6XLNtebgrdkb',
       deezer: 'https://deezer.page.link/VQ7FWJW4NTz8X6vq7',
+      tidal:
+        'https://tidal.com/browse/playlist/088834cf-2ee8-4bdb-8d88-49a58513b756',
     },
   },
   {
@@ -462,6 +738,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-09-06-2013/pl.u-b3b8VGgFK7Z4lJ7',
       deezer: 'https://deezer.page.link/onUBUbkKWZeeSQ2F7',
+      tidal:
+        'https://tidal.com/browse/playlist/b87b122e-f061-4df1-96a3-e5e43e4e14d6',
     },
   },
   {
@@ -493,6 +771,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/acoustic-times-05-06-2013/pl.u-AkAmPNNsxerPd8e',
       deezer: 'https://deezer.page.link/DpS5UBVs41JA4iug7',
+      tidal:
+        'https://tidal.com/browse/playlist/260cd81c-48d9-44bd-ba04-9fdd33749255',
     },
   },
   {
@@ -524,6 +804,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-02-06-2013/pl.u-vxy693YFW3LMqK3',
       deezer: 'https://deezer.page.link/d5iP219BDzCjLAnFA',
+      tidal:
+        'https://tidal.com/browse/playlist/e0efd34d-409d-4ed3-ac82-e12b59654a8c',
     },
   },
   {
@@ -555,6 +837,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-26-05-2013/pl.u-Ymb09oPugNJVmrN',
       deezer: 'https://deezer.page.link/eJzffXCWDXcLp5md7',
+      tidal:
+        'https://tidal.com/browse/playlist/594e7bae-c927-44e4-8dd8-ef965123ceef',
     },
   },
   {
@@ -586,6 +870,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-19-05-2013/pl.u-Ymb0vqgTgNJVmrN',
       deezer: 'https://deezer.page.link/yAVMgmHPJs9wx5SS8',
+      tidal:
+        'https://tidal.com/browse/playlist/8a836fa8-6655-4add-ab1b-74a4a1aeff48',
     },
   },
   {
@@ -617,6 +903,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-12-05-2013/pl.u-RRbVvbRCmM2KlqM',
       deezer: 'https://deezer.page.link/apTTXm6r4QkUkvgs5',
+      tidal:
+        'https://tidal.com/browse/playlist/f73d1899-9e9c-4585-b5dc-0adad708324d',
     },
   },
 
@@ -649,6 +937,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-05-05-2013/pl.u-b3b8Vd4cK7Z4lJ7',
       deezer: 'https://deezer.page.link/YTWesac4ifEDx3jV8',
+      tidal:
+        'https://tidal.com/browse/playlist/91eba154-8be6-4d6c-9f0b-b1d27c821e75',
     },
   },
   {
@@ -680,6 +970,8 @@ export default [
       apple:
         'https://music.apple.com/fr/playlist/weekend-playlist-28-04-2013/pl.u-AkAmPl3cxerPd8e',
       deezer: 'https://deezer.page.link/G1qw2Jf6cQpdZ1qB7',
+      tidal:
+        'https://tidal.com/browse/playlist/d75ede2e-5fbf-4b0e-b03c-e6d084cdb5be',
     },
   },
 ];

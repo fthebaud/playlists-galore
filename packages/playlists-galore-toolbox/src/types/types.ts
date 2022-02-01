@@ -14,7 +14,7 @@ export type Playlist = {
     spotify: string;
     youtube: string;
     deezer: string;
-    tidal?: string;
+    tidal: string;
     apple?: string;
   };
 };
