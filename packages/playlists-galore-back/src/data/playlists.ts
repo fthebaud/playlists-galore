@@ -9,6 +9,316 @@ import { Category, Tag } from 'playlists-galore-toolbox';
 
 export default [
   {
+    name: 'Weekend playlist [01-02-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273029be7d17dc3f70e88f4a9fcab67616d0000b27302c801258f842d9a1ca2bbd4ab67616d0000b2734405ff708ef4f7d2a5fe9cc1ab67616d0000b27373a8b8f4292ed4f6fb53b69c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273029be7d17dc3f70e88f4a9fcab67616d0000b27302c801258f842d9a1ca2bbd4ab67616d0000b2734405ff708ef4f7d2a5fe9cc1ab67616d0000b27373a8b8f4292ed4f6fb53b69c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273029be7d17dc3f70e88f4a9fcab67616d0000b27302c801258f842d9a1ca2bbd4ab67616d0000b2734405ff708ef4f7d2a5fe9cc1ab67616d0000b27373a8b8f4292ed4f6fb53b69c',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5iYLzTMixsu8ACaOiWlqOo',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKMXfMGNI5Zeg6zAjL15bsn',
+      deezer: 'https://deezer.page.link/Bm5kwJRmNAwxJSob8',
+      tidal:
+        'https://tidal.com/browse/playlist/48103a77-8a10-444a-b8a6-7c8a7cb5821c',
+    },
+  },
+  {
+    name: 'Weekend playlist [25-01-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27304ec6a31e30079273e11314cab67616d0000b27313240eb8a1120a344f83542aab67616d0000b273867b90cf936464132b422345ab67616d0000b27398ad15f448051126cfd50f84',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27304ec6a31e30079273e11314cab67616d0000b27313240eb8a1120a344f83542aab67616d0000b273867b90cf936464132b422345ab67616d0000b27398ad15f448051126cfd50f84',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27304ec6a31e30079273e11314cab67616d0000b27313240eb8a1120a344f83542aab67616d0000b273867b90cf936464132b422345ab67616d0000b27398ad15f448051126cfd50f84',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/27XQgf8gW5BEnxDP6BW5ob',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJ35D-cvpZQK72XAFaHYafk',
+      deezer: 'https://deezer.page.link/a2PXWmGiSsC9EybU7',
+      tidal:
+        'https://tidal.com/browse/playlist/b8592455-f683-4bac-ae9d-642d9683e6ff',
+    },
+  },
+  {
+    name: 'Weekend Playlist [18-01-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b27347fbd577c8a1fe19d2b4f437ab67616d0000b27378cb5cdf3ce23b056db47ad7ab67616d0000b273b5d4730e54f84c66c70fe60a',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b27347fbd577c8a1fe19d2b4f437ab67616d0000b27378cb5cdf3ce23b056db47ad7ab67616d0000b273b5d4730e54f84c66c70fe60a',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b27347fbd577c8a1fe19d2b4f437ab67616d0000b27378cb5cdf3ce23b056db47ad7ab67616d0000b273b5d4730e54f84c66c70fe60a',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/7u0VS4HgpcA2ATQuHS7QuG',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLJgGXEsH7PWKpd3M05iSzi',
+      deezer: 'https://deezer.page.link/pHZKNChczorE7kaf6',
+      tidal:
+        'https://tidal.com/browse/playlist/bff37144-9618-4d38-91e9-f790165b8195',
+    },
+  },
+  {
+    name: 'Weekend playlist [11-01-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b2730b1a128867e27ffc617e8a6eab67616d0000b273431ac6e6f393acf475730ec6ab67616d0000b2735588f9dfb81caaa6af9a3724',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b2730b1a128867e27ffc617e8a6eab67616d0000b273431ac6e6f393acf475730ec6ab67616d0000b2735588f9dfb81caaa6af9a3724',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b2730b1a128867e27ffc617e8a6eab67616d0000b273431ac6e6f393acf475730ec6ab67616d0000b2735588f9dfb81caaa6af9a3724',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1JGKG0dk4oSzY62GKJDkWL',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLQ_vUfy07nfyJGYcknEKeU',
+      deezer: 'https://deezer.page.link/VUKrr3wpm5TLykTF7',
+      tidal:
+        'https://tidal.com/browse/playlist/116b7b73-c3a4-4504-8f62-cd1ea3d742d2',
+    },
+  },
+  {
+    name: 'Weekend playlist [04-01-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732a629bed2a15886cccad3a57ab67616d0000b2734fc711d42e9e08a24f79be57ab67616d0000b2737177fb5667cdafd34b871257ab67616d0000b273d2388c226e1ab495973435ab',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732a629bed2a15886cccad3a57ab67616d0000b2734fc711d42e9e08a24f79be57ab67616d0000b2737177fb5667cdafd34b871257ab67616d0000b273d2388c226e1ab495973435ab',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732a629bed2a15886cccad3a57ab67616d0000b2734fc711d42e9e08a24f79be57ab67616d0000b2737177fb5667cdafd34b871257ab67616d0000b273d2388c226e1ab495973435ab',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4nMRAD9CZBKAPPC8EpWOkV',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJej1M1dMdy5AC-w6tMkKZU',
+      deezer: 'https://deezer.page.link/7Am8E7vPFrFmHz9K9',
+      tidal:
+        'https://tidal.com/browse/playlist/9b6817b1-ba4f-4723-bc27-eecf963d1ecb',
+    },
+  },
+  {
+    name: 'Acoustic times [14-12-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b273b7dec3f4ad29ee16c43bcbb0ab67616d0000b273f588cb3893476f78adfc87fa',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b273b7dec3f4ad29ee16c43bcbb0ab67616d0000b273f588cb3893476f78adfc87fa',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b273394fb1e1c77613bb96b9d5ffab67616d0000b273b7dec3f4ad29ee16c43bcbb0ab67616d0000b273f588cb3893476f78adfc87fa',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: ['acoustic'],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0vz8J0kqy76hlv77xvQpIi',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJjp3CRJrdMzZ9izu44m5pQ',
+      deezer: 'https://deezer.page.link/WpS55b4aixRU1aQd8',
+      tidal:
+        'https://tidal.com/browse/playlist/bf6ddda2-8476-4445-9b86-1a78b40707a1',
+    },
+  },
+  {
+    name: 'Weekend playlist [07-12-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2735299f13d4459546003c9e488ab67616d0000b27369592e88bb29d610a35118f8ab67616d0000b2739a2d7013598e55bcf699ad94ab67616d0000b273ed919ff36a349d2b8b9fa48f',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2735299f13d4459546003c9e488ab67616d0000b27369592e88bb29d610a35118f8ab67616d0000b2739a2d7013598e55bcf699ad94ab67616d0000b273ed919ff36a349d2b8b9fa48f',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2735299f13d4459546003c9e488ab67616d0000b27369592e88bb29d610a35118f8ab67616d0000b2739a2d7013598e55bcf699ad94ab67616d0000b273ed919ff36a349d2b8b9fa48f',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1bADVx8z4Nw16gkrNwwQ3i',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSL13en-srtShGdFbVP58IYs',
+      deezer: 'https://deezer.page.link/HabhPH8MkNt74VN39',
+      tidal:
+        'https://tidal.com/browse/playlist/8c7a9284-649c-45ad-afba-c775e483ba4d',
+    },
+  },
+  {
+    name: 'Weekend playlist [30-11-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731a3b42ed1308bdd42492c031ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273560c307eeca71e7443b3b803ab67616d0000b27394a1f961356f2385ebd9ee36',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731a3b42ed1308bdd42492c031ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273560c307eeca71e7443b3b803ab67616d0000b27394a1f961356f2385ebd9ee36',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731a3b42ed1308bdd42492c031ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273560c307eeca71e7443b3b803ab67616d0000b27394a1f961356f2385ebd9ee36',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0C9CYhalWpQiOrM3M5C8C5',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKIwt0tqQb6yJA4MHHhZycf',
+      deezer: 'https://deezer.page.link/ZyoWhnwjhCVhAaRw5',
+      tidal:
+        'https://tidal.com/browse/playlist/1bb7e1a8-dc25-4f4b-a0b7-b962c7144a5f',
+    },
+  },
+  {
+    name: 'Weekend playlist [23-11-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273722e7d476a77c9b16c017249ab67616d0000b273d285503358c3be6e2067e74bab67616d0000b273d4f2a2c5abc30ed9a7789c23ab67616d0000b273e352746da8f6330b42a52f8e',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273722e7d476a77c9b16c017249ab67616d0000b273d285503358c3be6e2067e74bab67616d0000b273d4f2a2c5abc30ed9a7789c23ab67616d0000b273e352746da8f6330b42a52f8e',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273722e7d476a77c9b16c017249ab67616d0000b273d285503358c3be6e2067e74bab67616d0000b273d4f2a2c5abc30ed9a7789c23ab67616d0000b273e352746da8f6330b42a52f8e',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 13,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/15glesyuH4PfQJ61Z7mpFQ',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKLAOHgTUMums0D39P4j-he',
+      deezer: 'https://deezer.page.link/GTwFq8XFrmgWMby4A',
+      tidal:
+        'https://tidal.com/browse/playlist/f9291b7a-997f-4abd-a0df-c2402c59965e',
+    },
+  },
+  {
+    name: 'Weekend playlist [16-11-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2737956a443809e59c5b1f5a10fab67616d0000b273e5570ab9f74cd23ff32ea790',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2737956a443809e59c5b1f5a10fab67616d0000b273e5570ab9f74cd23ff32ea790',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27330adb98f5cd2dd6dd0db2ad7ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2737956a443809e59c5b1f5a10fab67616d0000b273e5570ab9f74cd23ff32ea790',
+        width: 60,
+      },
+    ],
+    category: 'weekly',
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0kLd0iirpPnRruStsExCz6',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSL-0aJefDhMj2RYTwYyuefB',
+      deezer: 'https://deezer.page.link/bd7Sy2RHkw1cmLwa6',
+      tidal:
+        'https://tidal.com/browse/playlist/100189fb-3dff-4bae-94da-bf61c328854f',
+    },
+  },
+  {
     name: 'Weekend playlist [09-11-2013]',
     images: [
       {
