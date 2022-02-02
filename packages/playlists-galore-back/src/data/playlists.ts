@@ -27,7 +27,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 12,
     url: {
@@ -58,7 +58,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 12,
     url: {
@@ -89,7 +89,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 13,
     url: {
@@ -120,7 +120,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 12,
     url: {
@@ -151,7 +151,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 13,
     url: {
@@ -182,8 +182,8 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
-    tags: ['acoustic'],
+    category: 'weekly' as Category,
+    tags: ['acoustic'] as Tag[],
     totalTracks: 15,
     url: {
       spotify: 'https://open.spotify.com/playlist/0vz8J0kqy76hlv77xvQpIi',
@@ -195,7 +195,7 @@ export default [
     },
   },
   {
-    name: 'Weekend playlist [07-12-2013]',
+    name: 'Weekend playlist [07-12-2013]' as Category,
     images: [
       {
         height: 640,
@@ -213,7 +213,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 13,
     url: {
@@ -244,7 +244,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 12,
     url: {
@@ -275,7 +275,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 13,
     url: {
@@ -306,7 +306,7 @@ export default [
         width: 60,
       },
     ],
-    category: 'weekly',
+    category: 'weekly' as Category,
     tags: [],
     totalTracks: 12,
     url: {
