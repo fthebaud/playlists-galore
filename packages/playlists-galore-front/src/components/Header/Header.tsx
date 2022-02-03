@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
 
 const Title = styled.div`
   font-size: ${FONT.SIZE.LG};
-  font-weight: ${FONT.WEIGHT.BOLD};
+  font-weight: ${FONT.WEIGHT.SEMIBOLD};
   margin-bottom: ${spacing(1)};
 `;
 

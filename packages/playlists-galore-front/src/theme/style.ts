@@ -12,7 +12,7 @@ export const BORDER_RADIUS = {
 };
 
 export const FONT = {
-  FAMILY: 'Verdana, Geneva, Tahoma, sans-serif',
+  FAMILY: 'Poppins, Verdana, Geneva, Tahoma, sans-serif',
   // Sizes are given in pixel for 1rem = 16px
   SIZE: {
     '3XS': '0.5rem', // 8px
