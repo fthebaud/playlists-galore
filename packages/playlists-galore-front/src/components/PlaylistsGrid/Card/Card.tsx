@@ -24,6 +24,12 @@ const Title = styled.div`
   margin-bottom: ${spacing(1)};
   user-select: none;
   text-transform: capitalize;
+  // 2 lines clamp
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 `;
 
 const Content = styled.div`
