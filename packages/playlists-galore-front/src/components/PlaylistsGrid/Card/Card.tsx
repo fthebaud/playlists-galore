@@ -17,12 +17,13 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-  height: 40px;
+  height: 50px;
   font-size: ${FONT.SIZE.BASE};
   font-weight: ${FONT.WEIGHT.SEMIBOLD};
   text-align: center;
   margin-bottom: ${spacing(1)};
   user-select: none;
+  text-transform: capitalize;
 `;
 
 const Content = styled.div`
