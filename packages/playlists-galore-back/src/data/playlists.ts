@@ -9,6 +9,396 @@ import { Category, Tag } from 'playlists-galore-toolbox';
 
 export default [
   {
+    name: 'Everything from playlists galore 2016',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 478,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2M4HMj40ogMCcg0tOvbYqK',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/mgYLSit34x5i2ckt6',
+      tidal:
+        'https://tidal.com/browse/playlist/8364e7be-8449-42cc-9452-565607d7b09b',
+    },
+  },
+  {
+    name: 'December 2016 - For the damaged coda',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27309e4ac9a68d9ea5ef0ad9b05ab67616d0000b2738bec82190a3d95aa17a63855ab67616d0000b273a3bfb9fb78b5e545e21617b7ab67616d0000b273b86f9276199af632c42a90cc',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27309e4ac9a68d9ea5ef0ad9b05ab67616d0000b2738bec82190a3d95aa17a63855ab67616d0000b273a3bfb9fb78b5e545e21617b7ab67616d0000b273b86f9276199af632c42a90cc',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27309e4ac9a68d9ea5ef0ad9b05ab67616d0000b2738bec82190a3d95aa17a63855ab67616d0000b273a3bfb9fb78b5e545e21617b7ab67616d0000b273b86f9276199af632c42a90cc',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 52,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/57F1kkKAs3FtNNf85RnK4R',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/3bSag7t8zAa4MCmx8',
+      tidal:
+        'https://tidal.com/browse/playlist/e0c94222-d8e4-4be7-95bd-f1705e18bb4f',
+    },
+  },
+  {
+    name: 'November 2016 - Hypernuit',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2734ce1f2205f2527e609156df7ab67616d0000b27376325e4086cddd085cf6dda6ab67616d0000b273a5ef992caf2355282a9d4c6bab67616d0000b273ec8be21d32e663885fbb244e',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2734ce1f2205f2527e609156df7ab67616d0000b27376325e4086cddd085cf6dda6ab67616d0000b273a5ef992caf2355282a9d4c6bab67616d0000b273ec8be21d32e663885fbb244e',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2734ce1f2205f2527e609156df7ab67616d0000b27376325e4086cddd085cf6dda6ab67616d0000b273a5ef992caf2355282a9d4c6bab67616d0000b273ec8be21d32e663885fbb244e',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 40,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/39dh64m6xiohAibMC366wm',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/CYgMRBRr7LpFia4E7',
+      tidal:
+        'https://tidal.com/browse/playlist/60227802-7429-4efa-af42-30471715430f',
+    },
+  },
+  {
+    name: 'October 2016 - The last night of all nights',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27340c317c62416eaf2b6cc25aaab67616d0000b27343f9b966695f846efe9dff6cab67616d0000b2739cab63388173dde9fab985e1ab67616d0000b273cf0980a55865fb3b63ad89ea',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27340c317c62416eaf2b6cc25aaab67616d0000b27343f9b966695f846efe9dff6cab67616d0000b2739cab63388173dde9fab985e1ab67616d0000b273cf0980a55865fb3b63ad89ea',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27340c317c62416eaf2b6cc25aaab67616d0000b27343f9b966695f846efe9dff6cab67616d0000b2739cab63388173dde9fab985e1ab67616d0000b273cf0980a55865fb3b63ad89ea',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 31,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2CGW8HZ9fDC50ue0zpWvx5',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/UYMsc4AsYgwvQzgf7',
+      tidal:
+        'https://tidal.com/browse/playlist/f0a56e6d-8729-4156-861b-22af7614a869',
+    },
+  },
+  {
+    name: 'September 2016 - I backed my car into a cop car the other day',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273436a305db8bd85b820da3e5aab67616d0000b273db84d3e61b3b59cbc3f3fb5fab67616d0000b273e1e24554b4cd9465ef0a1de1ab67616d0000b273febb93562ed446d9c812e6ff',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273436a305db8bd85b820da3e5aab67616d0000b273db84d3e61b3b59cbc3f3fb5fab67616d0000b273e1e24554b4cd9465ef0a1de1ab67616d0000b273febb93562ed446d9c812e6ff',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273436a305db8bd85b820da3e5aab67616d0000b273db84d3e61b3b59cbc3f3fb5fab67616d0000b273e1e24554b4cd9465ef0a1de1ab67616d0000b273febb93562ed446d9c812e6ff',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 35,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/7Ku86kcQjDxlumeQkZXylS',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/hnLxRESKJoinm5PT8',
+      tidal:
+        'https://tidal.com/browse/playlist/619df348-879c-4d99-9aa2-a478eb2c6375',
+    },
+  },
+  {
+    name: 'August 2016 - Space to Bakersfield',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2736b3d417dd6a2f0cc0b913361ab67616d0000b273c4d5de8930bbc762a68c0bc7ab67616d0000b273d45d9fe183e44174c0c96dedab67616d0000b273e198b6b9c5bfe013458e8ec9',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2736b3d417dd6a2f0cc0b913361ab67616d0000b273c4d5de8930bbc762a68c0bc7ab67616d0000b273d45d9fe183e44174c0c96dedab67616d0000b273e198b6b9c5bfe013458e8ec9',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2736b3d417dd6a2f0cc0b913361ab67616d0000b273c4d5de8930bbc762a68c0bc7ab67616d0000b273d45d9fe183e44174c0c96dedab67616d0000b273e198b6b9c5bfe013458e8ec9',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 35,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5442As37icWswv3Uxf9KGD',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/QJG5WCNVf4ZTRrcS9',
+      tidal:
+        'https://tidal.com/browse/playlist/8557845d-a8e5-4504-990b-f644023d357d',
+    },
+  },
+  {
+    name: 'July 2016 - Have yourself a good time',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27306c9ce73c276e21bbaffca27ab67616d0000b2730c5d0e3309ea2a5b60fc51d8ab67616d0000b27329714d4269c664e606a3050bab67616d0000b2736841c8f2dfa5290983e76e5c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27306c9ce73c276e21bbaffca27ab67616d0000b2730c5d0e3309ea2a5b60fc51d8ab67616d0000b27329714d4269c664e606a3050bab67616d0000b2736841c8f2dfa5290983e76e5c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27306c9ce73c276e21bbaffca27ab67616d0000b2730c5d0e3309ea2a5b60fc51d8ab67616d0000b27329714d4269c664e606a3050bab67616d0000b2736841c8f2dfa5290983e76e5c',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 36,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/60YSJJQGdUEHN3MSgYfVoz',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/TVaQybaj4Su1KzPL8',
+      tidal:
+        'https://tidal.com/browse/playlist/6f8dc276-5424-459a-aadf-1daa86ef5a0a',
+    },
+  },
+  {
+    name: 'June 2016 - How the hell was I suppose to know how to steer the ship?',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273596a3cb8d308b743451c12c0ab67616d0000b273dc535fcdef95c1e8f70ff019ab67616d0000b273f1e91677dd031bdc141dd223ab67616d0000b273f5428c18012f3f0c1f6433b8',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273596a3cb8d308b743451c12c0ab67616d0000b273dc535fcdef95c1e8f70ff019ab67616d0000b273f1e91677dd031bdc141dd223ab67616d0000b273f5428c18012f3f0c1f6433b8',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273596a3cb8d308b743451c12c0ab67616d0000b273dc535fcdef95c1e8f70ff019ab67616d0000b273f1e91677dd031bdc141dd223ab67616d0000b273f5428c18012f3f0c1f6433b8',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 35,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/69gnFogaWBbU6YcUJh4dsw',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/4HEq7shN7wCcL3TC7',
+      tidal:
+        'https://tidal.com/browse/playlist/194aaaad-2686-4b72-b9f5-320be8a49e83',
+    },
+  },
+  {
+    name: 'May 2016 -  So whether music or madness',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273a28dfedcdf769a3d424536adab67616d0000b273c3ef2c75e1f25b89725698b5ab67616d0000b273efaf0241fb94954bbbd8f6a9ab67616d0000b273fcd9b798305b34d3ebd4d7e5',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273a28dfedcdf769a3d424536adab67616d0000b273c3ef2c75e1f25b89725698b5ab67616d0000b273efaf0241fb94954bbbd8f6a9ab67616d0000b273fcd9b798305b34d3ebd4d7e5',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273a28dfedcdf769a3d424536adab67616d0000b273c3ef2c75e1f25b89725698b5ab67616d0000b273efaf0241fb94954bbbd8f6a9ab67616d0000b273fcd9b798305b34d3ebd4d7e5',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 45,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6FbA4X6PcV0SqmR0Yh5IJe',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/VYdhY2ikGHWqcwNa9',
+      tidal:
+        'https://tidal.com/browse/playlist/0f4a1221-25f5-49e2-ad65-afeafed18381',
+    },
+  },
+  {
+    name: 'April 2016 - Swimming in Seattle',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732c50e1871ba9932c745e7fa1ab67616d0000b27378bbecbbcccc2dc6dbfd57afab67616d0000b27385b42b4f4400343f68a8e863ab67616d0000b273bc009dcb7578608697771b74',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732c50e1871ba9932c745e7fa1ab67616d0000b27378bbecbbcccc2dc6dbfd57afab67616d0000b27385b42b4f4400343f68a8e863ab67616d0000b273bc009dcb7578608697771b74',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732c50e1871ba9932c745e7fa1ab67616d0000b27378bbecbbcccc2dc6dbfd57afab67616d0000b27385b42b4f4400343f68a8e863ab67616d0000b273bc009dcb7578608697771b74',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 50,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4pTj80mywSgFXgS3XNj7om',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/czvgRH3A2MDRRgNR9',
+      tidal:
+        'https://tidal.com/browse/playlist/cbee4a92-22a5-440e-a708-3bd1e9f73feb',
+    },
+  },
+  {
+    name: 'March 2016 - From my window to yours',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2734127a48608e57e28091f3f89ab67616d0000b2734dc92c5a481a4e3bd97b95ebab67616d0000b2737802cff47a623a38b6ff8f56ab67616d0000b273b04c039e74c446e17740e23e',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2734127a48608e57e28091f3f89ab67616d0000b2734dc92c5a481a4e3bd97b95ebab67616d0000b2737802cff47a623a38b6ff8f56ab67616d0000b273b04c039e74c446e17740e23e',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2734127a48608e57e28091f3f89ab67616d0000b2734dc92c5a481a4e3bd97b95ebab67616d0000b2737802cff47a623a38b6ff8f56ab67616d0000b273b04c039e74c446e17740e23e',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 50,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1fRgnICgv2xxUOShZK1zOq',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/659kyHoQNaWQgmBy8',
+      tidal:
+        'https://tidal.com/browse/playlist/d723a417-41a7-4405-8074-106e0242731c',
+    },
+  },
+  {
+    name: 'February 2016 - Just another story',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732d3501bacbc6ca9aa2d256b1ab67616d0000b2732fc789f1ecee421b1182e6c3ab67616d0000b2739b4d5b9832750f44d04433bcab67616d0000b273e6d1629805bf97c4fd363376',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732d3501bacbc6ca9aa2d256b1ab67616d0000b2732fc789f1ecee421b1182e6c3ab67616d0000b2739b4d5b9832750f44d04433bcab67616d0000b273e6d1629805bf97c4fd363376',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732d3501bacbc6ca9aa2d256b1ab67616d0000b2732fc789f1ecee421b1182e6c3ab67616d0000b2739b4d5b9832750f44d04433bcab67616d0000b273e6d1629805bf97c4fd363376',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 50,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/72zepBGo3pqJ9xAufAl9e2',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/GNFSBHTesbPxrji97',
+      tidal:
+        'https://tidal.com/browse/playlist/b88d11fc-2828-4845-bc79-3bfd164baf4e',
+    },
+  },
+  {
+    name: 'January 2016 - In the shadow of Mount Rainier',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731c5b33cff628b59209171ea6ab67616d0000b27328d7d304f978787274a355aeab67616d0000b273296dda28780aec1fa9efb711ab67616d0000b2736abcebae84aa6cbcc4291eec',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 50,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0pdPSOHXNLPlSbcVpcyX5q',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/5Yw7KoXHGihUKh3P7',
+      tidal:
+        'https://tidal.com/browse/playlist/b9f3d11a-0ee8-4b7d-b447-694340d4feff',
+    },
+  },
+  {
     name: 'Everything from Playlists Galore 2013-2015',
     images: [
       {
@@ -872,7 +1262,8 @@ export default [
     totalTracks: 12,
     url: {
       spotify: 'https://open.spotify.com/playlist/5PQRXEDAomZebBxBINVosa',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKmG_heh5v9kFSSE87ON_Sk',
       deezer: 'https://deezer.page.link/DUKcZuP93phmDtJW8',
       tidal:
         'https://tidal.com/browse/playlist/7e72a179-57f6-4201-bb9a-86cf05dd12dd',
@@ -902,7 +1293,8 @@ export default [
     totalTracks: 12,
     url: {
       spotify: 'https://open.spotify.com/playlist/3eA9Mt47ZIjNBtFNnVWs0f',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKrVgz377u5W5V5mHoe7vLM',
       deezer: 'https://deezer.page.link/3pXy8vxg6J8NPe3J9',
       tidal:
         'https://tidal.com/browse/playlist/43aa5711-0ae1-44f5-a6cd-e5f8ba516e54',
@@ -932,7 +1324,8 @@ export default [
     totalTracks: 13,
     url: {
       spotify: 'https://open.spotify.com/playlist/4Wh1EI3BwGBKJYsPQ6VeJX',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSICp0TlfVIZWGZO-MP6KCVd',
       deezer: 'https://deezer.page.link/sj5wgvMiB4hPZL6i8',
       tidal:
         'https://tidal.com/browse/playlist/2beadda5-2b4b-4afe-b2b0-1814136bff2b',
@@ -962,7 +1355,8 @@ export default [
     totalTracks: 13,
     url: {
       spotify: 'https://open.spotify.com/playlist/60Iz6JjgzYxug20kP95wzg',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKr7xdRe4bkZh2NLCPk4Gob',
       deezer: 'https://deezer.page.link/GDTqtSrZJA5bXtJs6',
       tidal:
         'https://tidal.com/browse/playlist/c3531281-6d42-4dab-9f72-bf1b8f2829d1',
@@ -992,7 +1386,8 @@ export default [
     totalTracks: 12,
     url: {
       spotify: 'https://open.spotify.com/playlist/0ma194fGihJjrFkbTwVa1b',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKo10y83SB5vVoGfd2-K7Iy',
       deezer: 'https://deezer.page.link/y7fJVDCNfuLA6tJG9',
       tidal:
         'https://tidal.com/browse/playlist/7990ca25-6e4b-4578-aa85-7bf229049e36',
@@ -1022,7 +1417,8 @@ export default [
     totalTracks: 13,
     url: {
       spotify: 'https://open.spotify.com/playlist/345KhDNMhL6T7MJpaYE3bm',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKGxS2z7kAkLW__GnDXBaVQ',
       deezer: 'https://deezer.page.link/jyp9erx76ZUKr23k7',
       tidal:
         'https://tidal.com/browse/playlist/df9f8d93-3d0c-4200-880b-ec1e2e664871',
@@ -1052,7 +1448,8 @@ export default [
     totalTracks: 12,
     url: {
       spotify: 'https://open.spotify.com/playlist/5PYc1FTc282NH8jpfE0d5O',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJPtjOiTIFFtaOGxHkzkwSS',
       deezer: 'https://deezer.page.link/SDXrFM4dxSakkcxH9',
       tidal:
         'https://tidal.com/browse/playlist/4459c336-e5a4-4c8b-bfb9-8bf6522eb363',
@@ -1112,7 +1509,8 @@ export default [
     totalTracks: 14,
     url: {
       spotify: 'https://open.spotify.com/playlist/32zZsh4Unj3cczZ54iS2jW',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSIw3pcZIdoSa5AAL9Ot5E2Y',
       deezer: 'https://deezer.page.link/N7bpPKDK4L96tP5g7',
       tidal:
         'https://tidal.com/browse/playlist/ef776f2a-bc98-4047-ab88-9bc340a1ee28',
@@ -1142,7 +1540,8 @@ export default [
     totalTracks: 13,
     url: {
       spotify: 'https://open.spotify.com/playlist/56UPI4kgEedN7prpXIbJVm',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSK20YK7PqKnSDfDq4ssjlXB',
       deezer: 'https://deezer.page.link/8YwYKGKSaTrDWjM69',
       tidal:
         'https://tidal.com/browse/playlist/fe17b1db-66ad-4f3e-a374-7c6db4ba3354',
@@ -1172,7 +1571,8 @@ export default [
     totalTracks: 13,
     url: {
       spotify: 'https://open.spotify.com/playlist/0puIwoxpX3RXxsKJiGJKTa',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSL0_Qgsjscqj65g8To_Nrlb',
       deezer: 'https://deezer.page.link/gjbEeph1jV2FhuFW7',
       tidal:
         'https://tidal.com/browse/playlist/ca1be464-d88a-409d-8d32-db61f5cd9b9f',
