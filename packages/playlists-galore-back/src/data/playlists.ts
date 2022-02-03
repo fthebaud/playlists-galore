@@ -33,8 +33,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/5lrFtHFWL2RNyGeYOqFCNQ',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/Co8W1QfcxzLJCx9g9',
+      tidal:
+        'https://tidal.com/browse/playlist/49d10629-4fee-43bb-9626-9f8fc429d4ee',
     },
   },
   {
@@ -62,8 +63,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/0c7DAwo8hQTACUZgHkvlL3',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/f1huVfsuie15ZwWn8',
+      tidal:
+        'https://tidal.com/browse/playlist/e01f5538-4b18-4319-a938-254fc94ff922',
     },
   },
   {
@@ -91,8 +93,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/7HTQf2AuM1YQi6TyQ91Wa3',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/j8CDJzWUyFWXSnvA7',
+      tidal:
+        'https://tidal.com/browse/playlist/12a44432-5cfe-45fa-8b4a-ea0309916df7',
     },
   },
   {
@@ -120,8 +123,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/5M8yWjptNUzisnwZATeYKG',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/LSmzuhPfN4phNN919',
+      tidal:
+        'https://tidal.com/browse/playlist/af315b9f-37e3-4700-b184-39c6743446bf',
     },
   },
   {
@@ -149,8 +153,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/2t4fPapzbiGB90GQm4idQj',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/tCJyvm2GCx6mw8k48',
+      tidal:
+        'https://tidal.com/browse/playlist/90d8870d-1ab9-4296-88a7-4818ef6813c8',
     },
   },
   {
@@ -178,8 +183,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/2oJLX4C2wxzoYmSLurlMfX',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/QKLVW15G8kTrUxyZA',
+      tidal:
+        'https://tidal.com/browse/playlist/445f6fb4-7003-41bb-8e5d-2513e69c8d70',
     },
   },
   {
@@ -207,8 +213,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/0AuyyByYtwRH7z9iAKQRVe',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/ZNv6nWgaeQpeszvy8',
+      tidal:
+        'https://tidal.com/browse/playlist/0f7ff7a7-7ecc-4c6d-a33c-f620ab457d0c',
     },
   },
   {
@@ -236,8 +243,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/20gLoP7a0tExspBnLIrWta',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/ViTj72rn79FsVGC49',
+      tidal:
+        'https://tidal.com/browse/playlist/960e7409-edd2-4db9-9765-c22e17a176d3',
     },
   },
   {
@@ -265,8 +273,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/0ETldkVax0q9z6BiU5MMAU',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/ZuC5A9xWvPZWLWqn6',
+      tidal:
+        'https://tidal.com/browse/playlist/d81d1426-3b95-42c1-ac61-92ff3bf19be3',
     },
   },
   {
@@ -294,8 +303,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/67hXJ2KZ8aAT0MRL4RTXoX',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/WERvrLRxgymGDbMH8',
+      tidal:
+        'https://tidal.com/browse/playlist/e76a78b0-15c2-41c4-ac4a-d2b0c141fd20',
     },
   },
   {
@@ -323,8 +333,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/2FtkHenRmht2VK82umAyow',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/ves6h1SHB3XaYgRe8',
+      tidal:
+        'https://tidal.com/browse/playlist/44d964bf-516f-44ba-8783-180101ac934f',
     },
   },
   {
@@ -352,8 +363,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/6KbBU7psKL7Yo0OcbpP7aG',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/miY4hgXP6k7yu5519',
+      tidal:
+        'https://tidal.com/browse/playlist/855375ba-bf91-48a6-8175-062790c3966a',
     },
   },
   {
@@ -381,8 +393,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/4NREhpl3XikutYpnrc6v1s',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/WT3L6HZv8KKCozBr8',
+      tidal:
+        'https://tidal.com/browse/playlist/c42279cb-59df-4df9-94ae-efd9bd8525e0',
     },
   },
   {
@@ -410,8 +423,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/0u2kvluf1flr9fOuDaDxD1',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/varW13WX2juoThtk9',
+      tidal:
+        'https://tidal.com/browse/playlist/73730407-06e6-4b94-bdf4-36b96e0f4b3b',
     },
   },
   {
@@ -439,8 +453,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/0Ks5DVbAiNS9qVKXdk1rv8',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/jPeYriPESwwGdvdz8',
+      tidal:
+        'https://tidal.com/browse/playlist/1e1d76aa-6816-457e-b650-b59fc8c9918e',
     },
   },
   {
@@ -468,8 +483,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/082n0P5MBCmLKWAKFF4860',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/SKA2BKw3ML3LakQt6',
+      tidal:
+        'https://tidal.com/browse/playlist/91827eab-1676-4d2f-916f-9ea5ed38bfd9',
     },
   },
   {
@@ -497,8 +513,9 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/5RNEtdHUgspylxOfRLfhqn',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: '',
-      tidal: '',
+      deezer: 'https://deezer.page.link/R2AEB71vohBp4Eqq9',
+      tidal:
+        'https://tidal.com/browse/playlist/995ed533-ba39-4ff1-88da-d9bc43a20e60',
     },
   },
   {
