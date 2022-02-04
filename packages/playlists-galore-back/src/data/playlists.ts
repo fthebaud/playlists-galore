@@ -39,6 +39,66 @@ export default [
     },
   },
   {
+    name: 'Ambient Sounds / Neo-Classical',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27374213d4ecc4361089167ce25ab67616d0000b27381804089a7089e0d49694b44ab67616d0000b273bdab518379fc931582775a69ab67616d0000b273e9128db4d794d31b9af2fdec',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27374213d4ecc4361089167ce25ab67616d0000b27381804089a7089e0d49694b44ab67616d0000b273bdab518379fc931582775a69ab67616d0000b273e9128db4d794d31b9af2fdec',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27374213d4ecc4361089167ce25ab67616d0000b27381804089a7089e0d49694b44ab67616d0000b273bdab518379fc931582775a69ab67616d0000b273e9128db4d794d31b9af2fdec',
+        width: 60,
+      },
+    ],
+    category: 'ongoing' as Category,
+    tags: [],
+    totalTracks: 231,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0bSX1pd4ds057UqZiso8jH',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/MpwojiMvFVaBRBLJA',
+      tidal:
+        'https://tidal.com/browse/playlist/442e9f4a-61be-464c-9ca0-bb3aae587703',
+    },
+  },
+  {
+    name: 'From Compact Cassette',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273cb36263c2b6371b25c2e7a49ab67616d0000b273fb4bf66f138bea721c221442',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273cb36263c2b6371b25c2e7a49ab67616d0000b273fb4bf66f138bea721c221442',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273cb36263c2b6371b25c2e7a49ab67616d0000b273fb4bf66f138bea721c221442',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 64,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3phb6HmOTkdvq6bYFBF5xf',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/m8cm17QUN7EPQdD46',
+      tidal:
+        'https://tidal.com/browse/playlist/62a9298f-6c14-4769-9cf6-577eb86adbce',
+    },
+  },
+  {
     name: 'Everything from playlists galore 2021',
     images: [
       {
@@ -66,6 +126,36 @@ export default [
       deezer: 'https://deezer.page.link/N18G2EaT4MgFa7au5',
       tidal:
         'https://tidal.com/browse/playlist/02189f65-ead9-4a92-aadf-937123d99529',
+    },
+  },
+  {
+    name: "2020, Summer of n'importe quoi",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731d86f0dd2c46c5d75cf07bddab67616d0000b27354c5c304064df85d61253ac7ab67616d0000b273b33d46dfa2635a47eebf63b2ab67616d0000b273b98afa12c212cbbda4f1799b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731d86f0dd2c46c5d75cf07bddab67616d0000b27354c5c304064df85d61253ac7ab67616d0000b273b33d46dfa2635a47eebf63b2ab67616d0000b273b98afa12c212cbbda4f1799b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731d86f0dd2c46c5d75cf07bddab67616d0000b27354c5c304064df85d61253ac7ab67616d0000b273b33d46dfa2635a47eebf63b2ab67616d0000b273b98afa12c212cbbda4f1799b',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 169,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0U01gCf7XXzvcJ6tfG9BzA',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/ZJP6AuQFmX5AoUZe9',
+      tidal:
+        'https://tidal.com/browse/playlist/8fb1f8d6-8313-443b-84e9-d9a14586bf8f',
     },
   },
   {
@@ -271,7 +361,7 @@ export default [
     tags: [],
     totalTracks: 15,
     url: {
-      spotify: 'https://open.spotify.com/playlist/5SRLZsrCHL1x2wDsUh4d6o',
+      spotify: 'https://open.spotify.com/playlist/5SRLZsrCHL1x2wDh4d6o',
       youtube: 'https://music.youtube.com/playlist?list=FIXME',
       deezer: 'https://deezer.page.link/hYcWt8hWzd3Yvr2GA',
       tidal:
@@ -2258,36 +2348,7 @@ export default [
         'https://tidal.com/browse/playlist/e6c85309-2d48-4fef-86eb-1cf92c34b6a5',
     },
   },
-  {
-    name: 'Bruce Springsteen - studio versions [10-2014]',
-    images: [
-      {
-        height: 640,
-        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
-        width: 640,
-      },
-      {
-        height: 300,
-        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
-        width: 300,
-      },
-      {
-        height: 60,
-        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
-        width: 60,
-      },
-    ],
-    category: 'artist' as Category,
-    tags: [],
-    totalTracks: 30,
-    url: {
-      spotify: 'https://open.spotify.com/playlist/0XuAhVmMBilCYYzBwq3zAW',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
-      deezer: 'https://deezer.page.link/2R7EmgbFc7Zqip6GA',
-      tidal:
-        'https://tidal.com/browse/playlist/051f073f-3466-4513-9609-d7637b5ea1b6',
-    },
-  },
+
   {
     name: 'Weekend playlist [11-10-2014]',
     images: [
@@ -3568,29 +3629,6 @@ export default [
     },
   },
   {
-    name: 'Neil Young [07-2013]',
-    images: [
-      {
-        height: 640,
-        url: 'https://i.scdn.co/image/ab67616d0000b27385ec0264a22d007c1cbd780c',
-        width: 640,
-      },
-    ],
-    category: 'artist' as Category,
-    tags: [],
-    totalTracks: 24,
-    url: {
-      spotify: 'https://open.spotify.com/playlist/3sLZhGTPrhaiaFkOa1Z3rS',
-      youtube:
-        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLkfG45GuOS_ainIdvlJpfB',
-      apple:
-        'https://music.apple.com/fr/playlist/neil-young-07-2013/pl.u-leyl0kPUMG4JKaG',
-      deezer: 'https://deezer.page.link/1qgkok5eKXgi1wTq9',
-      tidal:
-        'https://tidal.com/browse/playlist/a51a9657-893c-474b-8315-700fc6561f4b',
-    },
-  },
-  {
     name: 'Weekend playlist [06-07-2013]',
     images: [
       {
@@ -4052,6 +4090,300 @@ export default [
       deezer: 'https://deezer.page.link/G1qw2Jf6cQpdZ1qB7',
       tidal:
         'https://tidal.com/browse/playlist/d75ede2e-5fbf-4b0e-b03c-e6d084cdb5be',
+    },
+  },
+  {
+    name: 'Songs For Sunny Days',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b27340404a50cc12e75859d1dcc0ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2736eba1a0996d9e69ad20ec88b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b27340404a50cc12e75859d1dcc0ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2736eba1a0996d9e69ad20ec88b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730a719f2817838a22e6a7e8c9ab67616d0000b27340404a50cc12e75859d1dcc0ab67616d0000b2734e85d671974cb8fed8d31eabab67616d0000b2736eba1a0996d9e69ad20ec88b',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5uSuXpXaF9l4KUKndnFb6J',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/RrgYrhQWjWm9CfPy5',
+      tidal:
+        'https://tidal.com/browse/playlist/3a02cf73-5b4c-4873-961a-4cdf53262276',
+    },
+  },
+  {
+    name: 'Sunny Side Up, part 1 - Ocean',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27339eaffcfbe2373e4dcbfc723ab67616d0000b2737f86e909c35dbdc9b670d7a6ab67616d0000b273a38f4c1b8f53a2f792ffb561ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27339eaffcfbe2373e4dcbfc723ab67616d0000b2737f86e909c35dbdc9b670d7a6ab67616d0000b273a38f4c1b8f53a2f792ffb561ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27339eaffcfbe2373e4dcbfc723ab67616d0000b2737f86e909c35dbdc9b670d7a6ab67616d0000b273a38f4c1b8f53a2f792ffb561ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2vIrBMLyph3sj6JrdERdj6',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/q3Q5yvhky6JyANVw7',
+      tidal:
+        'https://tidal.com/browse/playlist/b35938ff-29a9-46a7-a231-1ce8b6846240',
+    },
+  },
+  {
+    name: 'Sunny Side Up, part 2 - Waves',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273867b90cf936464132b422345ab67616d0000b273ea1cf454ec02367d76573c4f',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273867b90cf936464132b422345ab67616d0000b273ea1cf454ec02367d76573c4f',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731bb55c056ec68c6b0251c672ab67616d0000b273550133f6d334ed152d75aa56ab67616d0000b273867b90cf936464132b422345ab67616d0000b273ea1cf454ec02367d76573c4f',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0B62poAYg53NCQx8l6mMuM',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/yvTm2bojQjL4wMkZ8',
+      tidal:
+        'https://tidal.com/browse/playlist/5ce5c89c-38cf-4223-9245-912ea2880d80',
+    },
+  },
+  {
+    name: 'Our beautiful ridiculous plans',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27321c8fd8cba79e6aaccc8ebf8ab67616d0000b27343aafb2edd88b9447f49337dab67616d0000b2735a902940f70dace67d4c4547ab67616d0000b273888984c673d091de82093c27',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27321c8fd8cba79e6aaccc8ebf8ab67616d0000b27343aafb2edd88b9447f49337dab67616d0000b2735a902940f70dace67d4c4547ab67616d0000b273888984c673d091de82093c27',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27321c8fd8cba79e6aaccc8ebf8ab67616d0000b27343aafb2edd88b9447f49337dab67616d0000b2735a902940f70dace67d4c4547ab67616d0000b273888984c673d091de82093c27',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: ['melancholy'] as Tag[],
+    totalTracks: 17,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6gWl98nUazP4oT0VJGuNY4',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/zmb58bySuokWTLoL8',
+      tidal:
+        'https://tidal.com/browse/playlist/de8ae243-e8e7-41b6-a8a2-911dc6937e77',
+    },
+  },
+  {
+    name: 'Over And Out',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273249e18bd7db232c8384924ceab67616d0000b273a5818379975d1815f7f4e1b2ab67616d0000b273ea4a809945577485a4f67e25ab67616d0000b273fedf50b4492ace75c44ec6e1',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273249e18bd7db232c8384924ceab67616d0000b273a5818379975d1815f7f4e1b2ab67616d0000b273ea4a809945577485a4f67e25ab67616d0000b273fedf50b4492ace75c44ec6e1',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273249e18bd7db232c8384924ceab67616d0000b273a5818379975d1815f7f4e1b2ab67616d0000b273ea4a809945577485a4f67e25ab67616d0000b273fedf50b4492ace75c44ec6e1',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: ['melancholy'] as Tag[],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/663kjSS1FVatOYHMtHeogE',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/Yc2QMQ983RgPwwUV9',
+      tidal:
+        'https://tidal.com/browse/playlist/77eb6e4a-0c70-4df0-bba3-45d0a6271d7a',
+    },
+  },
+  {
+    name: 'D/\\nCe',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b273235e762de339c6076aa824ddab67616d0000b2738e9207484b4e41926b613103ab67616d0000b273ee0d0dce888c6c8a70db6e8b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b273235e762de339c6076aa824ddab67616d0000b2738e9207484b4e41926b613103ab67616d0000b273ee0d0dce888c6c8a70db6e8b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731e59786a357e89cac748f317ab67616d0000b273235e762de339c6076aa824ddab67616d0000b2738e9207484b4e41926b613103ab67616d0000b273ee0d0dce888c6c8a70db6e8b',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 21,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/565d22AZojeZyx5RBTqhg6',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/565sRnsxLDcNJmgXA',
+      tidal:
+        'https://tidal.com/browse/playlist/deac3ac9-ab19-437f-af6d-5e829123fb12',
+    },
+  },
+  {
+    name: 'Bruce Springsteen - studio versions [10-2014]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730e987064364e2b62ae1925b4ab67616d0000b273503143a281a3f30268dcd9f9ab67616d0000b2738935cadb8e3e20d9fab4582eab67616d0000b273e2bb936c55fb54b0b9fdc666',
+        width: 60,
+      },
+    ],
+    category: 'artist' as Category,
+    tags: [],
+    totalTracks: 30,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0XuAhVmMBilCYYzBwq3zAW',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/2R7EmgbFc7Zqip6GA',
+      tidal:
+        'https://tidal.com/browse/playlist/051f073f-3466-4513-9609-d7637b5ea1b6',
+    },
+  },
+  {
+    name: 'Seattle bands [08-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733f75e6d2ec7582778c4ac67fab67616d0000b273658818c29a0b677a54973363ab67616d0000b273e24a7eeca7a6ec51f00feeefab67616d0000b273ed698663b54902f1e4937a36',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733f75e6d2ec7582778c4ac67fab67616d0000b273658818c29a0b677a54973363ab67616d0000b273e24a7eeca7a6ec51f00feeefab67616d0000b273ed698663b54902f1e4937a36',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733f75e6d2ec7582778c4ac67fab67616d0000b273658818c29a0b677a54973363ab67616d0000b273e24a7eeca7a6ec51f00feeefab67616d0000b273ed698663b54902f1e4937a36',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 14,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3lRMjyAslRHxED4n0AhNU4',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/1JZJj8TsTMPZxQ95A',
+      tidal:
+        'https://tidal.com/browse/playlist/5b104797-0816-4484-80b2-248397cc344f',
+    },
+  },
+  {
+    name: 'American Bands [06-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273882cb5cdd3ab10e2327988bfab67616d0000b273996511f127936c878b380a21ab67616d0000b273a91e8d79776c6f83fa22ce72ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273882cb5cdd3ab10e2327988bfab67616d0000b273996511f127936c878b380a21ab67616d0000b273a91e8d79776c6f83fa22ce72ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273882cb5cdd3ab10e2327988bfab67616d0000b273996511f127936c878b380a21ab67616d0000b273a91e8d79776c6f83fa22ce72ab67616d0000b273bcf2e51e254b5bdd336c6cd9',
+        width: 60,
+      },
+    ],
+    category: 'misc.' as Category,
+    tags: [],
+    totalTracks: 12,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6ll4wgIIdVS2vkppmsVDCK',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/1PS13NHoWatf6SVH6',
+      tidal:
+        'https://tidal.com/browse/playlist/115a3940-f0a6-40a5-99b2-ed2897fb53ec',
+    },
+  },
+
+  {
+    name: 'Neil Young [07-2013]',
+    images: [
+      {
+        height: 640,
+        url: 'https://i.scdn.co/image/ab67616d0000b27385ec0264a22d007c1cbd780c',
+        width: 640,
+      },
+    ],
+    category: 'artist' as Category,
+    tags: [],
+    totalTracks: 24,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3sLZhGTPrhaiaFkOa1Z3rS',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLkfG45GuOS_ainIdvlJpfB',
+      apple:
+        'https://music.apple.com/fr/playlist/neil-young-07-2013/pl.u-leyl0kPUMG4JKaG',
+      deezer: 'https://deezer.page.link/1qgkok5eKXgi1wTq9',
+      tidal:
+        'https://tidal.com/browse/playlist/a51a9657-893c-474b-8315-700fc6561f4b',
     },
   },
 ];
