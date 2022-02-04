@@ -9,6 +9,1206 @@ import { Category, Tag } from 'playlists-galore-toolbox';
 
 export default [
   {
+    name: 'January 2022 - I Wonder Why We Came',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4ATdVBO939rcSLaP5oQWBG',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/D3464E1hv87eG7XGA',
+      tidal:
+        'https://tidal.com/browse/playlist/d5337682-5e45-4340-b1ec-14a18fa867ab',
+    },
+  },
+  {
+    name: 'Everything from playlists galore 2021',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 137,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5emvLGqLj0w6AeLfdyHlhl',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/N18G2EaT4MgFa7au5',
+      tidal:
+        'https://tidal.com/browse/playlist/02189f65-ead9-4a92-aadf-937123d99529',
+    },
+  },
+  {
+    name: 'December 2021 - Well Well Well',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27319b9fae8d9f602068a5a5557ab67616d0000b27320bbceac6950d3fe13fa13c3ab67616d0000b2735c1c4d3d94d0e845bd1ebec1ab67616d0000b273fc25fae601ea0beb79c32eb0',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27319b9fae8d9f602068a5a5557ab67616d0000b27320bbceac6950d3fe13fa13c3ab67616d0000b2735c1c4d3d94d0e845bd1ebec1ab67616d0000b273fc25fae601ea0beb79c32eb0',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27319b9fae8d9f602068a5a5557ab67616d0000b27320bbceac6950d3fe13fa13c3ab67616d0000b2735c1c4d3d94d0e845bd1ebec1ab67616d0000b273fc25fae601ea0beb79c32eb0',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 17,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5Q6mkKaiiVKNzC1FsaW2wQ',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/Qf7nPvT8FdEgH6ep7',
+      tidal:
+        'https://tidal.com/browse/playlist/c8b92d07-8c7c-47e7-9874-dac64a2ec3d5',
+    },
+  },
+  {
+    name: "November 2021 - Honey it wasn't yet the spring",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730bdf4dd39843ad48c5b66bc4ab67616d0000b2731917a0f3f4152622a040913fab67616d0000b2734bcd4058c8f994af61fa016dab67616d0000b2739a5a33aa7954b5519feb5692',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730bdf4dd39843ad48c5b66bc4ab67616d0000b2731917a0f3f4152622a040913fab67616d0000b2734bcd4058c8f994af61fa016dab67616d0000b2739a5a33aa7954b5519feb5692',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730bdf4dd39843ad48c5b66bc4ab67616d0000b2731917a0f3f4152622a040913fab67616d0000b2734bcd4058c8f994af61fa016dab67616d0000b2739a5a33aa7954b5519feb5692',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1rAz4I6tkZCvotF6eio0ah',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/2AW3bdbALMr6hz4RA',
+      tidal:
+        'https://tidal.com/browse/playlist/3c479cde-d1ed-482b-a9ab-8633ea9ab981',
+    },
+  },
+  {
+    name: 'October 2021 - And then, the funniest thing happened',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732853b5ea06ddc676b337c389ab67616d0000b2737657b902d25ef9abcf49921dab67616d0000b273a75c95d018c5d8612af018f8ab67616d0000b273ea11cb39e5ef72b148da1fd6',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732853b5ea06ddc676b337c389ab67616d0000b2737657b902d25ef9abcf49921dab67616d0000b273a75c95d018c5d8612af018f8ab67616d0000b273ea11cb39e5ef72b148da1fd6',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732853b5ea06ddc676b337c389ab67616d0000b2737657b902d25ef9abcf49921dab67616d0000b273a75c95d018c5d8612af018f8ab67616d0000b273ea11cb39e5ef72b148da1fd6',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 17,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/33YO3ZZ14khGrXCKKIWayR',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/B4CfnmRQB1MSFX8B7',
+      tidal:
+        'https://tidal.com/browse/playlist/be9ed6e2-5b82-4ab9-870f-5a15029b1e5b',
+    },
+  },
+  {
+    name: 'September 2021 - Time Waits For No One',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731ae967e4a02c7a39eb3c189bab67616d0000b273ad14d8bbc2b12bd76ab540afab67616d0000b273d09cb7d165b3c8b74dcc0186ab67616d0000b273da8f78cd6539fbac5a5a587e',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731ae967e4a02c7a39eb3c189bab67616d0000b273ad14d8bbc2b12bd76ab540afab67616d0000b273d09cb7d165b3c8b74dcc0186ab67616d0000b273da8f78cd6539fbac5a5a587e',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731ae967e4a02c7a39eb3c189bab67616d0000b273ad14d8bbc2b12bd76ab540afab67616d0000b273d09cb7d165b3c8b74dcc0186ab67616d0000b273da8f78cd6539fbac5a5a587e',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 18,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5BnNoN0fKS9SDY53g8V7Tx',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/qk1nrShmpa9XLvSR8',
+      tidal:
+        'https://tidal.com/browse/playlist/a668e35a-d29e-4672-8114-f901df4412ce',
+    },
+  },
+  {
+    name: 'August 2021 - I Was Far Away',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731664372f334865bf7643d87dab67616d0000b27335caeb5bf7161fc1ac6d3727ab67616d0000b273d7826e9b733cc8c9edf6bf78ab67616d0000b273f4497b79f6cc676a29b77117',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731664372f334865bf7643d87dab67616d0000b27335caeb5bf7161fc1ac6d3727ab67616d0000b273d7826e9b733cc8c9edf6bf78ab67616d0000b273f4497b79f6cc676a29b77117',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731664372f334865bf7643d87dab67616d0000b27335caeb5bf7161fc1ac6d3727ab67616d0000b273d7826e9b733cc8c9edf6bf78ab67616d0000b273f4497b79f6cc676a29b77117',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 17,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2XNrXI5g1eXOK0cCUhFS05',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/yji7RdhNVfpd43bL9',
+      tidal:
+        'https://tidal.com/browse/playlist/1d985f52-0754-46fa-bbf1-fce9afe58b20',
+    },
+  },
+  {
+    name: 'July 2021 - Hurricane Laughter',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731b65b48c44545b2ea873cc70ab67616d0000b273a69f71a8794e2d867a52f98fab67616d0000b273b4ea92ecfd915a977cc08640ab67616d0000b273b4f8459b0f719f8a97ee1c8c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731b65b48c44545b2ea873cc70ab67616d0000b273a69f71a8794e2d867a52f98fab67616d0000b273b4ea92ecfd915a977cc08640ab67616d0000b273b4f8459b0f719f8a97ee1c8c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731b65b48c44545b2ea873cc70ab67616d0000b273a69f71a8794e2d867a52f98fab67616d0000b273b4ea92ecfd915a977cc08640ab67616d0000b273b4f8459b0f719f8a97ee1c8c',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0R5j3KnpgpBoAS8pSWGiuI',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/7eeRn7yn9yEaxcYH7',
+      tidal:
+        'https://tidal.com/browse/playlist/10338971-7324-4f20-8c8f-e7312e99c62b',
+    },
+  },
+  {
+    name: 'May 2021 - Good For You',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730fe6b68e8770f420d381cf87ab67616d0000b273739d558a4ddf2a0fe0121311ab67616d0000b273c4c4f9a80548aa5b42b961d0ab67616d0000b273f0dce5f5b697fe5e5a94865a',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730fe6b68e8770f420d381cf87ab67616d0000b273739d558a4ddf2a0fe0121311ab67616d0000b273c4c4f9a80548aa5b42b961d0ab67616d0000b273f0dce5f5b697fe5e5a94865a',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730fe6b68e8770f420d381cf87ab67616d0000b273739d558a4ddf2a0fe0121311ab67616d0000b273c4c4f9a80548aa5b42b961d0ab67616d0000b273f0dce5f5b697fe5e5a94865a',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5SRLZsrCHL1x2wDsUh4d6o',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/hYcWt8hWzd3Yvr2GA',
+      tidal:
+        'https://tidal.com/browse/playlist/d9bd7905-c6b3-469e-81fc-eec1454d5919',
+    },
+  },
+  {
+    name: "April 2021 - That's Life",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733879ef4375b97d2b58bf0768ab67616d0000b27346ed71f4f0ab02c72179b15dab67616d0000b273589ce9a911c6e65b1f80c558ab67616d0000b2735c21d73934bb9760a2f791a2',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 18,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2VQK4nzLg4deU6f4tNPEbf',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/Y5HD1bPaLeoR3sNa6',
+      tidal:
+        'https://tidal.com/browse/playlist/beaeb74f-b237-482c-89b3-17c3865b8ff6',
+    },
+  },
+  {
+    name: 'Everything from playlist galore 2020',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2734f58636c499ce0c992dfdff0ab67616d0000b2735756154e1fe9788e404a7e47ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2734f58636c499ce0c992dfdff0ab67616d0000b2735756154e1fe9788e404a7e47ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2734f58636c499ce0c992dfdff0ab67616d0000b2735756154e1fe9788e404a7e47ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 94,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3Ipmvcj1nR8Gn9k0F3PEcr',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/LLfsjKU3AhBr9ZQ47',
+      tidal:
+        'https://tidal.com/browse/playlist/f8211cd5-9644-45af-a09f-76d77f7c99b3',
+    },
+  },
+  {
+    name: 'December 2020 - Deadly Delicate',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730478062bc04df0947d232fcbab67616d0000b2730f39ddace251b2c26dd0b2c1ab67616d0000b2734c48d53016404efd3fd07ac8ab67616d0000b2737e38da1a5080df54e1f174e0',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730478062bc04df0947d232fcbab67616d0000b2730f39ddace251b2c26dd0b2c1ab67616d0000b2734c48d53016404efd3fd07ac8ab67616d0000b2737e38da1a5080df54e1f174e0',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730478062bc04df0947d232fcbab67616d0000b2730f39ddace251b2c26dd0b2c1ab67616d0000b2734c48d53016404efd3fd07ac8ab67616d0000b2737e38da1a5080df54e1f174e0',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5Kec7TeAs0gpl9yhrD2vQu',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/YTsQUw8WMj5h5HFv5',
+      tidal:
+        'https://tidal.com/browse/playlist/ba958ac9-3c87-4e50-9371-df9bb8aba7fb',
+    },
+  },
+  {
+    name: 'October 2020 - Strange Weather',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27386ea698b2e953980fa6fac14ab67616d0000b273983a536938738a5ef13d4448ab67616d0000b273a0537005f4fc86760725130dab67616d0000b273aadf40147f0ad8c5849090b6',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27386ea698b2e953980fa6fac14ab67616d0000b273983a536938738a5ef13d4448ab67616d0000b273a0537005f4fc86760725130dab67616d0000b273aadf40147f0ad8c5849090b6',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27386ea698b2e953980fa6fac14ab67616d0000b273983a536938738a5ef13d4448ab67616d0000b273a0537005f4fc86760725130dab67616d0000b273aadf40147f0ad8c5849090b6',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5njlFJXRmtQ1rtE8oK78ZB',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/syruBCphnQXcZjB69',
+      tidal:
+        'https://tidal.com/browse/playlist/00f43e0e-3b5d-447b-84e1-75bedb40617d',
+    },
+  },
+  {
+    name: 'September 2020 - Play me a song, Mr. Wolfman Jack',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2735c9865f14bef36ea86e27c35ab67616d0000b2736b27a4de09ec47a19a3e1f2aab67616d0000b273c2aff32925fcdd07f42c4498ab67616d0000b273f679c91273efb30ce1c3b00d',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2735c9865f14bef36ea86e27c35ab67616d0000b2736b27a4de09ec47a19a3e1f2aab67616d0000b273c2aff32925fcdd07f42c4498ab67616d0000b273f679c91273efb30ce1c3b00d',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2735c9865f14bef36ea86e27c35ab67616d0000b2736b27a4de09ec47a19a3e1f2aab67616d0000b273c2aff32925fcdd07f42c4498ab67616d0000b273f679c91273efb30ce1c3b00d',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4uI4jzMF89AH7Pqb0huCsA',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/hSwrMJgB45pSf1Uk8',
+      tidal:
+        'https://tidal.com/browse/playlist/49baa8eb-1d62-41e3-bec7-b2cd99f69c2f',
+    },
+  },
+  {
+    name: 'May 2020 - No Rooftop On My Joy',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2736ceb555b55d2146e6216ea99ab67616d0000b27381eff0b47cab75a99bab83eeab67616d0000b2738fc4b0dcfb9509553f195c85ab67616d0000b2739a3da6b52373b762009671cb',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2736ceb555b55d2146e6216ea99ab67616d0000b27381eff0b47cab75a99bab83eeab67616d0000b2738fc4b0dcfb9509553f195c85ab67616d0000b2739a3da6b52373b762009671cb',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2736ceb555b55d2146e6216ea99ab67616d0000b27381eff0b47cab75a99bab83eeab67616d0000b2738fc4b0dcfb9509553f195c85ab67616d0000b2739a3da6b52373b762009671cb',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 25,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4ctO3LIRoMhygySIWiVB6p',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/dqVfbnbsEbRNAue59',
+      tidal:
+        'https://tidal.com/browse/playlist/6e2aa57c-f771-40ae-84e9-bc7a2865c324',
+    },
+  },
+  {
+    name: 'April 2020 - The Smallest Church In Saint-Saëns',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733d2ff02d83be9464cb4666f1ab67616d0000b2738de6733e3f04308004d23e72ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733d2ff02d83be9464cb4666f1ab67616d0000b2738de6733e3f04308004d23e72ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733d2ff02d83be9464cb4666f1ab67616d0000b2738de6733e3f04308004d23e72ab67616d0000b273ca641c0426924cbf33160c3cab67616d0000b273e82b0574af59f89d7c909442',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 18,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/7turKgg7mjU4mijUIQMFTL',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/YcQcgi5cg5MMRSuZ8',
+      tidal:
+        'https://tidal.com/browse/playlist/6832dc7c-237b-48d0-b134-35b4a4e0c988',
+    },
+  },
+  {
+    name: 'Everything from playlist galore 2019',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 128,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4dCs6Y3fDG7fYZFYyDunRS',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/esonMD8z75Mh2ndK9',
+      tidal:
+        'https://tidal.com/browse/playlist/0a41e841-5f54-476b-877e-6a2e39e72f3c',
+    },
+  },
+  {
+    name: 'December 2019 - Le temps arrange ces choses là',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732c8f346a816687a578f9cef5ab67616d0000b2734d5fb51bdc8bf40110a885b1ab67616d0000b273ca69f52416a728ebd0b9103cab67616d0000b273d192d011ad934c45f70071a7',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732c8f346a816687a578f9cef5ab67616d0000b2734d5fb51bdc8bf40110a885b1ab67616d0000b273ca69f52416a728ebd0b9103cab67616d0000b273d192d011ad934c45f70071a7',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732c8f346a816687a578f9cef5ab67616d0000b2734d5fb51bdc8bf40110a885b1ab67616d0000b273ca69f52416a728ebd0b9103cab67616d0000b273d192d011ad934c45f70071a7',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6VpPQuMRqBhIcyXm4QHRhx',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/7TFK7SNcvKrUGQHdA',
+      tidal:
+        'https://tidal.com/browse/playlist/5d636b7e-57af-449c-ba89-a505cac130e1',
+    },
+  },
+  {
+    name: 'October 2019 - Take me home',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27361e11cce99aab86cb1ce253bab67616d0000b2738f2e42fe3700e291c7237d50ab67616d0000b273aa250f38df8e3de9ef44b761ab67616d0000b273e56fa8c916dc6ce419dcf557',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27361e11cce99aab86cb1ce253bab67616d0000b2738f2e42fe3700e291c7237d50ab67616d0000b273aa250f38df8e3de9ef44b761ab67616d0000b273e56fa8c916dc6ce419dcf557',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27361e11cce99aab86cb1ce253bab67616d0000b2738f2e42fe3700e291c7237d50ab67616d0000b273aa250f38df8e3de9ef44b761ab67616d0000b273e56fa8c916dc6ce419dcf557',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5CTJPYpWUHCksdZWTzUpM2',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/b8U3D6niM247HaJU8',
+      tidal:
+        'https://tidal.com/browse/playlist/85a12132-688e-46ab-a0e0-267d8578f36c',
+    },
+  },
+  {
+    name: 'September 2019 - Collapsing memory',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27309f834e61fc0411611100f16ab67616d0000b2734bb096b9cc76e7342fe65a8dab67616d0000b2735b5a026cb23075fff31dd0dfab67616d0000b273d71c263a42991967290401af',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27309f834e61fc0411611100f16ab67616d0000b2734bb096b9cc76e7342fe65a8dab67616d0000b2735b5a026cb23075fff31dd0dfab67616d0000b273d71c263a42991967290401af',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27309f834e61fc0411611100f16ab67616d0000b2734bb096b9cc76e7342fe65a8dab67616d0000b2735b5a026cb23075fff31dd0dfab67616d0000b273d71c263a42991967290401af',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 18,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4xhKQG5hFqvu12pib6Ypaa',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/FNPsVB9rNE9RefiFA',
+      tidal:
+        'https://tidal.com/browse/playlist/c9195ec8-1a25-4ed6-835c-1a4c7a8a1d15',
+    },
+  },
+  {
+    name: 'July 2019 - Storm coming',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27320e4a11cac0c2ccafb9da741ab67616d0000b273211ed41bd32809d9a1638fcaab67616d0000b2735590b4ee88187cb06a5b102dab67616d0000b273c765fb14d7cc0bdcf6f68501',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27320e4a11cac0c2ccafb9da741ab67616d0000b273211ed41bd32809d9a1638fcaab67616d0000b2735590b4ee88187cb06a5b102dab67616d0000b273c765fb14d7cc0bdcf6f68501',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27320e4a11cac0c2ccafb9da741ab67616d0000b273211ed41bd32809d9a1638fcaab67616d0000b2735590b4ee88187cb06a5b102dab67616d0000b273c765fb14d7cc0bdcf6f68501',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6xhKve3IuvcRS1vQSaMlip',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/U7SnEnseKpC6MQwS6',
+      tidal:
+        'https://tidal.com/browse/playlist/0e6a0b08-a5bf-4043-b8de-f2fe1b020261',
+    },
+  },
+  {
+    name: 'May 2019 - Something to make us all happy',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2731b7230984605cbf6001e33e7ab67616d0000b273607f5d1d15bdb8a450840ccfab67616d0000b273ac52f9b0e2da3bf772a68ee7ab67616d0000b273cb36263c2b6371b25c2e7a49',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2731b7230984605cbf6001e33e7ab67616d0000b273607f5d1d15bdb8a450840ccfab67616d0000b273ac52f9b0e2da3bf772a68ee7ab67616d0000b273cb36263c2b6371b25c2e7a49',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2731b7230984605cbf6001e33e7ab67616d0000b273607f5d1d15bdb8a450840ccfab67616d0000b273ac52f9b0e2da3bf772a68ee7ab67616d0000b273cb36263c2b6371b25c2e7a49',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 22,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/0JMhZ6vPXlivzvaQGHqSVj',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/EuK6Gp17JqZQHCiQ7',
+      tidal:
+        'https://tidal.com/browse/playlist/31543aa7-790b-4b40-9d9b-96ca4023e1be',
+    },
+  },
+  {
+    name: "March 2019 - Pour un chien qui n'en démord pas",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732eb4146353e8dffded199a71ab67616d0000b2734ae1c4c5c45aabe565499163ab67616d0000b273b3a3de9eee2a48896dcf0d34ab67616d0000b273c5bb26cff830612eebacf92e',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732eb4146353e8dffded199a71ab67616d0000b2734ae1c4c5c45aabe565499163ab67616d0000b273b3a3de9eee2a48896dcf0d34ab67616d0000b273c5bb26cff830612eebacf92e',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732eb4146353e8dffded199a71ab67616d0000b2734ae1c4c5c45aabe565499163ab67616d0000b273b3a3de9eee2a48896dcf0d34ab67616d0000b273c5bb26cff830612eebacf92e',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 17,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/7ul3Z6OxeCsDeD9jbZatO1',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/c7EB16SkxrVoUA9h6',
+      tidal:
+        'https://tidal.com/browse/playlist/edaab26d-86b4-4dcc-be81-9651a3cf2e41',
+    },
+  },
+  {
+    name: 'February 2019 - The shape of trance to come',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27307235f3931b9500e84422fc3ab67616d0000b273386564d99f4e6f0e41a4a01aab67616d0000b2734dd672d51ebd8976e0530956ab67616d0000b27350bc8ef82d299d7d8933b012',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1FeiXXNhX0g1LQYOG9QnC3',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/tjobnQePneeb8Kdv9',
+      tidal:
+        'https://tidal.com/browse/playlist/d84bce64-bb2b-44f3-b5b6-39d1b3fb71c2',
+    },
+  },
+  {
+    name: 'Everything from playlists galore 2018',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 164,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4PIdEimRFlC7km9mVLaQK1',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/cKG4sQXgEui2RGhFA',
+      tidal:
+        'https://tidal.com/browse/playlist/7e25b7f0-9490-48c4-8a0f-7dea5121eab5',
+    },
+  },
+  {
+    name: 'November 2018 - Impossible, you say?',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730207a7ac52c61f12c488e6bfab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b27358aff2a7771d3ace3e869a7aab67616d0000b27386743e81f7001becef69a0ac',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730207a7ac52c61f12c488e6bfab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b27358aff2a7771d3ace3e869a7aab67616d0000b27386743e81f7001becef69a0ac',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730207a7ac52c61f12c488e6bfab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b27358aff2a7771d3ace3e869a7aab67616d0000b27386743e81f7001becef69a0ac',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6rwttE3E6HdSsieZBPWUQ0',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/tFWYuKtxgrehTcdK8',
+      tidal:
+        'https://tidal.com/browse/playlist/9e1d813b-d69b-440e-b396-297f71060b9b',
+    },
+  },
+  {
+    name: 'October 2018 - Good night, day',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27343da33ffd5cf76767f7ad9adab67616d0000b2735354897d3ccbdade3c5faa72ab67616d0000b273b6d9c21adb803a0eafc77686ab67616d0000b273b786df87219f7f7137391df9',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27343da33ffd5cf76767f7ad9adab67616d0000b2735354897d3ccbdade3c5faa72ab67616d0000b273b6d9c21adb803a0eafc77686ab67616d0000b273b786df87219f7f7137391df9',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27343da33ffd5cf76767f7ad9adab67616d0000b2735354897d3ccbdade3c5faa72ab67616d0000b273b6d9c21adb803a0eafc77686ab67616d0000b273b786df87219f7f7137391df9',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5TNhRFj5KfrN6BYF7VxlGN',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/2gxWNADarfHMzYdr8',
+      tidal:
+        'https://tidal.com/browse/playlist/08b10e52-4a5f-409a-bbe6-7df88d9eaffa',
+    },
+  },
+  {
+    name: 'September 2018 - Les garçons imprudents',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273239f31cc3999a284b70de752ab67616d0000b2733e71ac488f22f101a671eec5ab67616d0000b273420aa10cb7b13d35920c92b1ab67616d0000b273db6261d8f2a721efb34c1c35',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273239f31cc3999a284b70de752ab67616d0000b2733e71ac488f22f101a671eec5ab67616d0000b273420aa10cb7b13d35920c92b1ab67616d0000b273db6261d8f2a721efb34c1c35',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273239f31cc3999a284b70de752ab67616d0000b2733e71ac488f22f101a671eec5ab67616d0000b273420aa10cb7b13d35920c92b1ab67616d0000b273db6261d8f2a721efb34c1c35',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6xzPTkbfpn8aVXyXXvJOzO',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/fAwKh9JzC336jvrSA',
+      tidal:
+        'https://tidal.com/browse/playlist/5c04fa7a-6f17-4e01-9e3f-f46ffc4f28aa',
+    },
+  },
+  {
+    name: 'August 2018 - Hey Moon',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27315af2b90379cfae0bfda956cab67616d0000b2732cf66fcd4774785bd6f2c8b7ab67616d0000b2733f9b15b1136d80d6b83fb667ab67616d0000b2735e33a9837fe1c6752763db30',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27315af2b90379cfae0bfda956cab67616d0000b2732cf66fcd4774785bd6f2c8b7ab67616d0000b2733f9b15b1136d80d6b83fb667ab67616d0000b2735e33a9837fe1c6752763db30',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27315af2b90379cfae0bfda956cab67616d0000b2732cf66fcd4774785bd6f2c8b7ab67616d0000b2733f9b15b1136d80d6b83fb667ab67616d0000b2735e33a9837fe1c6752763db30',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2ZHZB4ZIxwafjzL0xvmc5A',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/PErCWcE5MvvVUhJQ9',
+      tidal:
+        'https://tidal.com/browse/playlist/3e431a13-8f2f-475e-8952-44d41cb93496',
+    },
+  },
+  {
+    name: "July 2018 - You're so baby",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2736b701428ed4c6e053902174aab67616d0000b2737a4ffc6739a18161ddf02826ab67616d0000b273990278475a692d901c3b1a64ab67616d0000b273c2a664deb19b94e97cbe9e58',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2736b701428ed4c6e053902174aab67616d0000b2737a4ffc6739a18161ddf02826ab67616d0000b273990278475a692d901c3b1a64ab67616d0000b273c2a664deb19b94e97cbe9e58',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2736b701428ed4c6e053902174aab67616d0000b2737a4ffc6739a18161ddf02826ab67616d0000b273990278475a692d901c3b1a64ab67616d0000b273c2a664deb19b94e97cbe9e58',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6jPrh5NhbB6LSq17mJGPdJ',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/mGhTN4FM7kyQS6wv6',
+      tidal:
+        'https://tidal.com/browse/playlist/3a4d85fd-d499-483c-ab76-dc983bc01f9e',
+    },
+  },
+  {
+    name: 'June 2018 - Goodbye to beauty',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273b9f7bba3d28fab3e964b3fddab67616d0000b273ba0fc84f9dbc34c33b05d840ab67616d0000b273e4c3295cd6464ed5bc0f6c2cab67616d0000b273f709ceec39345de8ab2dc51c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273b9f7bba3d28fab3e964b3fddab67616d0000b273ba0fc84f9dbc34c33b05d840ab67616d0000b273e4c3295cd6464ed5bc0f6c2cab67616d0000b273f709ceec39345de8ab2dc51c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273b9f7bba3d28fab3e964b3fddab67616d0000b273ba0fc84f9dbc34c33b05d840ab67616d0000b273e4c3295cd6464ed5bc0f6c2cab67616d0000b273f709ceec39345de8ab2dc51c',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/1kR48N3QcOgnzDS442weGg',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/tadkgx847u8e4RzL9',
+      tidal:
+        'https://tidal.com/browse/playlist/5aba0644-3b33-4005-b0c0-885992bfc7ae',
+    },
+  },
+  {
+    name: 'April 2018 - The sunlight on your face',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273044d22178d0368cb9335a535ab67616d0000b2736442333690cdba99cce9ab28ab67616d0000b273a3ec87d2fb3394c81ad66defab67616d0000b273a9f9f499d82111f429413264',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273044d22178d0368cb9335a535ab67616d0000b2736442333690cdba99cce9ab28ab67616d0000b273a3ec87d2fb3394c81ad66defab67616d0000b273a9f9f499d82111f429413264',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273044d22178d0368cb9335a535ab67616d0000b2736442333690cdba99cce9ab28ab67616d0000b273a3ec87d2fb3394c81ad66defab67616d0000b273a9f9f499d82111f429413264',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/5qprgO9ZZqRjg4MXj6nkw4',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/yy197b8c3pa2X21U8',
+      tidal:
+        'https://tidal.com/browse/playlist/ba82d2e0-afd0-4f7f-a967-7870a70538b0',
+    },
+  },
+  {
+    name: 'March 2018 - Singing these lonely lullabies to you',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730879d25910f5f03e0927935eab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b273adaf7bcb316b31cdcf10bc30ab67616d0000b273b47d309281c66820b7137f5d',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730879d25910f5f03e0927935eab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b273adaf7bcb316b31cdcf10bc30ab67616d0000b273b47d309281c66820b7137f5d',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730879d25910f5f03e0927935eab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b273adaf7bcb316b31cdcf10bc30ab67616d0000b273b47d309281c66820b7137f5d',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2efjMsBvfwahlJalyZLD0Y',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/49XH9fhLfCCUukXW8',
+      tidal:
+        'https://tidal.com/browse/playlist/6d7d2188-2e60-4fc4-96d1-a3c64e2f6793',
+    },
+  },
+  {
+    name: 'February 2018 - Innocence lost',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27327b8f6bcf663da4e40336931ab67616d0000b2734349c04f5f9a6b26a8be2069ab67616d0000b2735c2202722e63ad9b6e4c11beab67616d0000b273cc68329bfbf34037df965dc1',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 21,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/48pXnTsKn1LAxxDgPAPO9I',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/7ung8uHscRspN78GA',
+      tidal:
+        'https://tidal.com/browse/playlist/4f116ec7-57af-499c-9710-14a5eec641b3',
+    },
+  },
+  {
+    name: 'Everything from playlists galore 2017',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 60,
+      },
+    ],
+    category: 'yearly' as Category,
+    tags: [],
+    totalTracks: 90,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/3j2FzR3yjSTSGdeO5OofhP',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/41yfwok192KFp18c8',
+      tidal:
+        'https://tidal.com/browse/playlist/db0744b8-7bf4-4fc6-8239-08bb825f0294',
+    },
+  },
+  {
+    name: 'December 2017 - Pretty rough hours',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27368b90c3b34c3ac22856ddab8ab67616d0000b2738d2a0fe64f918b643ad090cdab67616d0000b27392b65c451cdaa683e214ebb1ab67616d0000b273ffefaa2064413256d627be5b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27368b90c3b34c3ac22856ddab8ab67616d0000b2738d2a0fe64f918b643ad090cdab67616d0000b27392b65c451cdaa683e214ebb1ab67616d0000b273ffefaa2064413256d627be5b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27368b90c3b34c3ac22856ddab8ab67616d0000b2738d2a0fe64f918b643ad090cdab67616d0000b27392b65c451cdaa683e214ebb1ab67616d0000b273ffefaa2064413256d627be5b',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6znXbtiST4sb4dnAjrQE2W',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/VLGogpiQCwce2ESS8',
+      tidal:
+        'https://tidal.com/browse/playlist/17c7d0db-d942-489f-9e22-5c9290a3dee8',
+    },
+  },
+  {
+    name: 'November 2017 - Random words',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b2738c633437a6f2808ce9e4f012ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273d836df6dd758c51fee288d02',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b2738c633437a6f2808ce9e4f012ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273d836df6dd758c51fee288d02',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27375398280edcb0278b4516c48ab67616d0000b2738c633437a6f2808ce9e4f012ab67616d0000b273c30e0a2e68c8c4f97b24c1e1ab67616d0000b273d836df6dd758c51fee288d02',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/7jmghYULFBX2EL8uu4avON',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/8c5Zx5khSiutLvNn7',
+      tidal:
+        'https://tidal.com/browse/playlist/475b9b83-a87f-459b-9eb9-9b79cb069aca',
+    },
+  },
+  {
+    name: 'October 2017 - Shadows still with us',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27336e934bdc6f83dd9d022389dab67616d0000b273c0236561947073238e8d58ccab67616d0000b273e8a6f3ea51e062131db59427ab67616d0000b273f53fbb4abe27c792221e5c27',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27336e934bdc6f83dd9d022389dab67616d0000b273c0236561947073238e8d58ccab67616d0000b273e8a6f3ea51e062131db59427ab67616d0000b273f53fbb4abe27c792221e5c27',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27336e934bdc6f83dd9d022389dab67616d0000b273c0236561947073238e8d58ccab67616d0000b273e8a6f3ea51e062131db59427ab67616d0000b273f53fbb4abe27c792221e5c27',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6sD2vuZAzn9WDXBMmJeLmL',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/4XuBeYff8LR7nzWw8',
+      tidal:
+        'https://tidal.com/browse/playlist/8549583a-51bd-4337-b5cb-32de0bc3da04',
+    },
+  },
+  {
+    name: "September 2017 - New York isn't New York Without you, love",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273b9b7d0fa5ad3581da6ce0e28ab67616d0000b273c5819ccc3fbcd68e3fe0ebd2ab67616d0000b273ed8666b2288bacdcc24e4fc2ab67616d0000b273f764787787ab5dd1c0502732',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273b9b7d0fa5ad3581da6ce0e28ab67616d0000b273c5819ccc3fbcd68e3fe0ebd2ab67616d0000b273ed8666b2288bacdcc24e4fc2ab67616d0000b273f764787787ab5dd1c0502732',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273b9b7d0fa5ad3581da6ce0e28ab67616d0000b273c5819ccc3fbcd68e3fe0ebd2ab67616d0000b273ed8666b2288bacdcc24e4fc2ab67616d0000b273f764787787ab5dd1c0502732',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/2c6pllg92qQY1OXX3EwyOO',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/wrKWfYfwsZqrEnn69',
+      tidal:
+        'https://tidal.com/browse/playlist/e732dcda-073e-416a-9113-714079dd04fd',
+    },
+  },
+  {
+    name: "August 2017 - What's a song without you?",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2733d0b7a7bb2acbda01162225cab67616d0000b273640ce3531798c73d5a1da037ab67616d0000b273945696d01c650eeade335ac9ab67616d0000b273f4a72e9d95c1121bc8b145b7',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 20,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/6n8yJfG7Gu6mLFtfIiVh9r',
+      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      deezer: 'https://deezer.page.link/4gKgoqMtMGPLYMSM8',
+      tidal:
+        'https://tidal.com/browse/playlist/5fef2583-b259-4b9a-b61c-9a6f550d8165',
+    },
+  },
+  {
     name: 'Everything from playlists galore 2016',
     images: [
       {
