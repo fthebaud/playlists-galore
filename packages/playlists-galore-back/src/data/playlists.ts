@@ -784,7 +784,8 @@ export default [
     totalTracks: 17,
     url: {
       spotify: 'https://open.spotify.com/playlist/7ul3Z6OxeCsDeD9jbZatO1',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJpZ8pGhdsumbr-6gHfHBrU',
       deezer: 'https://deezer.page.link/c7EB16SkxrVoUA9h6',
       tidal:
         'https://tidal.com/browse/playlist/edaab26d-86b4-4dcc-be81-9651a3cf2e41',
@@ -814,7 +815,8 @@ export default [
     totalTracks: 16,
     url: {
       spotify: 'https://open.spotify.com/playlist/1FeiXXNhX0g1LQYOG9QnC3',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLqTNnhe1b83CZw5AXdIu4c',
       deezer: 'https://deezer.page.link/tjobnQePneeb8Kdv9',
       tidal:
         'https://tidal.com/browse/playlist/d84bce64-bb2b-44f3-b5b6-39d1b3fb71c2',
@@ -844,7 +846,8 @@ export default [
     totalTracks: 164,
     url: {
       spotify: 'https://open.spotify.com/playlist/4PIdEimRFlC7km9mVLaQK1',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJQVBcSjpqWMSrZ80oIaCOr',
       deezer: 'https://deezer.page.link/cKG4sQXgEui2RGhFA',
       tidal:
         'https://tidal.com/browse/playlist/7e25b7f0-9490-48c4-8a0f-7dea5121eab5',
@@ -874,7 +877,8 @@ export default [
     totalTracks: 16,
     url: {
       spotify: 'https://open.spotify.com/playlist/6rwttE3E6HdSsieZBPWUQ0',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKrUfmuatnYm6NcwWBKyEEF',
       deezer: 'https://deezer.page.link/tFWYuKtxgrehTcdK8',
       tidal:
         'https://tidal.com/browse/playlist/9e1d813b-d69b-440e-b396-297f71060b9b',
@@ -904,7 +908,8 @@ export default [
     totalTracks: 15,
     url: {
       spotify: 'https://open.spotify.com/playlist/5TNhRFj5KfrN6BYF7VxlGN',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJ_c8LKzcfeArdx8TWzWzaR',
       deezer: 'https://deezer.page.link/2gxWNADarfHMzYdr8',
       tidal:
         'https://tidal.com/browse/playlist/08b10e52-4a5f-409a-bbe6-7df88d9eaffa',
@@ -934,7 +939,8 @@ export default [
     totalTracks: 16,
     url: {
       spotify: 'https://open.spotify.com/playlist/6xzPTkbfpn8aVXyXXvJOzO',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSIRozK47VC86cBWzeb-vYkG',
       deezer: 'https://deezer.page.link/fAwKh9JzC336jvrSA',
       tidal:
         'https://tidal.com/browse/playlist/5c04fa7a-6f17-4e01-9e3f-f46ffc4f28aa',
@@ -964,7 +970,8 @@ export default [
     totalTracks: 15,
     url: {
       spotify: 'https://open.spotify.com/playlist/2ZHZB4ZIxwafjzL0xvmc5A',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKBMWB4xwhXl3_Gc-1O1cRs',
       deezer: 'https://deezer.page.link/PErCWcE5MvvVUhJQ9',
       tidal:
         'https://tidal.com/browse/playlist/3e431a13-8f2f-475e-8952-44d41cb93496',
@@ -994,7 +1001,8 @@ export default [
     totalTracks: 15,
     url: {
       spotify: 'https://open.spotify.com/playlist/6jPrh5NhbB6LSq17mJGPdJ',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSK5OGnbH3BrptY_HTZsZVVD',
       deezer: 'https://deezer.page.link/mGhTN4FM7kyQS6wv6',
       tidal:
         'https://tidal.com/browse/playlist/3a4d85fd-d499-483c-ab76-dc983bc01f9e',
@@ -1024,7 +1032,8 @@ export default [
     totalTracks: 20,
     url: {
       spotify: 'https://open.spotify.com/playlist/1kR48N3QcOgnzDS442weGg',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKSV2mGiYhQ1gZM7RtrcSm4',
       deezer: 'https://deezer.page.link/tadkgx847u8e4RzL9',
       tidal:
         'https://tidal.com/browse/playlist/5aba0644-3b33-4005-b0c0-885992bfc7ae',
@@ -1054,7 +1063,8 @@ export default [
     totalTracks: 20,
     url: {
       spotify: 'https://open.spotify.com/playlist/5qprgO9ZZqRjg4MXj6nkw4',
-      youtube: 'https://music.youtube.com/playlist?list=FIXME',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLBaqI2Z5TNcu5YgxQzpeWJ',
       deezer: 'https://deezer.page.link/yy197b8c3pa2X21U8',
       tidal:
         'https://tidal.com/browse/playlist/ba82d2e0-afd0-4f7f-a967-7870a70538b0',
