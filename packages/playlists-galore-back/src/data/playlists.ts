@@ -2,37 +2,6 @@ import { Category, Tag } from 'playlists-galore-toolbox';
 
 export default [
   {
-    name: 'January 2022 - I Wonder Why We Came',
-    images: [
-      {
-        height: 640,
-        url: 'https://mosaic.scdn.co/640/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
-        width: 640,
-      },
-      {
-        height: 300,
-        url: 'https://mosaic.scdn.co/300/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
-        width: 300,
-      },
-      {
-        height: 60,
-        url: 'https://mosaic.scdn.co/60/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
-        width: 60,
-      },
-    ],
-    category: 'monthly' as Category,
-    tags: [],
-    totalTracks: 15,
-    url: {
-      spotify: 'https://open.spotify.com/playlist/4ATdVBO939rcSLaP5oQWBG',
-      youtube:
-        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKKDL5_SqDt2oCxk7-ml9Ah',
-      deezer: 'https://deezer.page.link/D3464E1hv87eG7XGA',
-      tidal:
-        'https://tidal.com/browse/playlist/d5337682-5e45-4340-b1ec-14a18fa867ab',
-    },
-  },
-  {
     name: 'Ambient Sounds / Neo-Classical',
     images: [
       {
@@ -92,6 +61,37 @@ export default [
       deezer: 'https://deezer.page.link/m8cm17QUN7EPQdD46',
       tidal:
         'https://tidal.com/browse/playlist/62a9298f-6c14-4769-9cf6-577eb86adbce',
+    },
+  },
+  {
+    name: 'January 2022 - I Wonder Why We Came',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273181f6c66090a4c0747d1bbd8ab67616d0000b2734599fdba5f431f3b419349a0ab67616d0000b2735bd1d1082e969cc25312e0b2ab67616d0000b273f580ac476598d2144c8e9d8c',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 15,
+    url: {
+      spotify: 'https://open.spotify.com/playlist/4ATdVBO939rcSLaP5oQWBG',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKKDL5_SqDt2oCxk7-ml9Ah',
+      deezer: 'https://deezer.page.link/D3464E1hv87eG7XGA',
+      tidal:
+        'https://tidal.com/browse/playlist/d5337682-5e45-4340-b1ec-14a18fa867ab',
     },
   },
   {
@@ -367,7 +367,7 @@ export default [
     url: {
       spotify: 'https://open.spotify.com/playlist/5SRLZsrCHL1x2wDh4d6o',
       youtube:
-        'https://music.youtube.com/playlist?list=FIXMPLvgI9LIWQRSJl4sfMaHvNJuceUr6506qEE',
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSJl4sfMaHvNJuceUr6506qE',
       deezer: 'https://deezer.page.link/hYcWt8hWzd3Yvr2GA',
       tidal:
         'https://tidal.com/browse/playlist/d9bd7905-c6b3-469e-81fc-eec1454d5919',
