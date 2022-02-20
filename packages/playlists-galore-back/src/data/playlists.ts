@@ -64,6 +64,38 @@ export default [
     },
   },
   {
+    name: 'February 2022 - I wish I had a river',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273482be3c0abad6a3c2bcd2efdab67616d0000b2736931998fc6c269c9ed228a8eab67616d0000b2738c26f65cf6d2eb781a73cbdcab67616d0000b273c144feac8cfc3e1ecbcdf05d',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273482be3c0abad6a3c2bcd2efdab67616d0000b2736931998fc6c269c9ed228a8eab67616d0000b2738c26f65cf6d2eb781a73cbdcab67616d0000b273c144feac8cfc3e1ecbcdf05d',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273482be3c0abad6a3c2bcd2efdab67616d0000b2736931998fc6c269c9ed228a8eab67616d0000b2738c26f65cf6d2eb781a73cbdcab67616d0000b273c144feac8cfc3e1ecbcdf05d',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 19,
+    url: {
+      spotify:
+        'https://open.spotify.com/playlist/3G9bNpIoriG5MMDBMr1yNc?si=4JRNUfDysJqQaMse9ksfzI',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKLc6A_bUXJTWKoauP2MMBq',
+      deezer: 'https://deezer.page.link/HrSzTs1QSjZ3eMwL8',
+      tidal:
+        'https://tidal.com/browse/playlist/e5efbf16-563c-4335-852f-c2c1f8140faf',
+    },
+  },
+  {
     name: 'January 2022 - I Wonder Why We Came',
     images: [
       {
