@@ -33,7 +33,7 @@ export default [
     },
   },
   {
-    name: 'From Compact Cassette',
+    name: 'Indie And Lo-Fi Vibes',
     images: [
       {
         height: 640,
@@ -53,7 +53,7 @@ export default [
     ],
     category: 'misc.' as Category,
     tags: [],
-    totalTracks: 64,
+    totalTracks: 65,
     url: {
       spotify: 'https://open.spotify.com/playlist/3phb6HmOTkdvq6bYFBF5xf',
       youtube:
