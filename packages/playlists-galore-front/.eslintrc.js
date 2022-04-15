@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    serviceworker: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -22,4 +23,13 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ['sw.js'],
+      rules: {
+        'no-restricted-globals': 'off',
+        'no-console': 'off',
+      },
+    },
+  ],
 };

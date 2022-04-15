@@ -20,7 +20,7 @@
   ],
   "start_url": "/?source=pwa",
   "background_color": "#032e42",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "theme_color": "#2b6684",
   "description": "A great collection of Spotify playlists",

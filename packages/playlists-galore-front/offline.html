@@ -3,30 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Must match theme in manifest.json -->
-    <meta name="theme-color" content="#47646f" />
 
     <!-- <link rel="icon" href="/images/favicon.ico" sizes="any"> -->
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.json" />
 
+    <link rel="stylesheet" href="offline.css" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
 
-    <script>
-      window.addEventListener('load', () => {
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js');
-        }
-      });
-    </script>
-
     <title>Playlists Galore</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
+    <h1>You are offline :(</h1>
   </body>
 </html>
