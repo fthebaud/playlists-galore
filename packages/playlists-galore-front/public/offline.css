@@ -1,4 +1,3 @@
-/* FIXME css is being mangle by vitejs before the sw caches it... */
 body {
   background-color: rgb(3, 46, 66);
   color: rgb(240, 240, 240);
