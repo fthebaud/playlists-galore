@@ -1,8 +1,11 @@
-const VERSION = '20220415-000';
+const VERSION = '20220426-001';
+
 const BASE = `${location.protocol}//${location.host}`;
+const OFFLINE_PAGE = `${BASE}/html/offline.html`;
 const CACHED_FILES = [
-  '/offline.html',
-  `${BASE}/offline.css`,
+  OFFLINE_PAGE,
+  `${BASE}/css/offline.css`,
+  `${BASE}/assets/favicon.svg`,
   'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap',
 ];
 
@@ -65,7 +68,7 @@ self.addEventListener('fetch', (event) => {
         } catch (e) {
           // Handle offline
           const cache = await caches.open(VERSION);
-          return cache.match('/offline.html');
+          return cache.match(OFFLINE_PAGE);
           // return new Response('You seem to be offline :(');
         }
       })()

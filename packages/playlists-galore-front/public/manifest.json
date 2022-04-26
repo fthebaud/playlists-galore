@@ -3,17 +3,17 @@
   "name": "Playlists Galore",
   "icons": [
     {
-      "src": "/images/icon-vector.svg",
+      "src": "/assets/icon-vector.svg",
       "type": "image/svg+xml",
       "sizes": "150x150"
     },
     {
-      "src": "/images/icon-192.png",
+      "src": "/assets/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icon-512.png",
+      "src": "/assets/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -26,12 +26,12 @@
   "description": "A great collection of Spotify playlists",
   "screenshots": [
     {
-      "src": "/images/screenshot1.jpg",
+      "src": "/assets/screenshot1.jpg",
       "type": "image/jpg",
       "sizes": "1430x999"
     },
     {
-      "src": "/images/screenshot2.jpg",
+      "src": "/assets/screenshot2.jpg",
       "type": "image/jpg",
       "sizes": "411x731"
     }
