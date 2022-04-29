@@ -1,4 +1,4 @@
-const VERSION = '20220429-004';
+const VERSION = '20220429-005';
 
 const BASE = `${location.protocol}//${location.host}`;
 const OFFLINE_PAGE = `${BASE}/html/offline.html`;
@@ -6,6 +6,7 @@ const CACHED_FILES = [
   OFFLINE_PAGE,
   `${BASE}/css/offline.css`,
   `${BASE}/assets/icon-vector.svg`,
+  `${BASE}/assets/icon-apple-touch.png`,
   'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap',
 ];
 
