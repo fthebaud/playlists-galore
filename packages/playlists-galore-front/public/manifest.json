@@ -26,14 +26,14 @@
   "description": "A great collection of Spotify playlists",
   "screenshots": [
     {
-      "src": "/assets/screenshot1.jpg",
+      "src": "/assets/screenshot1.png",
       "type": "image/jpg",
-      "sizes": "1430x999"
+      "sizes": "1245x1024"
     },
     {
-      "src": "/assets/screenshot2.jpg",
+      "src": "/assets/screenshot2.png",
       "type": "image/jpg",
-      "sizes": "411x731"
+      "sizes": "393x851"
     }
   ]
 }
