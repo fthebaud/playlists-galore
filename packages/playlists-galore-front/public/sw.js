@@ -1,4 +1,4 @@
-const VERSION = '20220429-003';
+const VERSION = '20220429-004';
 
 const BASE = `${location.protocol}//${location.host}`;
 const OFFLINE_PAGE = `${BASE}/html/offline.html`;
