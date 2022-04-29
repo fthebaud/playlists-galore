@@ -1,11 +1,11 @@
-const VERSION = '20220426-001';
+const VERSION = '20220429-001';
 
 const BASE = `${location.protocol}//${location.host}`;
 const OFFLINE_PAGE = `${BASE}/html/offline.html`;
 const CACHED_FILES = [
   OFFLINE_PAGE,
   `${BASE}/css/offline.css`,
-  `${BASE}/assets/favicon.svg`,
+  `${BASE}/assets/icon-vector.svg`,
   'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap',
 ];
 
