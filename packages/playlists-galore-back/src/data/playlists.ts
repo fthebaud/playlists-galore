@@ -64,6 +64,38 @@ export default [
     },
   },
   {
+    name: 'May 2022 - In colors',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27311aca7c4d48b1e5c0ab97b77ab67616d0000b27350bb3914dddbdf981ca5d043ab67616d0000b273914123a7b8bf47814ae1b7f0ab67616d0000b273cbd92bdefc1a6051e1d20d3d',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27311aca7c4d48b1e5c0ab97b77ab67616d0000b27350bb3914dddbdf981ca5d043ab67616d0000b273914123a7b8bf47814ae1b7f0ab67616d0000b273cbd92bdefc1a6051e1d20d3d',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27311aca7c4d48b1e5c0ab97b77ab67616d0000b27350bb3914dddbdf981ca5d043ab67616d0000b273914123a7b8bf47814ae1b7f0ab67616d0000b273cbd92bdefc1a6051e1d20d3d',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 21,
+    url: {
+      spotify:
+        'https://open.spotify.com/playlist/1GpFJV1T6DPKvhadMioJ3U?si=4JRNUfDysJqQaMse9ksfzI',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLf63QNWUlhxihUUJD8Hzxr',
+      deezer: 'https://deezer.page.link/FM51xcj6adgEUJHp9',
+      tidal:
+        'https://tidal.com/browse/playlist/8bc70d6a-87e4-49c8-a61a-13a6d323944b',
+    },
+  },
+  {
     name: 'February 2022 - I wish I had a river',
     images: [
       {
