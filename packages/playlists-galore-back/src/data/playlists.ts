@@ -64,6 +64,38 @@ export default [
     },
   },
   {
+    name: 'June 2022 - Alléluia, be bop a lula',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27303e95df95fb67ac75965e381ab67616d0000b2733fbdbf37626f8bee2abe8a39ab67616d0000b2739f2e7d9241130fdf070d08b3ab67616d0000b273ec96e006b8bdfc582610ec13',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27303e95df95fb67ac75965e381ab67616d0000b2733fbdbf37626f8bee2abe8a39ab67616d0000b2739f2e7d9241130fdf070d08b3ab67616d0000b273ec96e006b8bdfc582610ec13',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27303e95df95fb67ac75965e381ab67616d0000b2733fbdbf37626f8bee2abe8a39ab67616d0000b2739f2e7d9241130fdf070d08b3ab67616d0000b273ec96e006b8bdfc582610ec13',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 16,
+    url: {
+      spotify:
+        'https://open.spotify.com/playlist/6NQ75r7hStJNCTRXlRdf1M?si=eac7a12bb12d4541',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSLiCSZKWrz3ADyiU6PZQJm5&feature=share',
+      deezer: 'https://deezer.page.link/ZgMXPFkhq12UZm4B9',
+      tidal:
+        'https://tidal.com/browse/playlist/18cdb05e-936c-4b49-9abc-a40b3b97c705',
+    },
+  },
+  {
     name: 'May 2022 - In colors',
     images: [
       {
