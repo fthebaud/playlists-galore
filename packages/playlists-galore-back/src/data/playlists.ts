@@ -64,6 +64,38 @@ export default [
     },
   },
   {
+    name: "August 2022 - Un sol d'automne",
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27316212d0cef150b39c28a8f2aab67616d0000b273226e702d1878d4a44b273980ab67616d0000b273433c5ef2747f10a9e0b27eb0ab67616d0000b2735b2769ee23caece1c158400b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27316212d0cef150b39c28a8f2aab67616d0000b273226e702d1878d4a44b273980ab67616d0000b273433c5ef2747f10a9e0b27eb0ab67616d0000b2735b2769ee23caece1c158400b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27316212d0cef150b39c28a8f2aab67616d0000b273226e702d1878d4a44b273980ab67616d0000b273433c5ef2747f10a9e0b27eb0ab67616d0000b2735b2769ee23caece1c158400b',
+        width: 60,
+      },
+    ],
+    category: 'monthly' as Category,
+    tags: [],
+    totalTracks: 17,
+    url: {
+      spotify:
+        'https://open.spotify.com/playlist/3yCAgHtliXaZI21lCIwnAU?si=c110be18bb264a7b',
+      youtube:
+        'https://music.youtube.com/playlist?list=PLvgI9LIWQRSKs_KS21-tqsZed-k_XEJeB&feature=share',
+      deezer: 'https://deezer.page.link/ePq9UkQQrkdXzcyn8',
+      tidal:
+        'https://tidal.com/browse/playlist/3edc1a12-adff-44bd-a2f7-f183189afb5f',
+    },
+  },
+  {
     name: 'June 2022 - Alléluia, be bop a lula',
     images: [
       {
