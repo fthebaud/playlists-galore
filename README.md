@@ -1,10 +1,16 @@
 # playlists-galore
 
-The app is visible [here](https://playlists-galore.herokuapp.com).
+⚠️ Since October 2022 and heroku's billing policy change (no more free account), this app is now deployed as a static front-end on Firebase ⚠️
 
-Built in Typescript with React and Tinyhttp, bundled with Vite, deployed on heroku.
+The app is accessible at https://playlists-galore.web.app
+
+~~The app is accessible on [heroku](https://playlists-galore.herokuapp.com).~~
+
+~~Built in Typescript with React and Tinyhttp, bundled with Vite, deployed on heroku.~~
 
 ## Development
+
+⚠️ Only the front-end is maintaine for the moment
 
 ```sh
 # Install dependencies
@@ -24,9 +30,11 @@ cd playlists-galore/packagesplaylists-galore-front
 yarn dev
 ```
 
-Test deployment locally: `heroku local`
-
 ## Deployment (Heroku)
+
+⚠️ Deprecated, see Firebase deployment in front-end package
+
+~~Test deployment locally: `heroku local`~~
 
 ```sh
 # login to heroku
@@ -36,4 +44,4 @@ heroku login
 git push heroku master
 ```
 
-Check deployment logs: `heroku logs--tail`
+~~Check deployment logs: `heroku logs--tail`~~
